@@ -1,0 +1,13 @@
+<div class="container">
+    <app-slider-movies [sliderMovies]="listOfMovies.slice(0,7)"></app-slider-movies>
+    <div class="row">
+        <div *ngFor="let movie of listOfMovies"   class="col-md-2">
+            <img class="w-100" [src]="'http://image.tmdb.org/t/p/w500/'+movie.poster_path" alt="">
+            <h5>{{movie.title}}</h5>
+        </div>
+    </div>
+
+
+
+
+</div>
