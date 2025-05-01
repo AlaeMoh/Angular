@@ -1,0 +1,51 @@
+<div class="container">
+
+    <form [formGroup]="registerForm"  (ngSubmit)="sendData(registerForm)">
+        <div class="mb-3">
+            <label  class="form-label">Name</label>
+            <input type="name" class="form-control" formControlName="name" >
+         <div *ngIf="registerForm.get('name')?.errors && registerForm.get('name')?.touched">
+            <p *ngIf="registerForm.get('name')?.errors?.['required'] | json" style="color: rgb(183, 10, 10);">this field is reuired</p>
+            <p *ngIf="registerForm.get('name')?.errors?.['minlength'] | json" style="color: rgb(183, 10, 10);">Minimum length is 3</p>
+            <p *ngIf="registerForm.get('name')?.errors?.['maxlength'] | json" style="color: rgb(183, 10, 10);">Max length is 15</p>
+        </div>
+
+        </div>
+        <div class="mb-3">
+          <label  class="form-label"  >Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" formControlName="email" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div *ngIf="registerForm.get('email')?.errors && registerForm.get('email')?.touched">
+            <p *ngIf="registerForm.get('email')?.errors?.['required'] | json" style="color: rgb(183, 10, 10);">this field is reuired</p>
+            <p *ngIf="registerForm.get('email')?.errors?.['email'] | json" style="color: rgb(183, 10, 10);">example@gmail.com</p>
+
+          
+
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" formControlName="password" >
+          <div *ngIf="registerForm.get('password')?.errors && registerForm.get('password')?.touched">
+            <p *ngIf="registerForm.get('password')?.errors?.['required'] | json" style="color: rgb(183, 10, 10);">this field is reuired</p>
+            <ul *ngIf="registerForm.get('password')?.errors?.['pattern'] | json" style="color: rgb(183, 10, 10);">
+            <li> Must be exactly 9 characters long</li>
+            <li>The first character must be an uppercase letter (A–Z)</li>
+            <li>The remaining 8 characters can only be lowercase letters (a–z) or digits (0–9)</li>
+            <li>No spaces, symbols, or special characters allowed</li>
+        </ul>
+        </div>
+        
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" formControlName="passwordConfirm" >
+          </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button  type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+</div>
