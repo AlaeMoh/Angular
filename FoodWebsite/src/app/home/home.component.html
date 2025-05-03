@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="container ">
+        <div class="row p-5">
+          <div class="col-4 p-2" *ngFor="let food of foods">
+            <img [src]="food.imageUrl" alt="" class="w-100 rounded-1">
+
+            <div class="position-relative favorite w-75 ms-3">
+                <h4>{{food.name}}</h4>
+                <span style="font-size:15px;">({{food.origins}})</span>
+                <a href=""> <i class="fa-regular fa-heart position-absolute top-0 end-0 px-2 py-2" style="font-size: 20px; color: red;" ></i></a>
+                <p style="font-style: italic; font-size: 15px;">Price: {{food.price}} EUR</p>
+                <p style="font-style: italic; font-size: 10px;" class="text-center"><i class="fa-regular fa-clock"></i> : {{food.cookTime}}mins</p>
+            
+
+              </div>
+            
+
+          </div>
+
+        </div>
+      </div>
+
+</div>
+
+
+
