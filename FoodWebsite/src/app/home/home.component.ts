@@ -16,7 +16,10 @@ ngOnInit(): void {
   this.route.params.subscribe(params=>{
     if(params['searchTerm'])
       this.foods=this.foodService.getAll().filter(food=> food.name.toLocaleLowerCase().includes(params['searchTerm'].toLocaleLowerCase()));
-    else  this.foods = this.foodService.getAll()
+    else if (params['tag']) 
+     this.foods= this.foodService.getAllFoosByTag(params['tag']);
+    else  
+    this.foods = this.foodService.getAll();
   })
 
 }
