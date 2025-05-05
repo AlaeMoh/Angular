@@ -1,6 +1,9 @@
 <p class="d-inline-flex gap-1 " *ngIf="tags">
-    <a href="#" class="btn" role="button" data-bs-toggle="button">All</a>
     <a routerLink="/tag/{{tag.name}}" class="btn" role="button"  *ngFor="let tag of tags">{{tag.name}} ({{tag.count}})</a>
- 
+
+  </p>
+
+  <p class="d-inline-flex gap-1 " *ngIf="foodPagetags">
+    <a routerLink="/tag/{{tagName}}" class="btn" role="button"  *ngFor="let tagName of foodPagetags">{{tagName}} </a>
 
   </p>

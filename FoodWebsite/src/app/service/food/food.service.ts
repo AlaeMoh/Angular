@@ -6,9 +6,13 @@ import { Tag } from 'src/app/shared/food/tags';
 })
 export class FoodService {
 
-  constructor() { 
+  constructor() { }
 
+  getFoodById(id: number): Food{
+    return this.getAll().find(food => food.id == id)!;
   }
+  
+
   getAllTags():Tag[]{
     return [
       { name: 'All', count: 14 },
@@ -21,6 +25,8 @@ export class FoodService {
       { name: 'Soup', count: 1 },
     ];
   }
+
+
 
 
   getAllFoosByTag(tag:string) :Food[]{

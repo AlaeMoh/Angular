@@ -1,9 +1,12 @@
 
 <div class="container">
+  <app-tags></app-tags>
+
     <div class="container ">
         <div class="row p-5">
           <div class="col-4 p-2" *ngFor="let food of foods">
-            <img [src]="food.imageUrl" alt="" class="w-100 rounded-1">
+            <a routerLink="/food/{{food.id}}"><img [src]="food.imageUrl" alt="" class="w-100 rounded-1"></a>
+            
 
             <div class="position-relative favorite w-75 ms-3">
                 <h4>{{food.name}}</h4>

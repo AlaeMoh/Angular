@@ -1,0 +1,28 @@
+<app-tags [foodPagetags]="food.tags"></app-tags>
+
+<div class="container " *ngIf="food">
+
+   <div class="position-relative">
+                    
+        <div class="position-absolute ms-5">
+            <img [src]="food.imageUrl" alt="{{food.name}}" class=" w-50 rounded-2">
+        </div>
+        <div class="position-absolute top-50 start-50 p-5 bg-info-subtle ms-5 rounded-2" >
+         <h3>{{food.name}}</h3> <span class="favourite">{{food.favorite?'':'not'}} <i class="fa-regular fa-heart" style="font-size: 20px; color: red;" ></i></span>
+          <p>Price: {{food.price}} EUR</p>
+          <p> <i class="fa-regular fa-clock"></i>  {{food.cookTime}} minutes</p>
+           <div class="origins">
+            <p *ngFor="let origin of food.origins" class="text-center">{{origin}}</p>
+           </div>
+           <div class="p-4">
+            <button type="button" class="btn btn-outline-secondary">Add To Cart <i class="fa-solid fa-cart-arrow-down"></i></button>
+           </div>
+        </div>
+                    
+                
+   </div>
+
+
+    
+
+</div>
