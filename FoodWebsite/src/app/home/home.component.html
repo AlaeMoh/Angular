@@ -12,7 +12,7 @@
                 <h4>{{food.name}}</h4>
                 <span style="font-size:15px;">({{food.origins}})</span>
                 <a href=""> <i class="fa-regular fa-heart position-absolute top-0 end-0 px-2 py-2" style="font-size: 20px; color: red;" ></i></a>
-                <p style="font-style: italic; font-size: 15px;">Price: {{food.price}} EUR</p>
+                <p style="font-style: italic; font-size: 15px;">Price: {{food.price | currency }} </p>
                 <p style="font-style: italic; font-size: 10px;" class="text-center"><i class="fa-regular fa-clock"></i> : {{food.cookTime}}mins</p>
             
 

@@ -1,0 +1,46 @@
+<div class="container" *ngIf="cart && cart.items.length>0">
+
+    <div class="row row-cols-2"  >
+        <div class="col mt-5" *ngFor="let cartItem of cart.items">
+            <div class="">
+                <img [src]="cartItem.food.imageUrl" alt="" class="w-75 rounded-2">
+            </div>
+            <div class="product-name mt-2">
+                <a routerLink="food/{{cartItem.food.id}}" class="text-black">{{cartItem.food.name}}</a>
+            </div>
+            <div>
+                <select #quantitySelect class="form-select w-25 mt-2" aria-label="Default select example" (change)="changwQuantityCart(cartItem,quantitySelect.value)" >
+                    <option selected>Add Items</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+            </div>
+            <div>
+                <p>{{cartItem.price | currency }}</p>
+                <p>Number of items: {{cartItem.quantity}}</p>
+            </div>
+            <div>
+                <button type="button" class="btn btn-danger" (click)="removeFromCart(cartItem) ">Remove from cart</button>
+
+            </div>
+                
+
+    
+                    
+        </div>
+        
+    </div>
+   
+
+    <div class="last-info mt-4 text-center p-4 rounded-4">
+        <div>
+            <p>Total selected items: {{cart.items.length}} items</p>
+            <p>Total Price: {{cart.getTotalPrice() | currency }} </p>
+        </div>
+       <div>
+        <button type="button" class="btn btn-danger m-sm-2">Checkout </button>
+    
+       </div>
+    </div>
+</div>

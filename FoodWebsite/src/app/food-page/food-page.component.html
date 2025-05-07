@@ -15,7 +15,7 @@
             <p *ngFor="let origin of food.origins" class="text-center">{{origin}}</p>
            </div>
            <div class="p-4">
-            <button type="button" class="btn btn-outline-secondary">Add To Cart <i class="fa-solid fa-cart-arrow-down"></i></button>
+            <button type="button" class="btn btn-outline-secondary" (click)="addToCart()">Add To Cart <i class="fa-solid fa-cart-arrow-down"></i></button>
            </div>
         </div>
                     

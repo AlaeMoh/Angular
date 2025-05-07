@@ -10,7 +10,12 @@
             <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Cart</a>
+            <a class="nav-link" routerLink="cartPage">Cart  </a>
+          </li>
+          <li >
+             <div class="bg-danger rounded-circle w-100 h-50 m-2  text-center">
+              <p>{{cart.items.length}}</p>
+             </div> 
           </li>
 
         </ul>
