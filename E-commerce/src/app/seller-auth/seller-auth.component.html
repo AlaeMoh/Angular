@@ -1,21 +1,54 @@
 <div class="container position-relative ">
-  <h3 class="text-center pt-5">Seller Sign Up</h3>
+
+  <div class="signup" *ngIf="!sellerLogin">
+    <h3 class="text-center pt-5">Seller Sign Up</h3>
     <div class="form">
         <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)">
             <div class="w-75">
                 <label for="exampleInputEmail1" class="form-label" placeholder="Name">Name:</label>
-                <input type="text" class="form-control"  ngModel >
+                <input type="text" class="form-control" name="name"  [(ngModel)]="user.name"  required>
               </div>
             <div class="w-75">
               <label for="exampleInputEmail1" class="form-label" required placeholder="Email">Email address:</label>
-              <input type="email" class="form-control" aria-describedby="emailHelp" ngModel>
+              <input type="email" class="form-control" aria-describedby="emailHelp" name="email"  [(ngModel)]="user.email"  required>
             </div>
             <div class="w-75">
               <label for="exampleInputPassword1" class="form-label" >Password:</label>
-              <input type="password" class="form-control" ngModel  >
+              <input type="password" class="form-control" name="password"  [(ngModel)]="user.password"  required>
             </div>
 
-            <button type="submit" class="btn btn-primary mx-auto mt-3 w-75" >Sign up</button>
+            <button type="submit" class="btn btn-primary mx-auto mt-3 w-75" >Sign up</button><br>
+            <a (click)="openSignIn()" style="font-size: 10px;">Already have an account? Click to login</a>
           </form>
     </div>
+
+  </div>
+  
+  
+  <div class="login" *ngIf="sellerLogin">
+     <h4 class="text-center pt-5">Seller Login</h4>
+    <div class="form">
+        <form #sellerSignUp="ngForm" (ngSubmit)="login(sellerSignUp.value)">
+          <p class="text-danger" style="font-size: 20px;">{{authLoginFailed}}</p>
+            <div class="w-75">
+              <label for="exampleInputEmail1" class="form-label" required placeholder="Email">Email address:</label>
+              <input type="email" class="form-control" aria-describedby="emailHelp"  [(ngModel)]="user.email" [ngModelOptions]="{standalone: true}">
+            </div>
+            <div class="w-75">
+              <label for="exampleInputPassword1" class="form-label" >Password:</label>
+              <input type="password" class="form-control" [(ngModel)]="user.password" [ngModelOptions]="{standalone: true}" >
+            </div>
+
+            <button type="submit" class="btn btn-primary mx-auto mt-3 w-75" >Login</button><br>
+            <a (click)="openSignUp()" style="font-size: 10px;">Don't have an account? Click to Signup</a>
+
+
+          </form>
+    </div>
+
+  </div>
+
+    
 </div>
+
+
