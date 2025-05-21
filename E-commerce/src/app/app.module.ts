@@ -9,6 +9,8 @@ import { SellerAuthComponent } from './seller-auth/seller-auth.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SellerHomeComponent } from './seller-home/seller-home.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SellerProductsComponent } from './seller-products/seller-products.component';
+import { SellerUpdateProductsComponent } from './seller-update-products/seller-update-products.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     SellerAuthComponent,
     SellerHomeComponent,
+    SellerProductsComponent,
+    SellerUpdateProductsComponent,
     
   ],
   imports: [

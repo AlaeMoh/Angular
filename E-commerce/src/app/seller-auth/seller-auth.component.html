@@ -17,7 +17,7 @@
               <input type="password" class="form-control" name="password"  [(ngModel)]="user.password"  required>
             </div>
 
-            <button type="submit" class="btn btn-primary mx-auto mt-3 w-75" >Sign up</button><br>
+            <button type="submit" class="btn btn-primary mx-auto mt-3 w-75" routerLink="/seller-home" >Sign up</button><br>
             <a (click)="openSignIn()" style="font-size: 10px;">Already have an account? Click to login</a>
           </form>
     </div>
@@ -39,7 +39,7 @@
               <input type="password" class="form-control" [(ngModel)]="user.password" [ngModelOptions]="{standalone: true}" >
             </div>
 
-            <button type="submit" class="btn btn-primary mx-auto mt-3 w-75" >Login</button><br>
+            <button type="submit" class="btn btn-primary mx-auto mt-3 w-75" routerLink="/seller-home" >Login</button><br>
             <a (click)="openSignUp()" style="font-size: 10px;">Don't have an account? Click to Signup</a>
 
 

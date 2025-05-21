@@ -41,30 +41,62 @@
       "email": "shimaa@test.com",
       "password": "12133bb",
       "name": "Shimaa"
+    }
+  ],
+  "products": [
+    {
+      "id": "dd07",
+      "Pname": "iphone15",
+      "Pcategory": "mobile",
+      "Pprice": "500$",
+      "Pcolor": "black",
+      "Pdescription": "Apple IPhone 15 With FaceTime – (128GB), 6GB RAM",
+      "Pimage": "https://assets-dubaiphone.dubaiphone.net/dp-prod/wp-content/uploads/2024/01/Apple-IPhone-15-With-FaceTime-128GB-6GB-RAM_3442_2-jpeg.webp"
     },
     {
-      "id": "cac1",
-      "email": "sam@test.com",
-      "password": "124557h",
-      "name": ""
+      "id": "e548",
+      "Pname": "iphone 13",
+      "Pcategory": "mobile",
+      "Pprice": "800",
+      "Pcolor": "white",
+      "Pdescription": "Apple iPhone 13 - 128GB - Starlight (Official Warranty )\n",
+      "Pimage": "https://2b.com.eg/media/catalog/product/cache/f5d693e41bbf0889a1ab1384a0b35ef5/p/h/photoshoptemplates_for_accessories_6__8_1.jpg"
     },
     {
-      "id": "e195",
-      "email": "aaaxas",
-      "password": "2222",
-      "name": ""
+      "id": "81cd",
+      "Pname": "iphone 11",
+      "Pcategory": "mobile",
+      "Pprice": "800",
+      "Pcolor": "purple",
+      "Pdescription": "(iPhone 11) Clear Anti-Scratch TPU Back Case Cover for Apple iPhone 11\n",
+      "Pimage": "https://m.media-amazon.com/images/I/61DfhgzDCKL._AC_SL1000_.jpg"
     },
     {
-      "id": "c9e2",
-      "email": "ccc",
-      "password": "cccc",
-      "name": ""
+      "id": "2999",
+      "Pname": "iphone 14 plus",
+      "Pcategory": "mobile",
+      "Pprice": "1250",
+      "Pcolor": "blue",
+      "Pdescription": "Apple iPhone 14 Plus 128GB Factory Unlocked AT&T T-Mobile Verizon Good Condition\n",
+      "Pimage": "https://i.ebayimg.com/images/g/7IYAAOSwWCtlEg7J/s-l1600.webp"
     },
     {
-      "id": "fb62",
-      "email": "sam@test.com",
-      "password": "ggg288",
-      "name": ""
+      "id": "5686",
+      "Pname": "Samsung Galaxy S24 FE",
+      "Pcategory": "mobile",
+      "Pprice": "900",
+      "Pcolor": "Green",
+      "Pdescription": "Samsung Galaxy S24 FE, AI Phone, Android Smartphone, 8GB RAM, 256GB Storage, 50MP Camera, Long Battery Life, Mint- 1 Year Warranty/Local Version\n",
+      "Pimage": "https://m.media-amazon.com/images/I/61PpZYmFvtL._AC_SX679_.jpg"
+    },
+    {
+      "id": "c070",
+      "Pname": "Samsung Galaxy S23 Ultra",
+      "Pcategory": "mobile",
+      "Pprice": "800",
+      "Pcolor": "purple",
+      "Pdescription": "Samsung Galaxy S23 Ultra - 256GB 512GB 1TB - All Colors - Very Good Condition\n",
+      "Pimage": "https://i.ebayimg.com/images/g/yhUAAOSwNDRmOPQu/s-l1600.webp"
     }
   ]
 }

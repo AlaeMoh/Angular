@@ -1,1 +1,25 @@
-<p>seller-home works!</p>
+<div class="container">
+        <div class="row p-5">
+          <div class="col-4 p-2" *ngFor="let item of productList">
+            <a routerLink=""><img [src]="item.Pimage" alt="" class="w-100 rounded-1"></a>
+            
+
+            <div class="position-relative favorite w-75 ms-3">
+                <p class="text-success">{{deletedMessage}}</p>
+                <h4>{{item.Pname}}</h4>
+                <p style=" font-size: 15px;">Price: {{item.Pprice| currency }} </p>
+                <p style="font-size: 15px;">Category: {{item.Pcategory }} </p>
+                <p style=" font-size: 15px;">Description: {{item.Pdescription }} </p>
+                <p style="font-size: 15px;">Color: {{item.Pcolor }} </p>
+                <button class="btn" (click)="deleteProduct(item.id)"><i class="fa-solid fa-trash"></i></button>
+                <a routerLink="/seller-update-products/{{item.id}}"><i class="fa-solid fa-pen-to-square"></i> </a>
+              
+            </div>
+            
+
+          </div>
+
+        </div>
+
+
+</div>

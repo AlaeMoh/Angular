@@ -17,7 +17,6 @@ export class SellerService {
 
   userSignUp(user:signUp){
      this.http.post('http://localhost:3000/seller', user,{observe:'response'}).subscribe((result=>{
-      console.log(user)
       if(result){
         localStorage.setItem('seller',JSON.stringify(user));
         this.isSellerLoggedIn.next(true);
@@ -43,7 +42,6 @@ export class SellerService {
         this.router.navigate(['seller-home']);
       }else{
         this.isLoginFailed.emit(true);
-        console.log('login error')
       }
     })
 
