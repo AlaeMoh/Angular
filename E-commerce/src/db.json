@@ -62,14 +62,33 @@
       "Pdescription": "Apple iPhone 13 - 128GB - Starlight (Official Warranty )\n",
       "Pimage": "https://2b.com.eg/media/catalog/product/cache/f5d693e41bbf0889a1ab1384a0b35ef5/p/h/photoshoptemplates_for_accessories_6__8_1.jpg"
     },
+ 
     {
-      "id": "81cd",
-      "Pname": "iphone 11",
-      "Pcategory": "mobile",
-      "Pprice": "800",
-      "Pcolor": "purple",
-      "Pdescription": "(iPhone 11) Clear Anti-Scratch TPU Back Case Cover for Apple iPhone 11\n",
-      "Pimage": "https://m.media-amazon.com/images/I/61DfhgzDCKL._AC_SL1000_.jpg"
+      "id": "1f35",
+      "Pname": "Keyboard",
+      "Pcategory": "accessories",
+      "Pprice": "319.00$",
+      "Pcolor": "white",
+      "Pdescription": "Magic Keyboard for iPad Air 13-inch (M3) - US English",
+      "Pimage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDFW4?wid=890&hei=890&fmt=jpeg&qlt=90&.v=TVZjYlNHaFJNWXNKS3hnTjBZU2thSXExblZJSGFXSFVPMUE2c2RxMy8rS0xaeTExSE54WUxXTkdscThsV1ZFSC9CRnB6YkttajRld0Zhbm1GQWhvOEE"
+    },
+    {
+      "id": "b838",
+      "Pname": "Powerbeats Pro 2 ",
+      "Pcategory": "accessories",
+      "Pprice": "249.99$",
+      "Pcolor": "orange",
+      "Pdescription": "Powerbeats Pro 2 — High-Performance Earbuds",
+      "Pimage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MX743?wid=890&hei=890&fmt=jpeg&qlt=90&.v=WVFIUVpKd0trNU5PMzB6akoyeSt5SXExblZJSGFXSFVPMUE2c2RxMy8rSjNqeEcvVzZaaVU2a3ptRnN4aU8wUGovUE9KcXhKNTlHR1RBR2lHbUtXcWc"
+    },
+    {
+      "id": "bec3",
+      "Pname": "Apple Watch ",
+      "Pcategory": "accessories",
+      "Pprice": "399$",
+      "Pcolor": "gold",
+      "Pdescription": "The thinnest Apple Watch ever, with our biggest display.",
+      "Pimage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-card-40-s10-202409?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=RGt6QnVpU0piVDZnRHZnWmNNbHB2K2ZHc2lZZVE5Y2pUTmdlS3YybHlVMDgycjlDNGdlREhyeERCVjM1SXkycmorTlFRdUE1QXhRRzN4cmdvU2JhR3FpTitUTTlPUlNDNzkvdFRJaVgvNVU"
     },
     {
       "id": "2999",
@@ -86,7 +105,7 @@
       "Pcategory": "mobile",
       "Pprice": "900",
       "Pcolor": "Green",
-      "Pdescription": "Samsung Galaxy S24 FE, AI Phone, Android Smartphone, 8GB RAM, 256GB Storage, 50MP Camera, Long Battery Life, Mint- 1 Year Warranty/Local Version\n",
+      "Pdescription": "Samsung Galaxy S24 FE, AI Phone, Android Smartphone, 8GB RAM, 256GB Storage, 50MP Camera",
       "Pimage": "https://m.media-amazon.com/images/I/61PpZYmFvtL._AC_SX679_.jpg"
     },
     {

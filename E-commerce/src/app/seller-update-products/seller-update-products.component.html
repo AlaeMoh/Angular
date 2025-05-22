@@ -3,36 +3,39 @@
     
     <div class="product-form justify-content-center">
     <div class=" form mt-5" >
+        <p class="text-success text-center">{{updateMessage}}</p>
         <form class="" #sellerupdate="ngForm" (ngSubmit)="submit(sellerupdate.value)">
             <div class="">
                 <label for="exampleInputEmail1" class="form-label" placeholder="Name">Product Name:</label>
-                <input type="text" class="form-control" name="Pname"  [(ngModel)]="Product.Pname"  required>
+                <input type="text" class="form-control" name="Pname"  ngModel="{{productData?.Pname}}"  required>
               </div>
              <div class="">
                 <label for="exampleInputEmail1" class="form-label" placeholder="Name">Category:</label>
-                <input type="text" class="form-control" name="Pcategory"  [(ngModel)]="Product.Pcategory"  required>
+                <input type="text" class="form-control" name="Pcategory"  ngModel="{{productData?.Pcategory}}">
               </div>
             <div class="">
                 <label for="exampleInputEmail1" class="form-label" required placeholder="Email">Price:</label>
                 <div class="input-group mb-3">
                  <span class="input-group-text">$</span>
-                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" name="Pprice"  [(ngModel)]="Product.Pprice"  required>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" name="Pprice" ngModel="{{productData?.Pprice}}"  >
                  <span class="input-group-text">.00</span>
                 </div>
               <label for="exampleInputPassword1" class="form-label" >Color:</label>
-              <input class="form-control" name="Pcolor"  [(ngModel)]="Product.Pcolor"  required>
+              <input class="form-control" name="Pcolor" ngModel="{{productData?.Pcolor}}" >
             </div>
             <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Description:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Pdescription" [(ngModel)]="Product.Pdescription" ></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Pdescription"  ngModel="{{productData?.Pdescription}}"  ></textarea>
             </div>
             <div class="mb-3">
              <label for="formFile" class="form-label" >Product Image: (url)</label>
-             <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4" name="Pimage" [(ngModel)]="Product.Pimage">
+             <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4" name="Pimage" ngModel="{{productData?.Pimage}}" >
             </div>
-            <button type="submit" class="btn btn-primary mx-auto mt-3 w-50" >Update product</button><br>
+            <button type="submit" class="btn btn-primary mx-auto mt-3 w-50">Update product</button><br>
         
           </form>
 
  </div>
 </div>
+
+

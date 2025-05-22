@@ -1,25 +1,28 @@
+
 <div class="container">
-        <div class="row p-5">
-          <div class="col-4 p-2" *ngFor="let item of productList">
-            <a routerLink=""><img [src]="item.Pimage" alt="" class="w-100 rounded-1"></a>
-            
+  <h2 class="pt-3">Availaible products:</h2>
+  <table *ngFor="let item of productList"  class="table table-bordered border-primary">
+    <thead>
+      <th>Image</th>
+      <th>Name</th>
+      <th>Color</th>
+      <th>Category</th>
+      <th>Price</th>
+      <th>Description</th>
+      <th>tools</th>
 
-            <div class="position-relative favorite w-75 ms-3">
-                <p class="text-success">{{deletedMessage}}</p>
-                <h4>{{item.Pname}}</h4>
-                <p style=" font-size: 15px;">Price: {{item.Pprice| currency }} </p>
-                <p style="font-size: 15px;">Category: {{item.Pcategory }} </p>
-                <p style=" font-size: 15px;">Description: {{item.Pdescription }} </p>
-                <p style="font-size: 15px;">Color: {{item.Pcolor }} </p>
-                <button class="btn" (click)="deleteProduct(item.id)"><i class="fa-solid fa-trash"></i></button>
-                <a routerLink="/seller-update-products/{{item.id}}"><i class="fa-solid fa-pen-to-square"></i> </a>
-              
-            </div>
-            
-
-          </div>
-
-        </div>
-
-
+    </thead>
+    <tbody>
+     <tr>
+      <td><img [src]="item.Pimage" alt=""></td>
+      <td>{{item.Pname}}</td>
+      <td>{{item.Pcolor}}</td>
+      <td>{{item.Pcategory}}</td>
+      <td>{{item.Pprice}}</td>
+      <td>{{item.Pdescription}}</td>
+      <td><button class="btn" (click)="deleteProduct(item.id)"><i class="fa-solid fa-trash"></i></button>
+      <a routerLink="/seller-update-products/{{item.id}}"><i class="fa-solid fa-pen-to-square"></i> </a></td>
+     </tr>
+    </tbody>
+  </table>
 </div>

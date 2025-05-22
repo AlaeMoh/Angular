@@ -1,6 +1,6 @@
+import { products } from './../../export-files/data.type';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { products } from 'src/export-files/data.type';
 
 @Injectable({
   providedIn: 'root'
@@ -23,5 +23,17 @@ export class ProductsService {
 
   getProduct(id:string){
     return  this.http.get<products>(`http://localhost:3000/products/${id}`)
+  }
+
+  updatedProduct(products:products){
+    return  this.http.put<products>(`http://localhost:3000/products/${products.id}`, products)
+  }
+
+  popularProduct(){
+    return this.http.get<products[]>('http://localhost:3000/products?_limit=3')
+  }
+
+  trendyProduct(){
+     return this.http.get<products[]>('http://localhost:3000/products?_limit=8')
   }
 }

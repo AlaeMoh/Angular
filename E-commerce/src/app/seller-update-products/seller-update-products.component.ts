@@ -1,6 +1,6 @@
+import { products } from './../../export-files/data.type';
 import { Component, OnInit } from '@angular/core';
 import { ProductsService } from '../service/products.service';
-import { products } from 'src/export-files/data.type';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -19,6 +19,7 @@ export class SellerUpdateProductsComponent implements OnInit{
   };
 
   productData: undefined | products
+  updateMessage:string |undefined
   constructor(private product:ProductsService, private route:ActivatedRoute){
 
   }
@@ -30,6 +31,16 @@ ngOnInit(): void {
 }
 
 submit(data:products){
-  console.log(data);
+
+  if(this.productData){
+    data.id=this.productData.id;
+  }
+  this.product.updatedProduct(data).subscribe((result)=>{
+    if(result){
+      this.updateMessage="Item updated successfully"
+    }
+  }),  setTimeout(() => {
+  this.updateMessage= undefined;
+}, 3000);
 }
 }

@@ -1,1 +1,58 @@
-<p>home works!</p>
+<div class="container ">
+    <div class="adjust" *ngIf="popularProducts && popularProducts.length > 0">
+        <div id="carouselExampleDark" class="product carousel carousel-dark slide " >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class=" carousel-inner" >
+    <div class="carousel-item active" data-bs-interval="10000" *ngFor="let item of popularProducts; let i = index">
+      <div class="image ">
+        <img [src]="item.Pimage" class=" d-block w-100" alt="...">
+      </div>
+      <div class="carousel-caption d-none d-md-block bg-light">
+        <h5>{{item.Pname}}</h5>
+        <p>{{item.Pdescription}}</p>
+      </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    </div>
+
+    <!-- trendy products -->
+    
+    <div class="container text-center pt-5" *ngIf="trendyProducts && trendyProducts.length>0">
+  <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
+    <div class="col" *ngFor="let item of trendyProducts; let i = index">
+      <div class="p-3">
+        <div class="content border border-black"><img src="{{item.Pimage}}" alt="" class="w-50"></div>
+        <div class="content border border-black"><h5>{{item.Pname}}</h5></div>
+        <div class="content border border-black"><p>{{item.Pdescription}}</p></div>
+        <div class="content border border-black"><p>{{item.Pcolor}}</p></div>
+        <div class="content border border-black"><p>{{item.Pprice}}</p></div>
+        <div class="content border border-black"><a href=""><i class="fa-solid fa-cart-plus"></i></a> <a style="font-size: 10px;" href=""> view more details</a></div>
+        
+        
+        
+        
+    </div>
+    </div>   
+  </div>
+</div>
+
+
+
+</div>
+
+
