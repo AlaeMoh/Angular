@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="details grid  pt-5" *ngFor="let item of searchResult">
+        <div class="image g-col-6 w-100">
+            <img class="w-75"  [src]="item.image" alt="">
+        </div>
+        <div class="info g-col-6 w-100 p-3">
+            <h4>Name: {{item.name}}</h4>
+            <p>price: {{item.price}}</p>
+            <p>Category: {{item.category}}</p>
+            <p>Description: {{item.description}}</p>
+            <p>Color: {{item.color}}</p>
+            <p><a href=""><i class="fa-solid fa-cart-plus"></i>Add to cart</a></p>
+            <p><a href=""><i class="fa-thin fa-heart-circle-plus"></i>Add to favourite</a></p>
+        </div>
+    </div>
+</div>

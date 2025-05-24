@@ -10,12 +10,12 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class SellerUpdateProductsComponent implements OnInit{
   Product = {
-    Pname: '',
-    Pcategory:'',
-    Pprice: '',
-    Pcolor:'',
-    Pdescription:'',
-    Pimage:'',
+    name: '',
+    category:'',
+    price: '',
+    color:'',
+    description:'',
+    image:'',
   };
 
   productData: undefined | products

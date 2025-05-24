@@ -9,12 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SellerProductsComponent implements OnInit{
 Product = {
-    Pname: '',
-    Pcategory:'',
-    Pprice: '',
-    Pcolor:'',
-    Pdescription:'',
-    Pimage:'',
+    name: '',
+    category:'',
+    price: '',
+    color:'',
+    description:'',
+    image:'',
   };
 
   newProduct:string | undefined ="";

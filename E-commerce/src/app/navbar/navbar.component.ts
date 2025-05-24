@@ -1,5 +1,8 @@
+import { query } from '@angular/animations';
+import { ProductsService } from './../service/products.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { products } from 'src/export-files/data.type';
 
 @Component({
   selector: 'app-navbar',
@@ -9,7 +12,8 @@ import { Router } from '@angular/router';
 export class NavbarComponent implements OnInit{
   sellerName:string="";
   navbar:string="default"
-  constructor(private route:Router){
+  searchResult: undefined | products [];
+  constructor(private route:Router , private products:ProductsService){
 
   }
  ngOnInit(): void {
@@ -19,7 +23,6 @@ export class NavbarComponent implements OnInit{
           
         let sellerStore= localStorage.getItem('seller');
         let sellerData= sellerStore && JSON.parse(sellerStore); 
-        console.log(sellerData)
         this.sellerName= sellerData.name;
         // this.sellerName=sellerStore
          this.navbar="seller-nav"
@@ -36,5 +39,28 @@ export class NavbarComponent implements OnInit{
  logout(){
   localStorage.removeItem('seller');
   this.route.navigateByUrl('/home')
+ }
+
+
+ searchProduct(query:KeyboardEvent){
+  if(query){
+    const element= query.target as HTMLInputElement;
+      this.products.searchProduct(element.value).subscribe((result)=>{
+        this.searchResult=result;
+        if(result.length>5){
+          result.length=length;
+        }
+  })
+  }
+
+ }
+
+ hideSearch(){
+  this.searchResult=undefined;
+ }
+
+ submitSearch(val:string){
+  console.log(val)
+  this.route.navigate([`/search/${val}`])
  }
 }

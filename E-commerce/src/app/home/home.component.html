@@ -9,11 +9,11 @@
   <div class=" carousel-inner" >
     <div class="carousel-item active" data-bs-interval="10000" *ngFor="let item of popularProducts; let i = index">
       <div class="image ">
-        <img [src]="item.Pimage" class=" d-block w-100" alt="...">
+        <img [src]="item.image" class=" d-block w-100" alt="...">
       </div>
       <div class="carousel-caption d-none d-md-block bg-light">
-        <h5>{{item.Pname}}</h5>
-        <p>{{item.Pdescription}}</p>
+        <h5>{{item.name}}</h5>
+        <p>{{item.description}}</p>
       </div>
     </div>
 
@@ -31,16 +31,16 @@
     </div>
 
     <!-- trendy products -->
-    
+    <h3 class="text-center">Trendy products</h3>
     <div class="container text-center pt-5" *ngIf="trendyProducts && trendyProducts.length>0">
   <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
     <div class="col" *ngFor="let item of trendyProducts; let i = index">
       <div class="p-3">
-        <div class="content border border-black"><img src="{{item.Pimage}}" alt="" class="w-50"></div>
-        <div class="content border border-black"><h5>{{item.Pname}}</h5></div>
-        <div class="content border border-black"><p>{{item.Pdescription}}</p></div>
-        <div class="content border border-black"><p>{{item.Pcolor}}</p></div>
-        <div class="content border border-black"><p>{{item.Pprice}}</p></div>
+        <div class="content border border-black"><img src="{{item.image}}" alt="" class="w-50"></div>
+        <div class="content border border-black"><h5>{{item.name}}</h5></div>
+        <div class="content border border-black"><p>{{item.description}}</p></div>
+        <div class="content border border-black"><p>{{item.color}}</p></div>
+        <div class="content border border-black"><p>{{item.price}}</p></div>
         <div class="content border border-black"><a href=""><i class="fa-solid fa-cart-plus"></i></a> <a style="font-size: 10px;" href=""> view more details</a></div>
         
         

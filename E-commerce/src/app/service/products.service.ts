@@ -1,3 +1,4 @@
+import { query } from '@angular/animations';
 import { products } from './../../export-files/data.type';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
@@ -10,30 +11,34 @@ export class ProductsService {
   constructor(private http:HttpClient) { }
 
   addProduct(data:products){
-   return this.http.post('http://localhost:3000/products', data);
+   return this.http.post('http://localhost:3001/products', data);
   }
 
   productList(){
-    return this.http.get<products[]>('http://localhost:3000/products')
+    return this.http.get<products[]>('http://localhost:3001/products')
   }
 
   deleteItem(id:string){
-  return  this.http.delete(`http://localhost:3000/products/${id}`)
+  return  this.http.delete(`http://localhost:3001/products/${id}`)
   }
 
   getProduct(id:string){
-    return  this.http.get<products>(`http://localhost:3000/products/${id}`)
+    return  this.http.get<products>(`http://localhost:3001/products/${id}`)
   }
 
   updatedProduct(products:products){
-    return  this.http.put<products>(`http://localhost:3000/products/${products.id}`, products)
+    return  this.http.put<products>(`http://localhost:3001/products/${products.id}`, products)
   }
 
   popularProduct(){
-    return this.http.get<products[]>('http://localhost:3000/products?_limit=3')
+    return this.http.get<products[]>('http://localhost:3001/products?_limit=3')
   }
 
   trendyProduct(){
-     return this.http.get<products[]>('http://localhost:3000/products?_limit=8')
+     return this.http.get<products[]>('http://localhost:3001/products?_limit=8')
+  }
+
+  searchProduct(query:string){
+    return this.http.get<products[]>(`http://localhost:3001/products?q=${query}`)
   }
 }

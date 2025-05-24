@@ -14,12 +14,12 @@
     </thead>
     <tbody>
      <tr>
-      <td><img [src]="item.Pimage" alt=""></td>
-      <td>{{item.Pname}}</td>
-      <td>{{item.Pcolor}}</td>
-      <td>{{item.Pcategory}}</td>
-      <td>{{item.Pprice}}</td>
-      <td>{{item.Pdescription}}</td>
+      <td><img [src]="item.image" alt=""></td>
+      <td>{{item.name}}</td>
+      <td>{{item.color}}</td>
+      <td>{{item.category}}</td>
+      <td>{{item.price}}</td>
+      <td>{{item.description}}</td>
       <td><button class="btn" (click)="deleteProduct(item.id)"><i class="fa-solid fa-trash"></i></button>
       <a routerLink="/seller-update-products/{{item.id}}"><i class="fa-solid fa-pen-to-square"></i> </a></td>
      </tr>

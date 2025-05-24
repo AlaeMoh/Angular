@@ -12,11 +12,11 @@ export interface Login{
 
 
 export interface products{
-    Pname:string,
-    Pcategory:string,
-    Pprice:number,
-    Pcolor:string,
-    Pdescription:string,
-    Pimage:string,
+    name:string,
+    category:string,
+    price:number,
+    color:string,
+    description:string,
+    image:string,
     id:string,
 }
