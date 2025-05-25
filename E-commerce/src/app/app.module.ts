@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SellerProductsComponent } from './seller-products/seller-products.component';
 import { SellerUpdateProductsComponent } from './seller-update-products/seller-update-products.component';
 import { SearchComponent } from './search/search.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { SearchComponent } from './search/search.component';
     SellerProductsComponent,
     SellerUpdateProductsComponent,
     SearchComponent,
+    ProductDetailsComponent,
     
   ],
   imports: [

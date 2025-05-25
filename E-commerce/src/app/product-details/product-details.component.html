@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="details grid  pt-5" *ngIf="productData">
+        <div class="image g-col-6 w-100">
+            <img class="w-75"  [src]="productData.image" alt="">
+        </div>
+        <div class="info g-col-6 w-100 p-3">
+            <h4>Name: {{productData.name}}</h4>
+            <p>price: {{productData.price}}</p>
+            <p>Category: {{productData.category}}</p>
+            <p>Color: {{productData.color}}</p>
+            <p>Description: {{productData.description}}</p>
+            <p><button class="btn btn-info">+</button>Items: <button class="btn btn-info">-</button></p>
+            <div class="extra d-flex gap-3">
+                <div class="cart pt-2">
+                <p><a href=""><i class="fa-solid fa-cart-plus"></i>  Add to cart</a></p>
+                </div>
+                <div class="fav pt-2">
+                     <p><a href=""><i class="fa-solid fa-heart-circle-plus"></i>  Add to favourite</a></p>
+                </div>
+                <div class="buy">
+                    <button class="btn btn-info">Buy now</button>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+</div>

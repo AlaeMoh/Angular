@@ -7,6 +7,7 @@ import { authGuard } from './auth.guard';
 import { SellerProductsComponent } from './seller-products/seller-products.component';
 import { SellerUpdateProductsComponent } from './seller-update-products/seller-update-products.component';
 import { SearchComponent } from './search/search.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 const routes: Routes = [
 { path:' ',component:HomeComponent},
@@ -16,6 +17,8 @@ const routes: Routes = [
 { path:'seller-products',component:SellerProductsComponent},
 { path:'seller-update-products/:id',component:SellerUpdateProductsComponent},
 { path:'search/:query',component:SearchComponent},
+{ path:'details/:productId',component:ProductDetailsComponent},
+
 ];
 
 @NgModule({
