@@ -1,3 +1,4 @@
+import { UserAuthComponent } from './user-auth/user-auth.component';
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
@@ -18,6 +19,8 @@ const routes: Routes = [
 { path:'seller-update-products/:id',component:SellerUpdateProductsComponent},
 { path:'search/:query',component:SearchComponent},
 { path:'details/:productId',component:ProductDetailsComponent},
+{ path:'user-auth',component:UserAuthComponent},
+
 
 ];
 

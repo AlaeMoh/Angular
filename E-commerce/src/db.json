@@ -43,8 +43,7 @@
       "name": "Shimaa"
     }
   ],
-
-   "products": [
+  "products": [
     {
       "id": "dd07",
       "name": "iphone15",
@@ -108,9 +107,9 @@
       "image": "https://i.ebayimg.com/images/g/yhUAAOSwNDRmOPQu/s-l1600.webp",
       "id": "c070"
     },
-     {
+    {
       "id": "1",
-      "image":"https://www.imediastores.com/wp-content/uploads/2023/09/SX11T-Smart-Bluetooth-Keyboard-Leather-Case-With-Touchpad-and-Light-For-iPad-Air-4th5th-2020-2022iPad-Pro-11-6.jpg.webp",
+      "image": "https://www.imediastores.com/wp-content/uploads/2023/09/SX11T-Smart-Bluetooth-Keyboard-Leather-Case-With-Touchpad-and-Light-For-iPad-Air-4th5th-2020-2022iPad-Pro-11-6.jpg.webp",
       "name": "Keyboard",
       "category": "accessories",
       "price": "500",
@@ -120,21 +119,52 @@
     {
       "id": "2",
       "name": "iPhone 15",
-      "image":"https://assets-dubaiphone.dubaiphone.net/dp-prod/wp-content/uploads/2024/04/Apple-IPhone-15-Plus-With-FaceTime-128GB-6GB-RAM_4146_2.jpeg",
+      "image": "https://assets-dubaiphone.dubaiphone.net/dp-prod/wp-content/uploads/2024/04/Apple-IPhone-15-Plus-With-FaceTime-128GB-6GB-RAM_4146_2.jpeg",
       "category": "mobile",
       "color": "white",
-      "price":"1250",
+      "price": "1250",
       "description": "Apple iPhone 15 with FaceTime"
     },
     {
       "id": "3",
       "name": "Apple Watch",
-      "image":"https://m.media-amazon.com/images/I/51UmR3gFEEL._AC_SX679_.jpg",
+      "image": "https://m.media-amazon.com/images/I/51UmR3gFEEL._AC_SX679_.jpg",
       "category": "accessories",
       "color": "gold",
-      "price":"300",
+      "price": "300",
       "description": "The thinnest Apple Watch ever"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Alaa",
+      "email": "alaa.saleh@test.com",
+      "password": "alaa@12345"
+    },
+    {
+      "name": "peter",
+      "email": "peter@user.com",
+      "password": "12345",
+      "id": "zZHts9v"
+    },
+    {
+      "name": "Adam",
+      "email": "Adam@user.com",
+      "password": "12345adam",
+      "id": "r22EId8"
+    },
+    {
+      "name": "karim",
+      "email": "karim@user.com",
+      "password": "6789",
+      "id": "y0SyKwA"
+    },
+    {
+      "name": "",
+      "email": "Adam@user.com",
+      "password": "12345adam",
+      "id": "4g8XD3H"
     }
   ]
 }
-

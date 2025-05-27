@@ -20,3 +20,5 @@ export interface products{
     image:string,
     id:string,
 }
+
+
