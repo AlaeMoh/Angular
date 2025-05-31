@@ -16,7 +16,7 @@ export class SellerService {
   constructor(private http:HttpClient,private router:Router) { }
 
   userSignUp(user:signUp){
-     this.http.post('http://localhost:3000/seller', user,{observe:'response'}).subscribe((result=>{
+     this.http.post('http://localhost:3001/seller', user,{observe:'response'}).subscribe((result=>{
       if(result){
         localStorage.setItem('seller',JSON.stringify(user));
         this.isSellerLoggedIn.next(true);
@@ -34,7 +34,7 @@ export class SellerService {
   }
 
   userLogin(user:Login){
-    this.http.get(`http://localhost:3000/seller?email=${user.email}&password=${user.password}`,{observe:'response'}).subscribe(
+    this.http.get(`http://localhost:3001/seller?email=${user.email}&password=${user.password}`,{observe:'response'}).subscribe(
       (result:any)=>{
       if(result && result.body && result.body.length===1){
         this.isLoginFailed.emit(false);

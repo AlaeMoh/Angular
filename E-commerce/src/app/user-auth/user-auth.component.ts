@@ -1,5 +1,6 @@
 import { UserService } from '../service/user.service';
 import { Login, signUp  } from './../../export-files/data.type';
+import { FormGroup, FormControl, EmailValidator } from '@angular/forms';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -14,7 +15,7 @@ export class UserAuthComponent implements OnInit{
     name:'',
   };
 
-  adminLogin= false;
+  adminLogin:boolean= true;
   authLoginFailed:string='';
 constructor(private user:UserService){}
 
@@ -22,8 +23,17 @@ constructor(private user:UserService){}
     this.user.userReload();
   }
 
-  signIn(data:Login){
+  login(data:Login){
     this.user.userLogin(data);
+    this.user.invalidUserAuth.subscribe((result)=>{
+      
+      if(result){
+        this.authLoginFailed="Email or password is incorrect"
+      }
+      
+    })
+
+    
   }
 
   signUp(data:signUp){
@@ -38,4 +48,6 @@ constructor(private user:UserService){}
   openSignUp(){
  this.adminLogin=false
   }
+
+
 }
