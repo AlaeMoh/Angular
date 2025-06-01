@@ -16,8 +16,9 @@ export class UserService {
   userSignUp(user:signUp){
     this.http.post('http://localhost:3001/users', user, {observe:'response'}).subscribe((result)=>{
       if(result){
-        localStorage.setItem('user', JSON.stringify(user));
-        this.route.navigate(['home']);
+        console.log(result)
+        localStorage.setItem('user', JSON.stringify(result.body));
+        this.route.navigate(['/home']);
       }
     })
 
@@ -48,5 +49,6 @@ export class UserService {
   }
 
 
+  
 
 }
