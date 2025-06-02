@@ -9,13 +9,13 @@
             <p>Category: {{productData.category}}</p>
             <p>Color: {{productData.color}}</p>
             <p>Description: {{productData.description}}</p>
-            <p><button class="btn btn-info">+</button>Items: <button class="btn btn-info">-</button></p>
+            <p><button class="btn btn-info" (click)="handleQuantity('plus')">+</button>{{productQuantity}}<button class="btn btn-info" (click)="handleQuantity('mins')">-</button></p>
             <div class="extra d-flex gap-3">
                 <div class="cart pt-2">
-                <p><a href=""><i class="fa-solid fa-cart-plus"></i>  Add to cart</a></p>
+                <p><button class="btn" (click)="addToCart()"><i class="fa-solid fa-cart-plus"></i>  Add to cart</button></p>
                 </div>
                 <div class="fav pt-2">
-                     <p><a href=""><i class="fa-solid fa-heart-circle-plus"></i>  Add to favourite</a></p>
+                     <p><a href="" ><i class="fa-solid fa-heart-circle-plus"></i>  Add to favourite</a></p>
                 </div>
                 <div class="buy">
                     <button class="btn btn-info">Buy now</button>

@@ -19,6 +19,7 @@ export interface products{
     description:string,
     image:string,
     id:string,
+    quantity: undefined | number,
 }
 
 

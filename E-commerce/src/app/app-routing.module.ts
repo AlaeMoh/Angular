@@ -11,7 +11,7 @@ import { SearchComponent } from './search/search.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 
 const routes: Routes = [
-{ path:' ',component:HomeComponent},
+{ path:'',component:HomeComponent},
 { path:'home',component:HomeComponent},
 { path:'seller-auth',component:SellerAuthComponent},
 { path:'seller-home', canActivate:[authGuard],component:SellerHomeComponent },
