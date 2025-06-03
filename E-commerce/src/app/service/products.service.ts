@@ -1,13 +1,13 @@
 import { query } from '@angular/animations';
 import { products } from './../../export-files/data.type';
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { EventEmitter, Injectable } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductsService {
-
+  cartData= new EventEmitter<products []> 
   constructor(private http:HttpClient) { }
 
   addProduct(data:products){
@@ -51,7 +51,7 @@ export class ProductsService {
       cartData= JSON.parse(localCart);
       cartData.push(data);
      localStorage.setItem('localCart', JSON.stringify(cartData))
-
+      this.cartData.emit(cartData);
     }
 
   }

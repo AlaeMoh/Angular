@@ -14,6 +14,7 @@ export class NavbarComponent implements OnInit{
   userName:string="";
   navbar:string="default"
   searchResult: undefined | products [];
+  cartItem:number=0
   constructor(private route:Router , private products:ProductsService){
 
   }
@@ -40,7 +41,19 @@ export class NavbarComponent implements OnInit{
 
       }
     }
+
    })
+
+   let cardData = localStorage.getItem('localCart');
+   if(cardData){
+    this.cartItem= JSON.parse(cardData).length
+    
+   }
+
+   this.products.cartData.subscribe((items)=>{
+    this.cartItem=items.length
+   })
+
  }
 
 
@@ -76,4 +89,6 @@ export class NavbarComponent implements OnInit{
    localStorage.removeItem('user');
    this.route.navigateByUrl('/user-auth') 
   }
+
+
 }
