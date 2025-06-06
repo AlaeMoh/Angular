@@ -12,8 +12,10 @@
             <p><button class="btn btn-info" (click)="handleQuantity('plus')">+</button>{{productQuantity}}<button class="btn btn-info" (click)="handleQuantity('mins')">-</button></p>
             <div class="extra d-flex gap-3">
                 <div class="cart pt-2">
-                <p><button class="btn" (click)="addToCart()"><i class="fa-solid fa-cart-plus"></i>  Add to cart</button></p>
-                </div>
+                <button class="btn" (click)="addToCart()" *ngIf="!removeCart"><i class="fa-solid fa-cart-plus"></i>  Add to cart</button>
+                <button class="btn" (click)="remvoveItem(productData.id)" *ngIf="removeCart"><i class="fa-solid fa-trash-can"></i>  Remove from cart</button>
+
+            </div>
                 <div class="fav pt-2">
                      <p><a href="" ><i class="fa-solid fa-heart-circle-plus"></i>  Add to favourite</a></p>
                 </div>

@@ -1,4 +1,4 @@
-import { products } from 'src/export-files/data.type';
+import { cart, products } from './../../export-files/data.type';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ProductsService } from '../service/products.service';
@@ -12,6 +12,7 @@ export class ProductDetailsComponent implements OnInit{
    
   productData: undefined | products;
   productQuantity:number= 1
+  removeCart= false;
   constructor(private router:ActivatedRoute, private products:ProductsService){}
 
   ngOnInit(): void {
@@ -21,7 +22,19 @@ export class ProductDetailsComponent implements OnInit{
       if(result){
         this.productData=result;
       }
-    })
+    });
+
+    let cartData= localStorage.getItem('localCart')
+      if(productId && cartData){
+        let items= JSON.parse(cartData);
+        items= items.filter((item:products)=>productId === item.id)
+        if(items.length){
+          this.removeCart= true;
+        }else{
+          this.removeCart= false;
+        }
+        
+      }
      
   }
 
@@ -39,7 +52,30 @@ export class ProductDetailsComponent implements OnInit{
     this.productData.quantity= this.productQuantity
     if(!localStorage.getItem('user')){
       this.products.localAddToCart(this.productData)
+    }else{
+      let user=localStorage.getItem('user')
+      let userId= user &&  JSON.parse(user).id;
+      let cartData:cart={
+        ...this.productData,
+        userId,
+        productId:this.productData.id,
+      }
+
+      delete cartData.id;
+      this.products.addToCart(cartData).subscribe((result)=>{
+        if(result){
+          console.log(cartData)
+        }
+      })
+      
+
+      
     }
   }
  }
+
+  remvoveItem(productId:string){
+    this.products.removeFromCart(productId);
+    this.removeCart= false
+  }
 }

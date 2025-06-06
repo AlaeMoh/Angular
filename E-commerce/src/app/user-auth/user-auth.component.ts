@@ -38,7 +38,7 @@ constructor(private user:UserService){}
 
   signUp(data:signUp){
     this.user.userSignUp(data);
-    console.log(data)
+   
   }
 
   openSignIn(){

@@ -133,6 +133,15 @@
       "color": "gold",
       "price": "300",
       "description": "The thinnest Apple Watch ever"
+    },
+    {
+      "name": "Samsung m 40 a ",
+      "price": "550",
+      "category": "mobile",
+      "color": "white",
+      "description": "this is a Samsung product",
+      "image": "https://m.media-amazon.com/images/I/61V7NjE8V+L._AC_SX679_.jpg",
+      "id": 7
     }
   ],
   "users": [
@@ -177,6 +186,44 @@
       "email": "mohsen@test.com",
       "password": "mohsen1234",
       "id": "D0ylsd-"
+    }
+  ],
+  "cart": [
+    {
+      "name": "Samsung m 40 a ",
+      "price": "550",
+      "category": "mobile",
+      "color": "white",
+      "description": "this is a Samsung product",
+      "image": "https://m.media-amazon.com/images/I/61V7NjE8V+L._AC_SX679_.jpg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 3,
+      "id": 7
+    },
+    {
+      "id": "1f35",
+      "name": "Keyboard",
+      "category": "accessories",
+      "price": "319.00$",
+      "color": "white",
+      "description": "Magic Keyboard for iPad Air 13-inch (M3) - US English",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDFW4?wid=890&hei=890&fmt=jpeg&qlt=90&.v=TVZjYlNHaFJNWXNKS3hnTjBZU2thSXExblZJSGFXSFVPMUE2c2RxMy8rS0xaeTExSE54WUxXTkdscThsV1ZFSC9CRnB6YkttajRld0Zhbm1GQWhvOEE",
+      "quantity": 1,
+      "userId": "r22EId8",
+      "productId": "1f35"
+    },
+    {
+      "name": "iphone 14 plus",
+      "category": "mobile",
+      "price": "1250",
+      "color": "blue",
+      "description": "Apple iPhone 14 Plus 128GB Factory Unlocked AT&T T-Mobile Verizon Good Condition\n",
+      "image": "https://i.ebayimg.com/images/g/7IYAAOSwWCtlEg7J/s-l1600.webp",
+      "quantity": 1,
+      "userId": "r22EId8",
+      "productId": "2999",
+      "id": 8
     }
   ]
 }

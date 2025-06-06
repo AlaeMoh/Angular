@@ -73,7 +73,7 @@ export class NavbarComponent implements OnInit{
         }
   })
   }
-
+ 
  }
 
  hideSearch(){
