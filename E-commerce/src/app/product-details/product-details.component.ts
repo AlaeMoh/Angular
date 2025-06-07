@@ -35,7 +35,19 @@ export class ProductDetailsComponent implements OnInit{
         }
         
       }
-     
+      let user=localStorage.getItem('user')
+      if(user){
+       let userId= user &&  JSON.parse(user).id;
+       this.products.getCartList(userId);
+       this.products.cartData.subscribe((result)=>{
+        let items= result.filter((item:products)=>productId === item.productId)
+        if(items.length){
+          this.removeCart=true
+        }
+       })
+        
+      }
+      
   }
 
   handleQuantity(val:string){
@@ -64,7 +76,8 @@ export class ProductDetailsComponent implements OnInit{
       delete cartData.id;
       this.products.addToCart(cartData).subscribe((result)=>{
         if(result){
-          console.log(cartData)
+          this.products.getCartList(userId)
+          this.removeCart=true;
         }
       })
       

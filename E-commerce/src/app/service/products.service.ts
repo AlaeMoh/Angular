@@ -42,19 +42,28 @@ export class ProductsService {
     return this.http.get<products[]>(`http://localhost:3001/products?q=${query}`)
   }
 
-  localCart(){
-    return this.http.get('http://localhost:3001/cart')
+  getCartList(userId:string){
+    return this.http.get<products[]>('http://localhost:3001/cart?userId='+ userId, {observe:"response"}).subscribe(
+      (result)=>{
+        if(result && result.body){
+          this.cartData.emit(result.body);
+        }
+      }
+    )
   }
 
   addToCart(cartData:cart){
     return this.http.post('http://localhost:3001/cart', cartData)
   }
 
+
+
   localAddToCart(data:products){
     let cartData=[];
     let localCart= localStorage.getItem('localCart');
     if(!localCart){
       localStorage.setItem('localCart', JSON.stringify([data]))
+       this.cartData.emit([data]);
     }else{
       cartData= JSON.parse(localCart);
       cartData.push(data);

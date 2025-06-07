@@ -59,7 +59,8 @@ export class NavbarComponent implements OnInit{
 
  logout(){
   localStorage.removeItem('seller');
-  this.route.navigateByUrl('/home')
+  this.route.navigateByUrl('/home');
+  this.products.cartData.emit([])
  }
 
 

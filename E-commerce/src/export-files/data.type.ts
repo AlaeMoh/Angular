@@ -20,6 +20,7 @@ export interface products{
     image:string,
     id:string,
     quantity: undefined | number,
+    productId: undefined |string
 }
 
 export interface cart{
