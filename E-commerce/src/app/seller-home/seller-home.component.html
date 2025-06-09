@@ -18,7 +18,7 @@
       <td>{{item.name}}</td>
       <td>{{item.color}}</td>
       <td>{{item.category}}</td>
-      <td>{{item.price}}</td>
+      <td>{{item.price | currency }}</td>
       <td>{{item.description}}</td>
       <td><button class="btn" (click)="deleteProduct(item.id)"><i class="fa-solid fa-trash"></i></button>
       <a routerLink="/seller-update-products/{{item.id}}"><i class="fa-solid fa-pen-to-square"></i> </a></td>

@@ -34,6 +34,7 @@ export class NavbarComponent implements OnInit{
         let userData= userStore&& JSON.parse(userStore);
          this.userName=userData.name;
          this.navbar="user-nav"
+         this.products.getCartList(userData.id)
         
       
       }else{

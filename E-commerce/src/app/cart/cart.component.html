@@ -13,11 +13,12 @@
             <div class="card-body">
               <h5 class="card-title">{{ cart.name }}</h5>
               <p class="card-text text-muted">Color: {{ cart.color }}</p>
-              <p class="card-text fw-bold text-primary">{{ cart.price }}</p>
+              <p class="card-text text-muted">Quantity: {{ cart.quantity }}</p>
+              <p class="card-text fw-bold text-primary">{{ cart.price| currency }}</p>
             </div>
           </div>
           <div class="col-md-3 text-center">
-            <button class="btn btn-outline-danger btn-sm mt-2" (click)="removeFromCart()">
+            <button class="btn btn-outline-danger btn-sm mt-2" (click)="removeFromCart(cart.id)">
               <i class="fa-solid fa-trash"></i> Remove
             </button>
           </div>
@@ -30,7 +31,7 @@
       <div class="card shadow-sm rounded-4 p-4">
         <h4 class="mb-3">Cart Summary</h4>
         <p class="text-muted">Items in Cart: <strong>{{ cartData?.length }}</strong></p>
-        <p class="h5">Total: <strong class="text-success">{{ getTotalPrice() }}</strong></p>
+        <p class="h5">Total: <strong class="text-success">{{ priceSummary.total| currency }}</strong></p>
         <button class="btn btn-success w-100 mt-3 rounded-pill">Proceed to Checkout</button>
       </div>
     </div>

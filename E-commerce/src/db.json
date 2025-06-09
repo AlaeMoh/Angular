@@ -48,7 +48,7 @@
       "id": "dd07",
       "name": "iphone15",
       "category": "mobile",
-      "price": "500$",
+      "price": "500",
       "color": "black",
       "description": "Apple IPhone 15 With FaceTime – (128GB), 6GB RAM",
       "image": "https://assets-dubaiphone.dubaiphone.net/dp-prod/wp-content/uploads/2024/01/Apple-IPhone-15-With-FaceTime-128GB-6GB-RAM_3442_2-jpeg.webp"
@@ -66,7 +66,7 @@
       "id": "1f35",
       "name": "Keyboard",
       "category": "accessories",
-      "price": "319.00$",
+      "price": "319.00",
       "color": "white",
       "description": "Magic Keyboard for iPad Air 13-inch (M3) - US English",
       "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDFW4?wid=890&hei=890&fmt=jpeg&qlt=90&.v=TVZjYlNHaFJNWXNKS3hnTjBZU2thSXExblZJSGFXSFVPMUE2c2RxMy8rS0xaeTExSE54WUxXTkdscThsV1ZFSC9CRnB6YkttajRld0Zhbm1GQWhvOEE"
@@ -75,7 +75,7 @@
       "id": "b838",
       "name": "Powerbeats Pro 2 ",
       "category": "accessories",
-      "price": "249.99$",
+      "price": "249.99",
       "color": "orange",
       "description": "Powerbeats Pro 2 — High-Performance Earbuds",
       "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MX743?wid=890&hei=890&fmt=jpeg&qlt=90&.v=WVFIUVpKd0trNU5PMzB6akoyeSt5SXExblZJSGFXSFVPMUE2c2RxMy8rSjNqeEcvVzZaaVU2a3ptRnN4aU8wUGovUE9KcXhKNTlHR1RBR2lHbUtXcWc"
@@ -84,7 +84,7 @@
       "id": "bec3",
       "name": "Apple Watch ",
       "category": "accessories",
-      "price": "399$",
+      "price": "399",
       "color": "gold",
       "description": "The thinnest Apple Watch ever, with our biggest display.",
       "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-card-40-s10-202409?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=RGt6QnVpU0piVDZnRHZnWmNNbHB2K2ZHc2lZZVE5Y2pUTmdlS3YybHlVMDgycjlDNGdlREhyeERCVjM1SXkycmorTlFRdUE1QXhRRzN4cmdvU2JhR3FpTitUTTlPUlNDNzkvdFRJaVgvNVU"
@@ -205,7 +205,7 @@
       "id": "1f35",
       "name": "Keyboard",
       "category": "accessories",
-      "price": "319.00$",
+      "price": "319.00",
       "color": "white",
       "description": "Magic Keyboard for iPad Air 13-inch (M3) - US English",
       "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDFW4?wid=890&hei=890&fmt=jpeg&qlt=90&.v=TVZjYlNHaFJNWXNKS3hnTjBZU2thSXExblZJSGFXSFVPMUE2c2RxMy8rS0xaeTExSE54WUxXTkdscThsV1ZFSC9CRnB6YkttajRld0Zhbm1GQWhvOEE",
@@ -240,7 +240,7 @@
     {
       "name": "Powerbeats Pro 2 ",
       "category": "accessories",
-      "price": "249.99$",
+      "price": "249.99",
       "color": "orange",
       "description": "Powerbeats Pro 2 — High-Performance Earbuds",
       "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MX743?wid=890&hei=890&fmt=jpeg&qlt=90&.v=WVFIUVpKd0trNU5PMzB6akoyeSt5SXExblZJSGFXSFVPMUE2c2RxMy8rSjNqeEcvVzZaaVU2a3ptRnN4aU8wUGovUE9KcXhKNTlHR1RBR2lHbUtXcWc",
@@ -252,7 +252,7 @@
     {
       "name": "Apple Watch ",
       "category": "accessories",
-      "price": "399$",
+      "price": "399",
       "color": "gold",
       "description": "The thinnest Apple Watch ever, with our biggest display.",
       "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-card-40-s10-202409?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=RGt6QnVpU0piVDZnRHZnWmNNbHB2K2ZHc2lZZVE5Y2pUTmdlS3YybHlVMDgycjlDNGdlREhyeERCVjM1SXkycmorTlFRdUE1QXhRRzN4cmdvU2JhR3FpTitUTTlPUlNDNzkvdFRJaVgvNVU",
@@ -262,57 +262,9 @@
       "id": 11
     },
     {
-      "name": "Powerbeats Pro 2 ",
-      "category": "accessories",
-      "price": "249.99$",
-      "color": "orange",
-      "description": "Powerbeats Pro 2 — High-Performance Earbuds",
-      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MX743?wid=890&hei=890&fmt=jpeg&qlt=90&.v=WVFIUVpKd0trNU5PMzB6akoyeSt5SXExblZJSGFXSFVPMUE2c2RxMy8rSjNqeEcvVzZaaVU2a3ptRnN4aU8wUGovUE9KcXhKNTlHR1RBR2lHbUtXcWc",
-      "quantity": 1,
-      "userId": "r22EId8",
-      "productId": "b838",
-      "id": 12
-    },
-    {
-      "name": "Powerbeats Pro 2 ",
-      "category": "accessories",
-      "price": "249.99$",
-      "color": "orange",
-      "description": "Powerbeats Pro 2 — High-Performance Earbuds",
-      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MX743?wid=890&hei=890&fmt=jpeg&qlt=90&.v=WVFIUVpKd0trNU5PMzB6akoyeSt5SXExblZJSGFXSFVPMUE2c2RxMy8rSjNqeEcvVzZaaVU2a3ptRnN4aU8wUGovUE9KcXhKNTlHR1RBR2lHbUtXcWc",
-      "quantity": 1,
-      "userId": "r22EId8",
-      "productId": "b838",
-      "id": 13
-    },
-    {
-      "name": "iphone15",
-      "category": "mobile",
-      "price": "500$",
-      "color": "black",
-      "description": "Apple IPhone 15 With FaceTime – (128GB), 6GB RAM",
-      "image": "https://assets-dubaiphone.dubaiphone.net/dp-prod/wp-content/uploads/2024/01/Apple-IPhone-15-With-FaceTime-128GB-6GB-RAM_3442_2-jpeg.webp",
-      "quantity": 1,
-      "userId": "r22EId8",
-      "productId": "dd07",
-      "id": 14
-    },
-    {
-      "name": "iphone 13",
-      "category": "mobile",
-      "price": "800",
-      "color": "white",
-      "description": "Apple iPhone 13 - 128GB - Starlight (Official Warranty )\n",
-      "image": "https://2b.com.eg/media/catalog/product/cache/f5d693e41bbf0889a1ab1384a0b35ef5/p/h/photoshoptemplates_for_accessories_6__8_1.jpg",
-      "quantity": 1,
-      "userId": "3",
-      "productId": "e548",
-      "id": 15
-    },
-    {
       "name": "Keyboard",
       "category": "accessories",
-      "price": "319.00$",
+      "price": "319.00",
       "color": "white",
       "description": "Magic Keyboard for iPad Air 13-inch (M3) - US English",
       "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDFW4?wid=890&hei=890&fmt=jpeg&qlt=90&.v=TVZjYlNHaFJNWXNKS3hnTjBZU2thSXExblZJSGFXSFVPMUE2c2RxMy8rS0xaeTExSE54WUxXTkdscThsV1ZFSC9CRnB6YkttajRld0Zhbm1GQWhvOEE",
@@ -320,6 +272,30 @@
       "userId": "3",
       "productId": "1f35",
       "id": 16
+    },
+    {
+      "image": "https://www.imediastores.com/wp-content/uploads/2023/09/SX11T-Smart-Bluetooth-Keyboard-Leather-Case-With-Touchpad-and-Light-For-iPad-Air-4th5th-2020-2022iPad-Pro-11-6.jpg.webp",
+      "name": "Keyboard",
+      "category": "accessories",
+      "price": "500",
+      "color": "Pink",
+      "description": "Magic Keyboard for iPad",
+      "quantity": 4,
+      "userId": "3",
+      "productId": "1",
+      "id": 17
+    },
+    {
+      "name": "iphone 14 plus",
+      "category": "mobile",
+      "price": "1250",
+      "color": "blue",
+      "description": "Apple iPhone 14 Plus 128GB Factory Unlocked AT&T T-Mobile Verizon Good Condition\n",
+      "image": "https://i.ebayimg.com/images/g/7IYAAOSwWCtlEg7J/s-l1600.webp",
+      "quantity": 3,
+      "userId": "3",
+      "productId": "2999",
+      "id": 19
     }
   ]
 }
