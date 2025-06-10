@@ -31,8 +31,12 @@
       <div class="card shadow-sm rounded-4 p-4">
         <h4 class="mb-3">Cart Summary</h4>
         <p class="text-muted">Items in Cart: <strong>{{ cartData?.length }}</strong></p>
+        <p class="text-muted">Price: <strong>{{ priceSummary.price | currency  }}</strong></p>
+        <p class="text-muted">Taxes: <strong>{{ priceSummary.tax | currency }}</strong></p>
+        <p class="text-muted">Discount: <strong>- {{ priceSummary.discount| currency  }}</strong></p>
+        <p class="text-muted">Delivery fees: <strong>{{ priceSummary.delivery| currency  }}</strong></p>
         <p class="h5">Total: <strong class="text-success">{{ priceSummary.total| currency }}</strong></p>
-        <button class="btn btn-success w-100 mt-3 rounded-pill">Proceed to Checkout</button>
+        <button class="btn btn-success w-100 mt-3 rounded-pill" (click)="checkOut()">Proceed to Checkout</button>
       </div>
     </div>
   </div>

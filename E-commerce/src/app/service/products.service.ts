@@ -1,5 +1,5 @@
 import { query } from '@angular/animations';
-import { cart, products } from './../../export-files/data.type';
+import { cart, order, products } from './../../export-files/data.type';
 import { HttpClient } from '@angular/common/http';
 import { EventEmitter, Injectable } from '@angular/core';
 
@@ -92,4 +92,10 @@ export class ProductsService {
     let userData = userStore && JSON.parse(userStore);
     return this.http.get<cart[]>('http://localhost:3001/cart?userId=' + userData.id);
   }
+
+  orderNow(data:order){
+  return this.http.post('http://localhost:3001/orders', data)
+}
+
+
 }

@@ -101,5 +101,10 @@ export class ProductDetailsComponent implements OnInit{
     })
   }
   this.removeCart= false;
-  }
+ 
+}
+
+
+
+
 }

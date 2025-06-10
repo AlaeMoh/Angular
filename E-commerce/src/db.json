@@ -126,13 +126,13 @@
       "description": "Apple iPhone 15 with FaceTime"
     },
     {
-      "id": "3",
       "name": "Apple Watch",
-      "image": "https://m.media-amazon.com/images/I/51UmR3gFEEL._AC_SX679_.jpg",
       "category": "accessories",
-      "color": "gold",
       "price": "300",
-      "description": "The thinnest Apple Watch ever"
+      "color": "gold",
+      "description": "The Apple Watch ever",
+      "image": "https://m.media-amazon.com/images/I/51UmR3gFEEL._AC_SX679_.jpg",
+      "id": "3"
     },
     {
       "name": "Samsung m 40 a ",
@@ -142,6 +142,24 @@
       "description": "this is a Samsung product",
       "image": "https://m.media-amazon.com/images/I/61V7NjE8V+L._AC_SX679_.jpg",
       "id": 7
+    },
+    {
+      "name": "Samsung Galaxy S25",
+      "category": "phone",
+      "price": "400",
+      "color": "purple",
+      "description": "Samsung Galaxy S25 Ultra AI Phone, 256GB Storage, 12GB RAM",
+      "image": "https://m.media-amazon.com/images/I/61uBI7QD6mL._AC_SX679_.jpg",
+      "id": "AEk9GTu"
+    },
+    {
+      "name": "Samsung Galaxy S25",
+      "category": "mobile",
+      "price": "400",
+      "color": "purple",
+      "description": "Samsung Galaxy S25 Ultra AI Phone, 256GB Storage, 12GB RAM",
+      "image": "https://m.media-amazon.com/images/I/61uBI7QD6mL._AC_SX679_.jpg",
+      "id": "OTZLYpo"
     }
   ],
   "users": [
@@ -189,18 +207,6 @@
     }
   ],
   "cart": [
-    {
-      "name": "Samsung m 40 a ",
-      "price": "550",
-      "category": "mobile",
-      "color": "white",
-      "description": "this is a Samsung product",
-      "image": "https://m.media-amazon.com/images/I/61V7NjE8V+L._AC_SX679_.jpg",
-      "quantity": 1,
-      "productId": 1,
-      "userId": "3",
-      "id": 7
-    },
     {
       "id": "1f35",
       "name": "Keyboard",
@@ -296,6 +302,21 @@
       "userId": "3",
       "productId": "2999",
       "id": 19
+    },
+    {
+      "name": "Powerbeats Pro 2 ",
+      "category": "accessories",
+      "price": "249.99",
+      "color": "orange",
+      "description": "Powerbeats Pro 2 — High-Performance Earbuds",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MX743?wid=890&hei=890&fmt=jpeg&qlt=90&.v=WVFIUVpKd0trNU5PMzB6akoyeSt5SXExblZJSGFXSFVPMUE2c2RxMy8rSjNqeEcvVzZaaVU2a3ptRnN4aU8wUGovUE9KcXhKNTlHR1RBR2lHbUtXcWc",
+      "quantity": 1,
+      "userId": "3",
+      "productId": "b838",
+      "id": 20
     }
-  ]
+  ], 
+  "orders":[{
+
+  }]
 }

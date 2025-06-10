@@ -33,12 +33,7 @@ export class CartComponent implements OnInit{
    })
   }
 
-//    getTotalPrice() {
-//     this.priceSummary.price;
-//    return this.cartData?.reduce((total, item) => {
-//     return total  
-//   }, 0);
-// }
+
 
   loadDetails(){
     this.product.currentCart().subscribe((result)=>{
@@ -64,12 +59,17 @@ export class CartComponent implements OnInit{
       //   }
       //   console.log(this.itemTotal)
       // })
-
-      this.priceSummary.total= price;
+      this.priceSummary.price=price;
+      this.priceSummary.tax=price/10
+      this.priceSummary.discount=price/10
+      this.priceSummary.delivery=30;
+      this.priceSummary.total= price+ (price/10)+ 30- (price/10);
       console.log(this.priceSummary.total)
     })}
 
 
- 
+    checkOut(){
+      this.router.navigate(['/check-out'])
+    }
     
   }

@@ -1,0 +1,54 @@
+<div class="container py-5">
+  <div class="row">
+    <!-- Billing Form -->
+    <div class="col-md-7">
+      <h3 class="mb-4">Billing Details</h3>
+      <form #orderNow="ngForm" class="form-control" (ngSubmit)="placeOrder(orderNow.value)">
+        <div class="mb-3">
+          <label class="form-label">Full Name</label>
+          <input type="text" class="form-control" name="name" placeholder="John Doe" required [(ngModel)]="orderDetails.name"  >
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email Address</label>
+          <input type="email" class="form-control" name="email"   placeholder="john@example.com" required  [(ngModel)]="orderDetails.email" > 
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Phone</label>
+          <input type="text" class="form-control" name="phone"  placeholder="+20 123 456 7890" required [(ngModel)]="orderDetails.phone" >
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Shipping Address</label>
+          <textarea class="form-control" rows="3" name="shippingAddress"  placeholder="123 Nile Street, Cairo" required [(ngModel)]="orderDetails.shippingAddress" ></textarea>
+        </div>
+      </form>
+    </div>
+
+    <!-- Cart Summary -->
+    <div class="col-md-5">
+        <p class="text-success">{{orderMsg}}</p>
+      <h3 class="mb-4">Order Summary</h3>
+      <ul class="list-group mb-3" >
+        <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let cart of cartData">
+          {{cart.name}}
+          <span>{{cart.price | currency }}</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center fw-bold">
+          Total
+          <span>{{totalPrice | currency }}</span>
+        </li>
+      </ul>
+      <div class="payment pb-2">
+      <button class="btn btn-light w-50 rounded-pill py-2">
+        Pay with CC
+      </button>
+      <button class="btn btn-light w-50 rounded-pill py-2">
+        Cash on Delivery
+      </button>
+      </div>
+      <button class="btn btn-success w-100 rounded-pill py-2" >
+        Place Order
+      </button>
+      
+    </div>
+  </div>
+</div>

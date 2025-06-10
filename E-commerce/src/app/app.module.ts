@@ -15,6 +15,7 @@ import { SearchComponent } from './search/search.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { UserAuthComponent } from './user-auth/user-auth.component';
 import { CartComponent } from './cart/cart.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { CartComponent } from './cart/cart.component';
     ProductDetailsComponent,
     UserAuthComponent,
     CartComponent,
+    CheckoutComponent,
     
   ],
   imports: [
