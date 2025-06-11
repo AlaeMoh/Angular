@@ -315,8 +315,62 @@
       "productId": "b838",
       "id": 20
     }
-  ], 
-  "orders":[{
-
-  }]
+  ],
+  "orders": [
+    {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "+20 123 456 7890",
+      "shippingAddress": "123 Nile Street, Cairo",
+      "totalPrice": 99.99,
+      "userId": "abc123",
+      "id": "1"
+    },
+    {
+      "name": "Alaa Saleh",
+      "email": "alae.muhammad@gmail.com",
+      "phone": "+201060702209",
+      "shippingAddress": "160 Port Said Street elibrahimya",
+      "totalPrice": 6747.99,
+      "userId": "3",
+      "id": "HHumJFB"
+    },
+    {
+      "name": "Adam",
+      "email": "Adam@user.com",
+      "phone": "101010101001",
+      "shippingAddress": "160 Port Said Street elibrahimya",
+      "totalPrice": 6747.99,
+      "userId": "3",
+      "id": "-tgVRet"
+    },
+    {
+      "name": "Alaa Saleh",
+      "email": "alae.muhammad@gmail.com",
+      "phone": "+201060702209",
+      "shippingAddress": "160 Port Said Street elibrahimya",
+      "totalPrice": 6747.99,
+      "userId": "3",
+      "id": "KzSalKl"
+    },
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "shippingAddress": "",
+      "totalPrice": 6747.99,
+      "userId": "3",
+      "id": "cwtXixh"
+    },
+    {
+    "id": "ORD12345",
+    "date": "2025-06-06",
+    "totalPrice": 120.99,
+    "status": "processing",
+    "items": [
+      { "name": "iPhone 13", "quantity": 1, "price": 799.99 },
+      { "name": "charger", "quantity": 1, "price": 20.00 }
+    ]
+  }
+  ]
 }

@@ -46,27 +46,31 @@ ngOnInit(): void {
       
     })}
 
-placeOrder(data:order){
-
+placeOrder(orderDetails: any){
+  console.log(orderDetails)
   let user= localStorage.getItem('user');
-  let userId= user && JSON.parse('user').id;
+  let userId= user && JSON.parse(user).id;
+ 
   if(this.totalPrice){
+    
     let orderData: order={
-      ...data,
+      ...orderDetails ,
       totalPrice: this.totalPrice,
       userId,
-    id: undefined,
+      id: undefined,
     }
 
     this.product.orderNow(orderData).subscribe((result)=>{
     if(result){
       this.orderMsg="Order Placed Successfully"
+        console.log("Order Data:", orderData);
+        console.log("Order Details:", orderDetails);
           setTimeout(() => {
             this.orderMsg = undefined;
-            // this.route.navigate(['/my-orders'])
+            this.route.navigate(['my-orders'])
           }, 4000);
     }
-     console.log(orderData)
+
   })
 
  

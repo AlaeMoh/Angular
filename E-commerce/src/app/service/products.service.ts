@@ -93,9 +93,14 @@ export class ProductsService {
     return this.http.get<cart[]>('http://localhost:3001/cart?userId=' + userData.id);
   }
 
-  orderNow(data:order){
-  return this.http.post('http://localhost:3001/orders', data)
-}
-
+  orderNow(data: order) {
+    return this.http.post('http://localhost:3001/orders', data);
+  }
+ 
+  orderList(){
+    let userStore= localStorage.getItem('user')
+    let userData= userStore && JSON.parse(userStore)
+   return this.http.get<order[]>('http://localhost:3001/orders?userId='+ userData.id);
+  }
 
 }

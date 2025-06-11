@@ -47,10 +47,12 @@ export interface priceSummary{
 }
 
 export interface order {
+  name:string,
   email:string,
-  address:string,
-  contact:string,
+  shippingAddress:string,
+  phone:string,
   totalPrice:number,
   userId:string,
-  id:number|undefined
+  id:number|undefined,
+ 
 }

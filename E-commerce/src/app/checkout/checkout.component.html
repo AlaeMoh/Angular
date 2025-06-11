@@ -6,20 +6,23 @@
       <form #orderNow="ngForm" class="form-control" (ngSubmit)="placeOrder(orderNow.value)">
         <div class="mb-3">
           <label class="form-label">Full Name</label>
-          <input type="text" class="form-control" name="name" placeholder="John Doe" required [(ngModel)]="orderDetails.name"  >
+          <input type="text" class="form-control" name="name" ngModel  placeholder="John Doe" required   >
         </div>
         <div class="mb-3">
           <label class="form-label">Email Address</label>
-          <input type="email" class="form-control" name="email"   placeholder="john@example.com" required  [(ngModel)]="orderDetails.email" > 
+          <input type="email" class="form-control" name="email"   placeholder="john@example.com" required ngModel  > 
         </div>
         <div class="mb-3">
           <label class="form-label">Phone</label>
-          <input type="text" class="form-control" name="phone"  placeholder="+20 123 456 7890" required [(ngModel)]="orderDetails.phone" >
+          <input type="text" class="form-control" name="phone"  placeholder="+20 123 456 7890" required ngModel >
         </div>
         <div class="mb-3">
           <label class="form-label">Shipping Address</label>
-          <textarea class="form-control" rows="3" name="shippingAddress"  placeholder="123 Nile Street, Cairo" required [(ngModel)]="orderDetails.shippingAddress" ></textarea>
+          <textarea class="form-control" rows="3" name="shippingAddress"  placeholder="123 Nile Street, Cairo" required ngModel  ></textarea>
         </div>
+         <button class="btn btn-success w-100 rounded-pill py-2" >
+        Place Order
+      </button>
       </form>
     </div>
 
@@ -38,16 +41,14 @@
         </li>
       </ul>
       <div class="payment pb-2">
-      <button class="btn btn-light w-50 rounded-pill py-2">
+      <!-- <button class="btn btn-light w-50 rounded-pill py-2">
         Pay with CC
       </button>
       <button class="btn btn-light w-50 rounded-pill py-2">
         Cash on Delivery
-      </button>
+      </button> -->
       </div>
-      <button class="btn btn-success w-100 rounded-pill py-2" >
-        Place Order
-      </button>
+
       
     </div>
   </div>
