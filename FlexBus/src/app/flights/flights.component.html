@@ -1,0 +1,94 @@
+<div class="container">
+  <h1>Flights Booking System</h1>
+
+<div class="form col-md-1 text-center d-flex align-items-center justify-content-center">
+<form class="row g-3" #flightSearch="ngForm" (ngSubmit)="availaibleFlights()">
+  <div class="col-auto">
+  <select aria-label=" select example" class="form-control form-select form-select-lg" name="flyFrom" [(ngModel)]="flightData.flyFrom" >
+  <option value="" disabled selected>Select location from</option>
+    <option *ngFor="let airport of airportList" [value]="airport.airportName">
+  {{ airport.airportName }}
+</option>
+
+
+   </select>  
+</div>
+  <div class="col-auto">
+      <select class="form-control form-select form-select-lg mb-3" aria-label="Large select example" name="flyTo" [(ngModel)]="flightData.flyTo">
+  <option value="" disabled selected>Select location To</option>
+    <option *ngFor="let airport of airportList" [value]="airport.airportName">
+  {{ airport.airportName }}
+</option>
+   </select>  
+  </div>
+    <div class="col-auto">
+    <input class="form-control" type="date" id=""  min="2024-01-01" max="2025-05-31" name="date" class="p-2 " [(ngModel)]="flightData.date">
+  </div>
+
+  <div class="col-auto">
+    <button type="submit" class="btn btn-secondary mb-3">search Flights</button>
+  </div>
+</form>
+</div>
+
+<div class="buses" *ngIf="flightList.length===0" >
+  <h2 class="mt-4 text-center" >Available Flights</h2>
+  <p class="text-center p-4">Select From & to Location to Filter Flights</p>
+  </div>
+<div class="container my-3" *ngFor="let flight of filteredFlight">
+  <div class="card shadow-sm border-0 rounded-4">
+
+    <div class="container my-3" >
+  <div class="card shadow-sm border-0 rounded-4">
+    <div class="card-body">
+      Flight Info
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <div>
+          <h5 class="card-title mb-0 text fw-bold" style="color: #fe0400;">{{ flight.price | currency}}</h5>
+          <small class="text-muted">Flight No: {{ flight.flightNumber }}</small>
+        </div>
+        <div class="text-end">
+          <span class="badge bg-danger fs-6">{{ flight.totalSeats }} seats available</span>
+        </div>
+      </div>
+
+      <!-- Route & Time -->
+      <div class="row text-center">
+        <div class="col">
+          <p class="mb-1 fw-semibold text-secondary">Departure</p>
+          <p class="mb-0 text-dark">{{flight.departureAirportName }}</p>
+          <p class="mb-0 text- fw-bold" >{{ flight.arrivalAirportName}}</p>
+        </div>
+
+        <div class="col d-flex align-items-center justify-content-center">
+          <i class="bi bi-arrow-right fs-4 text-muted"></i>
+        </div>
+
+        <div class="col">
+          <p class="mb-1 fw-semibold text-secondary">Arrival</p>
+          <p class="mb-0 text-dark">{{ flight.departureAirportName}}</p>
+          <p class="mb-0 text-danger fw-bold">{{ flight.arrivalTime}}</p>
+        </div>
+      </div>
+
+      <!-- Date -->
+      <div class="text-end mt-3">
+        <small class="text-muted">
+          Departure Date: {{ flight.travelDate | date: 'fullDate' }}
+        </small>
+      </div>
+
+      <!-- Book Now Button -->
+      <div class="text-center mt-4">
+        <button class="btn btn-secondary" routerLink="/flightdetails/{{flight.id}}" (click)="bookFlight()">Book Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+   
+
+</div>

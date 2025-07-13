@@ -7,12 +7,18 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { TrainComponent } from './train/train.component';
+import { FlightsComponent } from './flights/flights.component';
+import { FlightDetailsComponent } from './flight-details/flight-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
+    TrainComponent,
+    FlightsComponent,
+    FlightDetailsComponent,
     
   ],
   imports: [

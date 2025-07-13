@@ -1,0 +1,55 @@
+<div class="container my-5">
+  <div class="card shadow rounded-4 p-4" >
+    <!-- Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <div>
+        <h3 class="fw-bold text-danger">{{ flightDetails?.flightNumber }}</h3>
+        <p class="mb-0 text-muted">Vendor: {{ flightDetails?.vendorName }}</p>
+      </div>
+      <img [src]="flightDetails?.vendorLogoUrl" alt="Vendor Logo" width="80" height="40" *ngIf="flightDetails?.vendorLogoUrl !== 'string'">
+    </div>
+
+    <!-- Flight Info -->
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <h5 class="text-secondary">Departure</h5>
+        <p class="mb-0 fw-semibold">{{ flightDetails?.departureAirportName }} ({{ flightDetails?.departureAirportCode }})</p>
+        <p class="text-dark">{{ flightDetails?.departureTime }}</p>
+      </div>
+      <div class="col-md-6">
+        <h5 class="text-secondary">Arrival</h5>
+        <p class="mb-0 fw-semibold">{{ flightDetails?.arrivalAirportName }} ({{ flightDetails?.arrivalAirportCode }})</p>
+        <p class="text-dark">{{ flightDetails?.arrivalTime }}</p>
+      </div>
+    </div>
+
+    <!-- Travel Date -->
+    <div class="mb-3">
+      <p><strong>Travel Date:</strong> {{ flightDetails?.travelDate | date: 'fullDate' }}</p>
+    </div>
+
+    <!-- Seats and Pricing -->
+    <div class="row mb-3">
+      <div class="col-md-4">
+        <p><strong>Price per ticket:</strong> ₹{{ flightDetails?.price }}</p>
+      </div>
+      <div class="col-md-4">
+        <p><strong>Total Seats:</strong> {{ flightDetails?.totalSeats }}</p>
+      </div>
+      <div class="col-md-4">
+        <label for="passengers" class="form-label">Passengers:</label>
+        <input type="number" id="passengers" class="form-control" [(ngModel)]="passengerCount" name="passengerCount" min="1" max="flightDetails?.totalSeats">
+      </div>
+    </div>
+
+    <!-- Total Price -->
+    <div class="alert alert-info mt-3" *ngIf="passengerCount">
+      <strong>Total Price:</strong> ₹{{ flightDetails?.price}}
+    </div>
+
+    <!-- Book Button -->
+    <div class="text-center mt-4">
+      <button class="btn btn-danger" [disabled]="!passengerCount" (click)="bookFlight()">Book Flight</button>
+    </div>
+  </div>
+</div>
