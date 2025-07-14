@@ -50,3 +50,17 @@ export interface flights{
       travelDate: string
 }
 
+export interface Flightusers{
+      
+      id: number,
+      name: string,
+      mobileNo: string,
+      email: string,
+      city: string,
+      address: string,
+      role: string,
+      vendorId: number,
+      password: string
+    
+}
+

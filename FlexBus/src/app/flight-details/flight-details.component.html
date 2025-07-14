@@ -44,7 +44,7 @@
 
     <!-- Total Price -->
     <div class="alert alert-info mt-3" *ngIf="passengerCount">
-      <strong>Total Price:</strong> ₹{{ flightDetails?.price}}
+      <strong>Total Price:</strong> ₹{{ flightDetails && flightDetails.price * passengerCount }}
     </div>
 
     <!-- Book Button -->

@@ -10,6 +10,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TrainComponent } from './train/train.component';
 import { FlightsComponent } from './flights/flights.component';
 import { FlightDetailsComponent } from './flight-details/flight-details.component';
+import { RegistrationComponent } from './registration/registration.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { FlightDetailsComponent } from './flight-details/flight-details.componen
     TrainComponent,
     FlightsComponent,
     FlightDetailsComponent,
+    RegistrationComponent,
     
   ],
   imports: [
