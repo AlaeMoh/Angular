@@ -1,7 +1,7 @@
-<div class="container mt-5" style="max-width: 500px;">
+<div class="container mt-5" style="max-width: 500px;"  *ngIf="!login">
   <div class="card p-4 shadow rounded-4">
     <h3 class="text-center mb-4">Sign Up</h3>
-    <form #signupForm="ngForm" (ngSubmit)="registerUser()">
+    <form #signupForm="ngForm" (ngSubmit)="registerUser(signupForm.value)">
       <div class="mb-3">
         <label for="name" class="form-label">Full Name</label>
         <input
@@ -35,10 +35,44 @@
           required
         />
       </div>
-      <button type="submit" class="btn btn-success w-100" [disabled]="!signupForm.valid">Sign Up</button>
-      <p style="font-size: 10px;" class="text-center p-2" ><a routerLink="">already have an account? click here to sign in</a></p>
+      <button type="submit" class="btn btn-secondary w-100" [disabled]="!signupForm.valid">Sign Up</button>
+      <a p style="font-size: 10px;" class="text-center p-2" (click)="openLogin()">already have an account? click here to sign in</a>
     </form>
     
   </div>
 </div>
+
+
+<div class="container mt-5" style="max-width: 500px;" *ngIf="login">
+  <div class="card p-4 shadow rounded-4">
+    <h3 class="text-center mb-4">Login</h3>
+    <form #loginForm="ngForm" (ngSubmit)="loginUser()">
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          name="email"
+          [(ngModel)]="loginData.email"
+          required/>
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="password"
+          name="password"
+          [(ngModel)]="loginData.password"
+          required
+        />
+      </div>
+      <button type="submit" class="btn btn-secondary w-100" [disabled]="!loginForm.valid">Login</button>
+        <a p style="font-size: 10px;" class="text-center p-2" (click)="openSignUp()">don't have an account? click here to sign u</a>
+
+    </form>
+  </div>
+</div>
+
 

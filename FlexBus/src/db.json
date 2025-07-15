@@ -1,5 +1,5 @@
 {
-    "Stations": [
+  "Stations": [
     {
       "stationID": 1,
       "stationName": "pune",
@@ -3654,7 +3654,7 @@
       "trainName": "DECCAN QUEEN",
       "departureStationName": "Pune Junction",
       "arrivalStationName": "CSMT",
-     "arrivalTime": "12.30 Am",
+      "arrivalTime": "12.30 Am",
       "departureTime": "7 Pm",
       "totalSeats": 500,
       "departureDate": "2024-05-31T10:19:44.117",
@@ -4923,7 +4923,7 @@
       "cityName": "mysuru1"
     }
   ],
-   "airports": [
+  "airports": [
     {
       "airportCode": "123",
       "airportId": 112,
@@ -5072,7 +5072,7 @@
       "cityName": "Bangalore"
     }
   ],
-   "flights": [
+  "flights": [
     {
       "id": "167",
       "flightNumber": "234",
@@ -5479,7 +5479,7 @@
       "travelDate": "2024-08-30T18:50:00"
     }
   ],
-   "users": [
+  "users": [
     {
       "id": 128,
       "name": "Rahul",
@@ -7349,7 +7349,12 @@
       "role": "Customer",
       "vendorId": 0,
       "password": "112233"
+    },
+    {
+      "name": "Adam",
+      "email": "Adam@user.com",
+      "password": "adam234",
+      "id": 352
     }
   ]
-
 }
