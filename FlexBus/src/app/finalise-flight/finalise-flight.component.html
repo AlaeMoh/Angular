@@ -1,1 +1,89 @@
-<p>finalise-flight works!</p>
+<div class="container my-5">
+  <div class="card p-4 shadow-lg border-0 rounded-4">
+
+    <!-- Title -->
+    <h2 class="text-center mb-4 text-primary">Finalize Your Booking</h2>
+
+    <!-- Flight Info Summary -->
+    <div class="card bg-light mb-4 p-3 border-0">
+      <h5 class="fw-bold">Flight Details</h5>
+      <p><strong>Flight Number:</strong> {{ flightDetails?.flightNumber }}</p>
+      <p><strong>From:</strong> {{ flightDetails?.departureAirportName }} ({{ flightDetails?.departureAirportCode }})</p>
+      <p><strong>To:</strong> {{ flightDetails?.arrivalAirportName }} ({{ flightDetails?.arrivalAirportCode }})</p>
+      <p><strong>Departure:</strong> {{ flightDetails?.departureTime }}</p>
+      <p><strong>Arrival:</strong> {{ flightDetails?.arrivalTime }}</p>
+      <p><strong>Date:</strong> {{ flightDetails?.travelDate | date:'fullDate' }}</p>
+      <p><strong>Price per Passenger:</strong> ${{ flightDetails?.price }}</p>
+    </div>
+
+    <!-- Passenger Form -->
+    <form (ngSubmit)="finalizeBooking(bookingForm.value)" #bookingForm="ngForm" >
+      <div class="row g-3">
+
+        <!-- Full Name -->
+        <div class="col-md-6">
+          <label class="form-label">Full Name</label>
+          <input type="text" class="form-control" name="fullName" [(ngModel)]="passenger.fullName" required>
+        </div>
+
+        <!-- Passport Number -->
+        <div class="col-md-6">
+          <label class="form-label">Passport Number</label>
+          <input type="text" class="form-control" name="passportNumber" [(ngModel)]="passenger.passportNumber" required>
+        </div>
+
+        <!-- Date of Birth -->
+        <div class="col-md-6">
+          <label class="form-label">Date of Birth</label>
+          <input type="date" class="form-control" name="dob" [(ngModel)]="passenger.dob" required>
+        </div>
+
+        <!-- Nationality -->
+        <div class="col-md-6">
+          <label class="form-label">Nationality</label>
+          <input type="text" class="form-control" name="nationality" [(ngModel)]="passenger.nationality" required>
+        </div>
+
+        <!-- Passenger Count -->
+        <div class="col-md-6">
+          <label class="form-label">Number of Passengers</label>
+          <input type="number" class="form-control" name="passengerCount" [(ngModel)]="passengerCount" min="1" required>
+        </div>
+
+        <!-- Payment Info -->
+        <div class="col-12 mt-4">
+          <h5 class="fw-bold">Payment Details</h5>
+        </div>
+
+        <!-- Card Number -->
+        <div class="col-md-6">
+          <label class="form-label">Card Number</label>
+          <input type="text" class="form-control" name="cardNumber" [(ngModel)]="payment.cardNumber" required>
+        </div>
+
+        <!-- Expiry -->
+        <div class="col-md-3">
+          <label class="form-label">Expiry Date</label>
+          <input type="month" class="form-control" name="expiry" [(ngModel)]="payment.expiry" required>
+        </div>
+
+        <!-- CVV -->
+        <div class="col-md-3">
+          <label class="form-label">CVV</label>
+          <input type="password" class="form-control" name="cvv" [(ngModel)]="payment.cvv" required>
+        </div>
+
+        <!-- Total Price -->
+        <div class="col-12 text-end mt-3" *ngIf="passengerCount"> 
+          <p class="fw-bold fs-5">Total Price: ${{ flightDetails && flightDetails.price * passengerCount }}</p>
+        </div>
+
+        <!-- Submit -->
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-success btn-lg px-5" routerLink="/home">Confirm & Pay</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+

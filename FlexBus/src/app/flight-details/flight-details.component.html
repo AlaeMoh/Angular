@@ -49,7 +49,7 @@
 
     <!-- Book Button -->
     <div class="text-center mt-4">
-      <button class="btn btn-danger" [disabled]="!passengerCount" (click)="bookFlight()">Book Flight</button>
+      <button class="btn btn-danger" [disabled]="!passengerCount" routerLink="/finalBooking/{{flightDetails?.id}}">Book Flight</button>
     </div>
   </div>
 </div>

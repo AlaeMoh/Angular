@@ -46,7 +46,7 @@
 <div class="container mt-5" style="max-width: 500px;" *ngIf="login">
   <div class="card p-4 shadow rounded-4">
     <h3 class="text-center mb-4">Login</h3>
-    <form #loginForm="ngForm" (ngSubmit)="loginUser()">
+    <form #loginForm="ngForm" (ngSubmit)="loginUser(loginForm.value)">
       <div class="mb-3">
         <label for="email" class="form-label">Email address</label>
         <input

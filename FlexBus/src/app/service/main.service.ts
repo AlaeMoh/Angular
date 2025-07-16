@@ -1,15 +1,17 @@
 import { HttpClient } from '@angular/common/http';
 import { EventEmitter, Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { airports, cities, flights, Flightusers, stationsData, Trains } from '../data.type';
+import { airports, bookings, cities, flights, Flightusers, stationsData, Trains } from '../data.type';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
 })
 export class MainService {
+ booking= new EventEmitter <bookings []>
  isUserLoggedIn = new BehaviorSubject <boolean>(false);
  isLoginFailed= new EventEmitter <boolean>(false)
-  constructor(private http:HttpClient) { }
+  constructor(private http:HttpClient, private router:Router) { }
 
   // <<--trains related-->>
   
@@ -45,6 +47,8 @@ export class MainService {
       if(result && result.body && result.body.length===1){
         this.isLoginFailed.emit(false);
         localStorage.setItem('users', JSON.stringify(result.body[0]));;
+         this.router.navigate(['home']);
+
   }})
   }
 
@@ -57,10 +61,36 @@ export class MainService {
            this.http.post('http://localhost:3000/users', user, {observe:'response'}).subscribe((res)=>{
             localStorage.setItem('users',JSON.stringify(user));
             this.isUserLoggedIn.next(true);
+            this.router.navigate(['home']);
 
           })
         }
       })
 
   }
+
+
+  reloadUser() {
+  if (localStorage.getItem('users')) {
+    this.isUserLoggedIn.next(true),
+    this.router.navigate(['home']);
+  }
+}
+
+// <<-- booking related -->>
+
+getBookings(data:bookings){
+let booking= [];
+let localBookings= localStorage.getItem('localBookings');
+if(!localBookings){
+  localStorage.setItem('localBooking', JSON.stringify([data]))
+  this.booking.emit([data])
+}else{
+  booking=  JSON.parse(localBookings);
+  booking.push(data);
+   localStorage.setItem('localBooking', JSON.stringify([data]));
+  this.booking.emit([data])
+
+}
+}
 }

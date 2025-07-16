@@ -21,18 +21,21 @@ export class RegistrationComponent implements OnInit{
  }
 
  login= false;
+ isuserLoggedIn= false;
   constructor(private mainS:MainService, private router:ActivatedRoute){}
   ngOnInit(): void {
-    
+    this.mainS.reloadUser();
   }
 
   registerUser(user: Flightusers){
-    let userid= 
+    
     this.mainS.addUser(user)
+
     
   }
 
-  loginUser(){
+  loginUser(user: Flightusers){
+    this.mainS.getUsers(user);
 
   }
 

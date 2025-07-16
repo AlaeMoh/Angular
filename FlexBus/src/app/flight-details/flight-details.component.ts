@@ -13,6 +13,8 @@ export class FlightDetailsComponent implements OnInit{
 
   flightDetails: undefined |flights;
   passengerCount: number = 1;
+
+  
   
  constructor(private router:ActivatedRoute, private mainS:MainService){}
   ngOnInit(): void {
@@ -31,7 +33,5 @@ export class FlightDetailsComponent implements OnInit{
     
   }
 
-  bookFlight(){
-    // console.log(`Booking ${this.passengerCount} passenger(s).`);
-  }
+
 }
