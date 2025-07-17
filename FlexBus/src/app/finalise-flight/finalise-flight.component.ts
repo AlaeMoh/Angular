@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MainService } from '../service/main.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { bookings, flights } from '../data.type';
 
 @Component({
@@ -9,6 +9,7 @@ import { bookings, flights } from '../data.type';
   styleUrls: ['./finalise-flight.component.scss']
 })
 export class FinaliseFlightComponent implements OnInit{
+  bookingMsg: string | undefined;
 flightDetails: undefined |flights;
  passengerCount: number = 1;
  passenger={
@@ -25,7 +26,7 @@ flightDetails: undefined |flights;
   cvv:'',
 
  }
-  constructor(private mainS:MainService, private router:ActivatedRoute){}
+  constructor(private mainS:MainService, private router:ActivatedRoute, private route:Router){}
   ngOnInit(): void {
 
         const flightID = this.router.snapshot.paramMap.get('Id');
@@ -34,10 +35,46 @@ flightDetails: undefined |flights;
     flightID && this.mainS.getFlightById(flightID).subscribe(result=>{
       this.flightDetails=result;
     })
+
 }
 
-finalizeBooking(){
+finalizeBooking(data: any){
+  let user= localStorage.getItem('user');
+  let userId= user && JSON.parse(user).id;
+ 
+  if(this.passengerCount){
+    
+    let booking :bookings ={
+      id: 0,
+      name: '',
+      mobileNo: '',
+      email: '',
+      city: '',
+      address: '',
+      role: '',
+      vendorId: 0,
+      password: '',
+      userId: '',
+      ...this.passenger,
+      
+    }
+    
 
+    this.mainS.bookNow(data).subscribe((result)=>{
+    if(result){
+      this.bookingMsg="Booking Successfull"
+        console.log("Order Data:", data);
+        console.log("Order Details:", data);
+          setTimeout(() => {
+            this.bookingMsg = undefined;
+            this.route.navigate(['/home'])
+          }, 4000);
+    }
+
+  })
+
+ 
+    }
 } 
 }
 

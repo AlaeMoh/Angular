@@ -7356,8 +7356,18 @@
       "password": "adam234",
       "id": 352
     }
-  ], 
-  "bookings":[
-
+  ],
+  "bookings": [
+    {
+      "fullName": "Alaa Saleh",
+      "passportNumber": "a123456",
+      "dob": "1997-12-15",
+      "nationality": "egyptian",
+      "passengerCount": 1,
+      "cardNumber": "123456789954552",
+      "expiry": "2027-02",
+      "cvv": "123",
+      "id": 1
+    }
   ]
 }

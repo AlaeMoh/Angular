@@ -1,2 +1,89 @@
 
-<h1>home component</h1>
+<div class="container-fluid p-0">
+  <!-- Hero Section -->
+  <div class="hero-section text-white text-center py-5">
+    <h1 class="display-4 fw-bold">Plan Your Journey Easily</h1>
+    <p class="lead">Book buses, trains, flights, and hotels – all in one place</p>
+    <div class="container mt-4">
+      <form class="row g-2 justify-content-center">
+        <div class="col-md-3">
+          <select class="form-select">
+            <option selected disabled>Choose Travel Type</option>
+            <option>Bus</option>
+            <option>Train</option>
+            <option>Flight</option>
+            <option>Hotel</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <input type="text" class="form-control" placeholder="From / Location">
+        </div>
+        <div class="col-md-3">
+          <input type="text" class="form-control" placeholder="To / Destination">
+        </div>
+        <div class="col-md-2">
+          <button type="submit" class="btn btn-danger w-100">Search</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Categories -->
+  <div class="container py-5 text-center">
+    <h2 class="mb-4">What would you like to book?</h2>
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <!-- <img src="assets/img/bus.jpg" class="card-img-top" alt="Bus"> -->
+          <div class="card-body">
+            <h5 class="card-title">Bus Tickets</h5>
+            <p class="card-text">Comfortable and reliable intercity buses</p>
+            <a href="/buses" class="btn btn-outline-primary">Book Bus</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <!-- <img src="assets/img/train.jpg" class="card-img-top" alt="Train"> -->
+          <div class="card-body">
+            <h5 class="card-title">Train Tickets</h5>
+            <p class="card-text">Search and book train tickets easily</p>
+            <a href="/trains" class="btn btn-outline-primary">Book Train</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <!-- <img src="assets/img/flight.jpg" class="card-img-top" alt="Flight"> -->
+          <div class="card-body">
+            <h5 class="card-title">Flight Tickets</h5>
+            <p class="card-text">Best deals on domestic and international flights</p>
+            <a href="/flights" class="btn btn-outline-primary">Book Flight</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <!-- <img src="assets/img/hotel.jpg" class="card-img-top" alt="Hotel"> -->
+          <div class="card-body">
+            <h5 class="card-title">Hotels</h5>
+            <p class="card-text">Find and book the best hotels near you</p>
+            <a href="/hotels" class="btn btn-outline-primary">Book Hotel</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Call to Action -->
+  <div class="bg-light py-5 text-center">
+    <h3 class="mb-3">Need help with your booking?</h3>
+    <p class="mb-4">Our 24/7 customer support is here for you.</p>
+    <a href="/contact" class="btn btn-primary px-4">Contact Us</a>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p class="mb-0">&copy; 2025 FlexTrip. All Rights Reserved.</p>
+  </footer>
+</div>

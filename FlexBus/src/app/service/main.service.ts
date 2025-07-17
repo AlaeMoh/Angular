@@ -79,18 +79,29 @@ export class MainService {
 
 // <<-- booking related -->>
 
-getBookings(data:bookings){
-let booking= [];
-let localBookings= localStorage.getItem('localBookings');
-if(!localBookings){
-  localStorage.setItem('localBooking', JSON.stringify([data]))
-  this.booking.emit([data])
-}else{
-  booking=  JSON.parse(localBookings);
-  booking.push(data);
-   localStorage.setItem('localBooking', JSON.stringify([data]));
-  this.booking.emit([data])
+bookNow(data:bookings){
+  return this.http.post('http://localhost:3000/bookings', data)
+}
+
+bookingList(){
+  let userStore= localStorage.getItem('users')
+  let userData= userStore && JSON.parse(userStore)
+   return this.http.get<bookings[]>('http://localhost:3000/bookings?userId='+ userData.id);
 
 }
-}
+
+// getBookings(data:bookings){
+// let booking= [];
+// let localBookings= localStorage.getItem('localBookings');
+// if(!localBookings){
+//   localStorage.setItem('localBooking', JSON.stringify([data]))
+//   this.booking.emit([data])
+// }else{
+//   booking=  JSON.parse(localBookings);
+//   booking.push(data);
+//    localStorage.setItem('localBooking', JSON.stringify([data]));
+//   this.booking.emit([data])
+
+// }
+// }
 }

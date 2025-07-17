@@ -75,6 +75,6 @@ export interface bookings{
       role: string,
       vendorId: number,
       password: string,
-    
+    userId:string,
 }
 
