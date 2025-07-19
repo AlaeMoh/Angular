@@ -8,6 +8,7 @@ import { RegistrationComponent } from './registration/registration.component';
 import { FinaliseFlightComponent } from './finalise-flight/finalise-flight.component';
 
 const routes: Routes = [
+  {path:'',component:HomeComponent},
   {path:'home',component:HomeComponent},
   {path:'trains',component:TrainComponent},
   {path:'flights',component:FlightsComponent},
