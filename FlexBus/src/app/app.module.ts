@@ -12,6 +12,7 @@ import { FlightsComponent } from './flights/flights.component';
 import { FlightDetailsComponent } from './flight-details/flight-details.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { FinaliseFlightComponent } from './finalise-flight/finalise-flight.component';
+import { TicketsComponent } from './tickets/tickets.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { FinaliseFlightComponent } from './finalise-flight/finalise-flight.compo
     FlightDetailsComponent,
     RegistrationComponent,
     FinaliseFlightComponent,
+    TicketsComponent,
     
   ],
   imports: [

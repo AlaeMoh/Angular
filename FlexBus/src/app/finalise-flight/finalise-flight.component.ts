@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MainService } from '../service/main.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { bookings, flights } from '../data.type';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-finalise-flight',
@@ -10,7 +11,7 @@ import { bookings, flights } from '../data.type';
 })
 export class FinaliseFlightComponent implements OnInit{
   bookingMsg: string | undefined;
-flightDetails: undefined |flights;
+flightDetails: flights |undefined;
  passengerCount: number = 1;
  passenger={
   fullName:'',
@@ -26,7 +27,7 @@ flightDetails: undefined |flights;
   cvv:'',
 
  }
-  constructor(private mainS:MainService, private router:ActivatedRoute, private route:Router){}
+  constructor(private mainS:MainService, private router:ActivatedRoute, private route:Router, private http:HttpClient){}
   ngOnInit(): void {
 
         const flightID = this.router.snapshot.paramMap.get('Id');
@@ -42,23 +43,39 @@ finalizeBooking(data: any){
   let user= localStorage.getItem('user');
   let userId= user && JSON.parse(user).id;
  
+ 
   if(this.passengerCount){
     
-    let booking :bookings ={
-      id: 0,
-      name: '',
-      mobileNo: '',
-      email: '',
-      city: '',
-      address: '',
-      role: '',
-      vendorId: 0,
-      password: '',
-      userId: '',
-      ...this.passenger,
-      
-    }
-    
+let booking: bookings = {
+  id: 0,
+  name: this.passenger.fullName,
+  nationality: this.passenger.nationality,
+  passportNumber: this.passenger.passportNumber,
+  dob: this.passenger.dob,
+  address: this.passenger.count,
+  role: 'user',
+  password: '',
+  userId: userId,
+  flightNumber: this.flightDetails?.flightNumber || '',
+  travelDate: this.flightDetails?.travelDate || '',
+  price: this.flightDetails?.price || 0,
+  totalSeats: this.passengerCount,
+  count: '',
+  mobileNo: '',
+  email: '',
+  city: '',
+  vendorId: 0,
+  arrivalTime: '',
+  departureTime: '',
+  arrivalAirportName: '',
+  arrivalAirportCode: '',
+  departureAirportName: '',
+  departureAirportCode: '',
+  vendorName: '',
+  vendorLogoUrl: ''
+};
+ 
+
 
     this.mainS.bookNow(data).subscribe((result)=>{
     if(result){

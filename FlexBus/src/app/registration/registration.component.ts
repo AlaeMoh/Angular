@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MainService } from '../service/main.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Route, Router } from '@angular/router';
 import { Flightusers } from '../data.type';
 
 @Component({
@@ -22,7 +22,7 @@ export class RegistrationComponent implements OnInit{
 
  login= false;
  isuserLoggedIn= false;
-  constructor(private mainS:MainService, private router:ActivatedRoute){}
+  constructor(private mainS:MainService, private router:ActivatedRoute, private route:Router){}
   ngOnInit(): void {
     this.mainS.reloadUser();
   }
@@ -30,12 +30,13 @@ export class RegistrationComponent implements OnInit{
   registerUser(user: Flightusers){
     
     this.mainS.addUser(user)
-
+    //  this.route.navigate(['/home'])
     
   }
 
   loginUser(user: Flightusers){
     this.mainS.getUsers(user);
+    // this.route.navigate(['/home'])
 
   }
 

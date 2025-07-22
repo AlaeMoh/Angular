@@ -1,0 +1,23 @@
+<div class="container mt-4">
+  <h2 class="text-center mb-4">All Bookings</h2>
+
+  <div *ngIf="bookings?.length === 0" class="alert alert-info">
+    No bookings available.
+  </div>
+
+  <div *ngFor="let booking of bookings" class="card mb-3 shadow-sm">
+    <div class="card-body">
+      <h5 class="card-title">{{ booking.name }}</h5>
+      <p class="card-text">
+        ✈️ Flight: <strong>{{ booking.flightNumber }}</strong><br>
+        🛫 From: {{ booking.departureAirportName }} <br>
+        🛬 To: {{ booking.arrivalAirportName }} <br>
+        📅 Date: {{ booking.travelDate | date:'mediumDate' }}<br>
+        👤 Seats: {{ booking.totalSeats }} <br>
+        💵 Total: {{ booking.price | currency:'USD' }}
+      </p>
+      <p class="text-muted">📧 {{ booking.email }} | 📞 {{ booking.mobileNo }} | 📍 {{ booking.city }}</p>
+    </div>
+  </div>
+</div>
+

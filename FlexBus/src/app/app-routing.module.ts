@@ -6,6 +6,7 @@ import { FlightsComponent } from './flights/flights.component';
 import { FlightDetailsComponent } from './flight-details/flight-details.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { FinaliseFlightComponent } from './finalise-flight/finalise-flight.component';
+import { TicketsComponent } from './tickets/tickets.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -15,6 +16,8 @@ const routes: Routes = [
   {path:'flightdetails/:Id',component:FlightDetailsComponent},
   {path:'register',component:RegistrationComponent},
   {path:'finalBooking/:Id',component:FinaliseFlightComponent},
+  {path:'tickets',component:TicketsComponent},
+
   
 
 

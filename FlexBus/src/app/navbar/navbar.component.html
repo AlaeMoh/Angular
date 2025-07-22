@@ -1,4 +1,4 @@
-<nav class="total navbar navbar-expand-lg">
+<nav class="total navbar navbar-expand-lg" *ngIf="navbar=='default'">
   <div class="container-fluid d-flex justify-content-around">
     <div class="d-flex flex-row">
      <a class="navbar-brand" href="#">
@@ -26,13 +26,64 @@
           <a class="nav-link active" aria-current="page" href="#">Offers</a>
         </li>
        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Track Ticket</a>
+          <a class="nav-link active" aria-current="page" routerLink="/tickets">Track Ticket</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Need help?</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" routerLink="/register" style="color: rgba(255, 0, 0, 0.9);" >Login/SignUp</a>
+        </li>
+      </ul>
+
+    </div>
+    <div class="input ">
+
+    </div>
+
+
+  </div>
+</nav>
+
+
+<nav class="total navbar navbar-expand-lg" *ngIf="navbar == 'user-nav' ">
+  <div class="container-fluid d-flex justify-content-around">
+    <div class="d-flex flex-row">
+     <a class="navbar-brand" href="#">
+      <img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt="" width="75" height="50">
+    </a>
+    <p>Trusted by <br>
+    5 Crore+ Travellers </p>
+
+     </div>   
+    <div class=" " id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Buses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/trains">train</a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="flights">Flights</a>
+        </li>
+      <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Hotels</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Offers</a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/tickets">Track Ticket</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Need help?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="" style="color: rgba(255, 0, 0, 0.9);" >{{userName}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" (click)="logout()" style="color: rgba(255, 0, 0, 0.9);" >Logout</a>
         </li>
       </ul>
 

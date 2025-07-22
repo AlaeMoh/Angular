@@ -67,6 +67,10 @@ export interface Flightusers{
 export interface bookings{
       
       id: number,
+      passportNumber:string,
+      dob:string,
+      nationality:string,
+      count:string,
       name: string,
       mobileNo: string,
       email: string,
@@ -75,6 +79,18 @@ export interface bookings{
       role: string,
       vendorId: number,
       password: string,
-    userId:string,
+      userId:string,
+      flightNumber: string,
+      arrivalTime: string,
+      departureTime: string,
+      price: number,
+      totalSeats: number,
+      arrivalAirportName: string,
+      arrivalAirportCode: string,
+      departureAirportName: string,
+      departureAirportCode: string,
+      vendorName: string,
+      vendorLogoUrl: string,
+      travelDate: string,
 }
 

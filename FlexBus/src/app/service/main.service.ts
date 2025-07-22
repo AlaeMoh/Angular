@@ -42,18 +42,18 @@ export class MainService {
   // <<-- users related -->>
 
   getUsers(user: Flightusers){
-    return this.http.get<Flightusers[]>(`http://localhost:3001/seller?email=${user.email}&password=${user.password}`,{observe:'response'}).subscribe(
+    return this.http.get<Flightusers[]>(`http://localhost:3000/users?email=${user.email}&password=${user.password}`,{observe:'response'}).subscribe(
       (result:any)=>{
       if(result && result.body && result.body.length===1){
         this.isLoginFailed.emit(false);
         localStorage.setItem('users', JSON.stringify(result.body[0]));;
-         this.router.navigate(['home']);
+         this.router.navigate(['/home']);
 
   }})
   }
 
   addUser(user:Flightusers){
-    this.http.get<Flightusers[]>(`http://localhost:3001/seller?email=${user.email}`).subscribe(
+    this.http.get<Flightusers[]>(`http://localhost:3000/users?email=${user.email}`).subscribe(
       (result)=>{
         if(result && result.length>0){
           console.log("error")
@@ -61,7 +61,7 @@ export class MainService {
            this.http.post('http://localhost:3000/users', user, {observe:'response'}).subscribe((res)=>{
             localStorage.setItem('users',JSON.stringify(user));
             this.isUserLoggedIn.next(true);
-            this.router.navigate(['home']);
+            this.router.navigate(['/home']);
 
           })
         }
@@ -73,7 +73,7 @@ export class MainService {
   reloadUser() {
   if (localStorage.getItem('users')) {
     this.isUserLoggedIn.next(true),
-    this.router.navigate(['home']);
+    this.router.navigate(['/home']);
   }
 }
 
@@ -90,18 +90,5 @@ bookingList(){
 
 }
 
-// getBookings(data:bookings){
-// let booking= [];
-// let localBookings= localStorage.getItem('localBookings');
-// if(!localBookings){
-//   localStorage.setItem('localBooking', JSON.stringify([data]))
-//   this.booking.emit([data])
-// }else{
-//   booking=  JSON.parse(localBookings);
-//   booking.push(data);
-//    localStorage.setItem('localBooking', JSON.stringify([data]));
-//   this.booking.emit([data])
 
-// }
-// }
 }
