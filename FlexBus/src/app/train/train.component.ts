@@ -33,7 +33,7 @@ export class TrainComponent implements OnInit{
  
   availaibleTrain(){
    const { locationFrom, locationTo, date } = this.traindata;
-    // console.log('Submitted values:', { locationFrom, locationTo, date });
+    
 
     const selectedDate = date;
 

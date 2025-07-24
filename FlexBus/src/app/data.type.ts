@@ -19,6 +19,8 @@ export interface Trains{
       totalSeats: number,
       departureDate: string,
       bookedSeats: number, 
+      price: string,
+
 }
 
 export interface cities{
@@ -64,7 +66,7 @@ export interface Flightusers{
     
 }
 
-export interface bookings{
+export interface flightBookings {
       
       id: number,
       passportNumber:string,
@@ -94,3 +96,24 @@ export interface bookings{
       travelDate: string,
 }
 
+export interface trainBookings {
+      id: number,
+      count:string,
+      name: string,
+      mobileNo: string,
+      email: string,
+      city: string,
+      address: string,
+      role: string,
+      vendorId: number,
+      password: string,
+      userId:string,
+      trainNo: string,
+      arrivalTime: string,
+      departureTime: string,
+      price: string,
+      totalSeats: number,
+      arrivalStationName: string,
+      ddepartureStationName: string,
+      departureDate: string,
+}

@@ -1,14 +1,15 @@
 import { HttpClient } from '@angular/common/http';
 import { EventEmitter, Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { airports, bookings, cities, flights, Flightusers, stationsData, Trains } from '../data.type';
+import { airports, flightBookings, cities, flights, Flightusers, stationsData, Trains, trainBookings } from '../data.type';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
 })
 export class MainService {
- booking= new EventEmitter <bookings []>
+ flightBooking= new EventEmitter <flightBookings []>
+ trainBooking= new EventEmitter<trainBookings[]>
  isUserLoggedIn = new BehaviorSubject <boolean>(false);
  isLoginFailed= new EventEmitter <boolean>(false)
   constructor(private http:HttpClient, private router:Router) { }
@@ -21,7 +22,19 @@ export class MainService {
 
   getTrains(from:string , to: string){
   return this.http.get<Trains[]>(`http://localhost:3000/Trains/?departureStationName=${from}&arrivalStationName=${to}`)  
+
+
 }
+
+// << -- Train Booking Related -->>
+
+  bookTrain(data:trainBookings){
+     return this.http.post('http://localhost:3000/trainBookings', data)
+  }
+
+  getTrainById(id:string ){
+    return this.http.get<Trains>(`http://localhost:3000/trains/${id}`)
+  }
 
   // <<--flights related-->>
 
@@ -77,18 +90,18 @@ export class MainService {
   }
 }
 
-// <<-- booking related -->>
+// <<-- flight booking related -->>
 
-bookNow(data:bookings){
-  return this.http.post('http://localhost:3000/bookings', data)
+bookNow(data:flightBookings){
+  return this.http.post('http://localhost:3000/flightBookings', data)
 }
 
 bookingList(){
   let userStore= localStorage.getItem('users')
   let userData= userStore && JSON.parse(userStore)
-   return this.http.get<bookings[]>('http://localhost:3000/bookings?userId='+ userData.id);
+   return this.http.get<flightBookings[]>('http://localhost:3000/flightBookings?email='+ userData.email);
 
 }
-
+   
 
 }

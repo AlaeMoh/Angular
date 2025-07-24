@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MainService } from '../service/main.service';
-import { bookings } from '../data.type';
+import { flightBookings } from '../data.type';
 
 @Component({
   selector: 'app-tickets',
@@ -8,7 +8,7 @@ import { bookings } from '../data.type';
   styleUrls: ['./tickets.component.scss']
 })
 export class TicketsComponent implements OnInit{
-  bookings: bookings [] | undefined
+  bookings: flightBookings [] | undefined
   constructor(private service:MainService){}
 
   ngOnInit(): void {

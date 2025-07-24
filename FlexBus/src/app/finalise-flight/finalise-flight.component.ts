@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MainService } from '../service/main.service';
 import { ActivatedRoute, Router } from '@angular/router';
-import { bookings, flights } from '../data.type';
+import { flightBookings, flights } from '../data.type';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
@@ -10,7 +10,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./finalise-flight.component.scss']
 })
 export class FinaliseFlightComponent implements OnInit{
-  bookingMsg: string | undefined;
+bookingMsg: string | undefined;
 flightDetails: flights |undefined;
  passengerCount: number = 1;
  passenger={
@@ -19,6 +19,7 @@ flightDetails: flights |undefined;
   dob:'',
   nationality:'',
   count:'',
+  
  }
 
  payment={
@@ -46,7 +47,7 @@ finalizeBooking(data: any){
  
   if(this.passengerCount){
     
-let booking: bookings = {
+let booking: flightBookings = {
   id: 0,
   name: this.passenger.fullName,
   nationality: this.passenger.nationality,

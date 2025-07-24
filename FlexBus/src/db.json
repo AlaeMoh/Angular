@@ -193,7 +193,7 @@
   ],
   "Trains": [
     {
-      "trainId": 498,
+      "id": "498",
       "trainNo": 12154,
       "trainName": "konarkExpress",
       "departureStationName": "SHIMOGA",
@@ -202,10 +202,11 @@
       "departureTime": "7:25:am",
       "totalSeats": 25000,
       "departureDate": "2025-04-03T09:43:38.117",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price":"20$"
     },
     {
-      "trainId": 497,
+      "id": "497",
       "trainNo": 12154,
       "trainName": "konarkExpress",
       "departureStationName": "banglore",
@@ -214,10 +215,11 @@
       "departureTime": "9:00:pm",
       "totalSeats": 2500,
       "departureDate": "2025-04-03T09:38:20.91",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price":"20$"
     },
     {
-      "trainId": 496,
+      "id": "496",
       "trainNo": 12123,
       "trainName": "Mumbai Express",
       "departureStationName": "banglore",
@@ -226,10 +228,11 @@
       "departureTime": "01:00:pm",
       "totalSeats": 2500,
       "departureDate": "2025-04-03T09:38:20.91",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price":"20$"
     },
     {
-      "trainId": 495,
+      "id": "495",
       "trainNo": 12123,
       "trainName": "Mumbai Express",
       "departureStationName": "banglore",
@@ -238,10 +241,11 @@
       "departureTime": "7:25:am",
       "totalSeats": 2500,
       "departureDate": "2025-07-05T09:32:25.837",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price":"20$"
     },
     {
-      "trainId": 493,
+      "id": "493",
       "trainNo": 12123,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -250,10 +254,11 @@
       "departureTime": "7 am",
       "totalSeats": 10000,
       "departureDate": "2025-04-28T09:24:19.693",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price":"20$"
     },
     {
-      "trainId": 491,
+      "id": "491",
       "trainNo": 12153,
       "trainName": "NewDelhi Exp",
       "departureStationName": "banglore",
@@ -262,10 +267,11 @@
       "departureTime": "7 pm",
       "totalSeats": 400,
       "departureDate": "2025-04-25T20:36:02.823",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price":"20$"
     },
     {
-      "trainId": 490,
+      "id": "490",
       "trainNo": 12154,
       "trainName": "Dakshin Exp",
       "departureStationName": "banglore",
@@ -274,10 +280,11 @@
       "departureTime": "10 pm",
       "totalSeats": 200,
       "departureDate": "2025-04-25T20:36:02.823",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price":"20$"
     },
     {
-      "trainId": 489,
+      "id": "489",
       "trainNo": 12154,
       "trainName": "Dakshin Exp",
       "departureStationName": "banglore",
@@ -286,10 +293,11 @@
       "departureTime": "10 pm",
       "totalSeats": 200,
       "departureDate": "2025-04-15T20:36:02.823",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price":"20$"
     },
     {
-      "trainId": 488,
+      "id": "488",
       "trainNo": 12123,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -298,10 +306,11 @@
       "departureTime": "5 pm",
       "totalSeats": 300,
       "departureDate": "2025-04-15T20:36:02.823",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price":"25$"
     },
     {
-      "trainId": 487,
+      "id": "487",
       "trainNo": 20021,
       "trainName": "NGP HUMSAFAR EXP.",
       "departureStationName": "banglore",
@@ -310,10 +319,11 @@
       "departureTime": "10:34 AM",
       "totalSeats": 10,
       "departureDate": "2025-04-05T15:28:04.943",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price":"25$"
     },
     {
-      "trainId": 485,
+      "id": "485",
       "trainNo": 1125,
       "trainName": "Devagiri",
       "departureStationName": "banglore",
@@ -322,10 +332,11 @@
       "departureTime": "11 am",
       "totalSeats": 111,
       "departureDate": "2025-03-26T05:59:55.5",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price":"25$"
     },
     {
-      "trainId": 484,
+      "id": "484",
       "trainNo": 1124,
       "trainName": "Ajantha",
       "departureStationName": "pune",
@@ -334,10 +345,11 @@
       "departureTime": "4 am",
       "totalSeats": 111,
       "departureDate": "2025-03-26T05:59:55.5",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price":"25$"
     },
     {
-      "trainId": 483,
+      "id": "483",
       "trainNo": 123,
       "trainName": "llllll",
       "departureStationName": "Tirupathi",
@@ -346,10 +358,11 @@
       "departureTime": "05:01",
       "totalSeats": 456,
       "departureDate": "2025-03-28T00:00:00",
-      "bookedSeats": 4
+      "bookedSeats": 4,
+      "price":"30$"
     },
     {
-      "trainId": 482,
+      "id": "482",
       "trainNo": 23,
       "trainName": "rrrr",
       "departureStationName": "BELGUAM",
@@ -358,10 +371,11 @@
       "departureTime": "08:58",
       "totalSeats": 534,
       "departureDate": "2025-03-27T00:00:00",
-      "bookedSeats": 3
+      "bookedSeats": 3,
+       "price":"30$"
     },
     {
-      "trainId": 481,
+      "id": "481",
       "trainNo": 4567,
       "trainName": "ccccc",
       "departureStationName": "Patna Junction",
@@ -370,10 +384,11 @@
       "departureTime": "02:50",
       "totalSeats": 678,
       "departureDate": "2025-03-01T00:00:00",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+       "price":"30$"
     },
     {
-      "trainId": 479,
+      "id": "479",
       "trainNo": 344,
       "trainName": "ttttttt",
       "departureStationName": "HUBLI",
@@ -382,10 +397,11 @@
       "departureTime": "03:43",
       "totalSeats": 6785,
       "departureDate": "2025-03-21T00:00:00",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+       "price":"30$"
     },
     {
-      "trainId": 478,
+      "id": "478",
       "trainNo": 334,
       "trainName": "aa",
       "departureStationName": "string d asas",
@@ -394,10 +410,11 @@
       "departureTime": "02:45",
       "totalSeats": 464,
       "departureDate": "2025-03-21T00:00:00",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+       "price":"30$"
     },
     {
-      "trainId": 477,
+      "id": "477",
       "trainNo": 786,
       "trainName": "tttt",
       "departureStationName": "banglore",
@@ -406,10 +423,11 @@
       "departureTime": "06:36",
       "totalSeats": 675,
       "departureDate": "2025-03-18T00:00:00",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+       "price":"35$"
     },
     {
-      "trainId": 474,
+      "id": "474",
       "trainNo": 234,
       "trainName": "test",
       "departureStationName": "string d asas",
@@ -418,10 +436,11 @@
       "departureTime": "07:51",
       "totalSeats": 345,
       "departureDate": "2025-03-27T00:00:00",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+       "price":"35$"
     },
     {
-      "trainId": 473,
+      "id": "473",
       "trainNo": 12,
       "trainName": "aaa",
       "departureStationName": "HUBLI",
@@ -430,10 +449,11 @@
       "departureTime": "02:45",
       "totalSeats": 132,
       "departureDate": "2025-03-01T00:00:00",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+       "price":"35$"
     },
     {
-      "trainId": 472,
+      "id": "472",
       "trainNo": 345,
       "trainName": "superfast",
       "departureStationName": "SHIMOGA",
@@ -442,658 +462,713 @@
       "departureTime": "04:24",
       "totalSeats": 897,
       "departureDate": "2025-03-29T00:00:00",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+       "price":"32$"
     },
     {
-      "trainId": 471,
-      "trainNo": 890,
-      "trainName": "express train",
-      "departureStationName": "HUBLI",
-      "arrivalStationName": "banglore",
-      "arrivalTime": "04:18",
-      "departureTime": "01:21",
-      "totalSeats": 897,
-      "departureDate": "2025-03-20T00:00:00",
-      "bookedSeats": 0
-    },
+    "id": "471",
+    "trainNo": 890,
+    "trainName": "express train",
+    "departureStationName": "HUBLI",
+    "arrivalStationName": "banglore",
+    "arrivalTime": "04:18",
+    "departureTime": "01:21",
+    "totalSeats": 897,
+    "departureDate": "2025-03-20T00:00:00",
+    "bookedSeats": 0,
+    "price": "$72"
+  },
+  {
+    "id": "470",
+    "trainNo": 987,
+    "trainName": "gwalior Express",
+    "departureStationName": "banglore",
+    "arrivalStationName": "Gwalior",
+    "arrivalTime": "00:20",
+    "departureTime": "02:17",
+    "totalSeats": 670,
+    "departureDate": "2025-03-23T00:00:00",
+    "bookedSeats": 0,
+    "price": "$91"
+  },
+  {
+    "id": "468",
+    "trainNo": 12356,
+    "trainName": "Delhi-Vande",
+    "departureStationName": "banglore",
+    "arrivalStationName": "Gwalior",
+    "arrivalTime": "03:05",
+    "departureTime": "04:05",
+    "totalSeats": 464,
+    "departureDate": "2025-03-20T00:00:00",
+    "bookedSeats": 0,
+    "price": "$88"
+  },
+  {
+    "id": "467",
+    "trainNo": 12314,
+    "trainName": "SHIMOGA-string d asas",
+    "departureStationName": "pune",
+    "arrivalStationName": "banglore",
+    "arrivalTime": "7 PM",
+    "departureTime": "11 AM",
+    "totalSeats": 200,
+    "departureDate": "2025-01-02T15:36:33.52",
+    "bookedSeats": 0,
+    "price": "$57"
+  },
+  {
+    "id": "466",
+    "trainNo": 12123,
+    "trainName": "Solapur-New-Delhi",
+    "departureStationName": "pune",
+    "arrivalStationName": "banglore",
+    "arrivalTime": "11 AM",
+    "departureTime": "5 PM",
+    "totalSeats": 300,
+    "departureDate": "2025-01-02T15:36:33.52",
+    "bookedSeats": 0,
+    "price": "$66"
+  },
+  {
+    "id": "465",
+    "trainNo": 12332,
+    "trainName": "Dakshin Exp",
+    "departureStationName": "banglore",
+    "arrivalStationName": "Kolkata",
+    "arrivalTime": "7 pm",
+    "departureTime": "11 am",
+    "totalSeats": 200,
+    "departureDate": "2025-03-10T15:25:37.84",
+    "bookedSeats": 0,
+    "price": "$99"
+  },
+  {
+    "id": "464",
+    "trainNo": 3123,
+    "trainName": "New Delhi-Kolkata",
+    "departureStationName": "banglore",
+    "arrivalStationName": "Kolkata",
+    "arrivalTime": "12 am",
+    "departureTime": "6 pm",
+    "totalSeats": 300,
+    "departureDate": "2025-03-10T15:25:37.84",
+    "bookedSeats": 0,
+    "price": "$105"
+  },
+  {
+    "id": "463",
+    "trainNo": 123,
+    "trainName": "TEst",
+    "departureStationName": "pune",
+    "arrivalStationName": "banglore",
+    "arrivalTime": "11:21",
+    "departureTime": "04:20",
+    "totalSeats": 126,
+    "departureDate": "2025-03-27T00:00:00",
+    "bookedSeats": 4,
+    "price": "$52"
+  },
+  {
+    "id": "454",
+    "trainNo": 12133233,
+    "trainName": "Dakshin Express",
+    "departureStationName": "banglore",
+    "arrivalStationName": "pune",
+    "arrivalTime": "7 pm",
+    "departureTime": "11 am",
+    "totalSeats": 200,
+    "departureDate": "2025-03-03T16:16:51",
+    "bookedSeats": 1,
+    "price": "$78"
+  },
+  {
+    "id": "451",
+    "trainNo": 12154,
+    "trainName": "Dakshin Exp",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "7 pm",
+    "departureTime": "11 Am",
+    "totalSeats": 200,
+    "departureDate": "2025-03-02T11:56:13.563",
+    "bookedSeats": 0,
+    "price": "$60"
+  },
+  {
+    "id": "446",
+    "trainNo": 21514,
+    "trainName": "dakshin-exp",
+    "departureStationName": "banglore",
+    "arrivalStationName": "pune",
+    "arrivalTime": "11 AM",
+    "departureTime": "11pm",
+    "totalSeats": 200,
+    "departureDate": "2024-07-05T06:09:48.65",
+    "bookedSeats": 5,
+    "price": "$93"
+  },
     {
-      "trainId": 470,
-      "trainNo": 987,
-      "trainName": "gwalior Express",
-      "departureStationName": "banglore",
-      "arrivalStationName": "Gwalior",
-      "arrivalTime": "00:20",
-      "departureTime": "02:17",
-      "totalSeats": 670,
-      "departureDate": "2025-03-23T00:00:00",
-      "bookedSeats": 0
-    },
+    "id": "445",
+    "trainNo": 21456,
+    "trainName": "new-delhi-exprees",
+    "departureStationName": "banglore",
+    "arrivalStationName": "pune",
+    "arrivalTime": "11 PM",
+    "departureTime": "7 pm",
+    "totalSeats": 300,
+    "departureDate": "2024-07-05T06:09:48.65",
+    "bookedSeats": 0,
+    "price": "$74"
+  },
+  {
+    "id": "443",
+    "trainNo": 12314,
+    "trainName": "tejas-Express",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "7PM",
+    "departureTime": "11AM",
+    "totalSeats": 200,
+    "departureDate": "2025-02-05T07:36:13.477",
+    "bookedSeats": 0,
+    "price": "$87"
+  },
+  {
+    "id": "438",
+    "trainNo": 12223,
+    "trainName": "Rajdhani-Express",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": " 10 am",
+    "departureTime": "9 pm",
+    "totalSeats": 500,
+    "departureDate": "2025-01-25T08:05:42.327",
+    "bookedSeats": 2,
+    "price": "$110"
+  },
+  {
+    "id": "437",
+    "trainNo": 12213,
+    "trainName": "New-Delhi-Solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": " 11 am",
+    "departureTime": "5 pm",
+    "totalSeats": 500,
+    "departureDate": "2025-01-25T08:05:42.327",
+    "bookedSeats": 3,
+    "price": "$108"
+  },
+  {
+    "id": "436",
+    "trainNo": 12678,
+    "trainName": "Dkshin Express",
+    "departureStationName": "banglore",
+    "arrivalStationName": "pune",
+    "arrivalTime": "7 AM",
+    "departureTime": "11 PM",
+    "totalSeats": 17,
+    "departureDate": "2025-01-22T19:44:26.727",
+    "bookedSeats": 0,
+    "price": "$53"
+  },
+  {
+    "id": "435",
+    "trainNo": 12345,
+    "trainName": "NewDelhi-solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "pune",
+    "arrivalTime": "11 AM",
+    "departureTime": "5 PM",
+    "totalSeats": 100,
+    "departureDate": "2025-01-22T19:44:26.727",
+    "bookedSeats": 0,
+    "price": "$59"
+  },
+  {
+    "id": "433",
+    "trainNo": 124568,
+    "trainName": "Dakshin express",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "5 pm",
+    "departureTime": "11 pm",
+    "totalSeats": 200,
+    "departureDate": "2025-01-17T06:08:18.21",
+    "bookedSeats": 0,
+    "price": "$62"
+  },
+  {
+    "id": "432",
+    "trainNo": 124567,
+    "trainName": "New delhi-solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11 pm",
+    "departureTime": "5 pm",
+    "totalSeats": 300,
+    "departureDate": "2025-01-17T06:08:18.21",
+    "bookedSeats": 0,
+    "price": "$76"
+  },
+  {
+    "id": "431",
+    "trainNo": 12154,
+    "trainName": "Dakshin Exp",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "7pm",
+    "departureTime": "11Am",
+    "totalSeats": 200,
+    "departureDate": "2025-07-05T11:33:01.453",
+    "bookedSeats": 0,
+    "price": "$69"
+  },
+  {
+    "id": "424",
+    "trainNo": 11224,
+    "trainName": "Dakshin Exp",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "7 AM",
+    "departureTime": "11 pm",
+    "totalSeats": 300,
+    "departureDate": "2025-01-06T15:39:45.56",
+    "bookedSeats": 0,
+    "price": "$80"
+  },
+  {
+    "id": "422",
+    "trainNo": 12265,
+    "trainName": "Dakshin-Express",
+    "departureStationName": "banglore",
+    "arrivalStationName": "pune",
+    "arrivalTime": "5am",
+    "departureTime": "10pm",
+    "totalSeats": 200,
+    "departureDate": "2025-01-03T15:23:24.737",
+    "bookedSeats": 1,
+    "price": "$18"
+  },
+  {
+    "id": "421",
+    "trainNo": 12266,
+    "trainName": "New-Delhi-Solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "pune",
+    "arrivalTime": "11am",
+    "departureTime": "5pm",
+    "totalSeats": 200,
+    "departureDate": "2025-01-03T15:23:24.737",
+    "bookedSeats": 0,
+    "price": "$20"
+  },
+  {
+    "id": "420",
+    "trainNo": 12298,
+    "trainName": "New-Delhi-Solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "pune",
+    "arrivalTime": "11am",
+    "departureTime": "7pm",
+    "totalSeats": 200,
+    "departureDate": "2025-01-02T06:05:12.57",
+    "bookedSeats": 1,
+    "price": "$16"
+  },
+  {
+    "id": "419",
+    "trainNo": 12245,
+    "trainName": "Dakshin-Express",
+    "departureStationName": "banglore",
+    "arrivalStationName": "pune",
+    "arrivalTime": "7pm",
+    "departureTime": "11am",
+    "totalSeats": 200,
+    "departureDate": "2025-01-02T06:05:12.57",
+    "bookedSeats": 0,
+    "price": "$17"
+  },
+  {
+    "id": "418",
+    "trainNo": 12245,
+    "trainName": "Dakshin-Express",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "7pm",
+    "departureTime": "11am",
+    "totalSeats": 200,
+    "departureDate": "2025-01-02T06:05:12.57",
+    "bookedSeats": 0,
+    "price": "$15"
+  },
+  {
+    "id": "417",
+    "trainNo": 12285,
+    "trainName": "New-Delhi-Solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11am",
+    "departureTime": "5pm",
+    "totalSeats": 306,
+    "departureDate": "2025-01-02T06:05:12.57",
+    "bookedSeats": 0,
+    "price": "$19"
+  },
+  {
+    "id": "415",
+    "trainNo": 12233,
+    "trainName": "New-Delhi-solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11am",
+    "departureTime": "5pm",
+    "totalSeats": 306,
+    "departureDate": "2024-07-05T06:24:30.58",
+    "bookedSeats": 7,
+    "price": "$21"
+  },
+  {
+    "id": "414",
+    "trainNo": 12123,
+    "trainName": "New-Delhi-Solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "pune",
+    "arrivalTime": "11 am",
+    "departureTime": "5 pm",
+    "totalSeats": 306,
+    "departureDate": "2024-12-17T03:23:06.453",
+    "bookedSeats": 0,
+    "price": "$14"
+  },
+  {
+    "id": "413",
+    "trainNo": 12123,
+    "trainName": "New-Delhi-Solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11 am",
+    "departureTime": "5 pm",
+    "totalSeats": 306,
+    "departureDate": "2024-12-17T03:23:06.453",
+    "bookedSeats": 1,
+    "price": "$13"
+  },
+  {
+    "id": "411",
+    "trainNo": 777777,
+    "trainName": "Rajdhani Expess",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11am",
+    "departureTime": "5 pm",
+    "totalSeats": 300,
+    "departureDate": "2024-07-05T14:28:13.043",
+    "bookedSeats": 5,
+    "price": "$22"
+  },
+   {
+    "id": "408",
+    "trainNo": 89079,
+    "trainName": "Hyd to Bng",
+    "departureStationName": "string d asas",
+    "arrivalStationName": "banglore",
+    "arrivalTime": "5 am",
+    "departureTime": "11 pm",
+    "totalSeats": 300,
+    "departureDate": "2024-12-08T01:44:45.397",
+    "bookedSeats": 0,
+    "price": "$11"
+  },
+  {
+    "id": "407",
+    "trainNo": 89078,
+    "trainName": "Bng to Hyd",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11 am",
+    "departureTime": "5 pm",
+    "totalSeats": 450,
+    "departureDate": "2024-12-08T01:44:45.397",
+    "bookedSeats": 0,
+    "price": "$12"
+  },
+  {
+    "id": "406",
+    "trainNo": 1543,
+    "trainName": "Dakshin Express",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "7 PM",
+    "departureTime": "11 AM",
+    "totalSeats": 250,
+    "departureDate": "2024-12-07T05:23:05.81",
+    "bookedSeats": 0,
+    "price": "$9"
+  },
+  {
+    "id": "405",
+    "trainNo": 11123,
+    "trainName": "New Delhi-Solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11 AM",
+    "departureTime": "5 PM",
+    "totalSeats": 300,
+    "departureDate": "2024-12-07T05:23:05.81",
+    "bookedSeats": 0,
+    "price": "$10"
+  },
+  {
+    "id": "403",
+    "trainNo": 5488,
+    "trainName": "coexpress",
+    "departureStationName": "HUBLI",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "9pm",
+    "departureTime": "7am",
+    "totalSeats": 34,
+    "departureDate": "2024-12-04T08:37:32.197",
+    "bookedSeats": 0,
+    "price": "$6"
+  },
+  {
+    "id": "402",
+    "trainNo": 54,
+    "trainName": "coexpress",
+    "departureStationName": "HUBLI",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "9pm",
+    "departureTime": "1am",
+    "totalSeats": 34,
+    "departureDate": "2024-12-04T08:37:32.197",
+    "bookedSeats": 0,
+    "price": "$7"
+  },
+  {
+    "id": "401",
+    "trainNo": 5454,
+    "trainName": "comeexpress",
+    "departureStationName": "SHIMOGA",
+    "arrivalStationName": "HUBLI",
+    "arrivalTime": "9pm",
+    "departureTime": "1am",
+    "totalSeats": 34,
+    "departureDate": "2024-12-03T08:37:32.197",
+    "bookedSeats": 2,
+    "price": "$6"
+  },
+  {
+    "id": "400",
+    "trainNo": 43353,
+    "trainName": "comeexpress",
+    "departureStationName": "SHIMOGA",
+    "arrivalStationName": "HUBLI",
+    "arrivalTime": "9pm",
+    "departureTime": "11am",
+    "totalSeats": 34,
+    "departureDate": "2024-12-03T08:37:32.197",
+    "bookedSeats": 2,
+    "price": "$8"
+  },
+  {
+    "id": "399",
+    "trainNo": 54751,
+    "trainName": "krishan Express",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "7 pm",
+    "departureTime": "11 am",
+    "totalSeats": 500,
+    "departureDate": "2024-12-05T04:53:33.803",
+    "bookedSeats": 0,
+    "price": "$13"
+  },
+  {
+    "id": "398",
+    "trainNo": 43551,
+    "trainName": "Delta Express",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11 am",
+    "departureTime": "5 pm",
+    "totalSeats": 500,
+    "departureDate": "2024-12-05T04:53:33.803",
+    "bookedSeats": 0,
+    "price": "$14"
+  },
+  {
+    "id": "397",
+    "trainNo": 6,
+    "trainName": "KoynaExpress",
+    "departureStationName": "pune",
+    "arrivalStationName": "SHIMOGA",
+    "arrivalTime": "51 pm",
+    "departureTime": "6 am",
+    "totalSeats": 430,
+    "departureDate": "2024-12-05T16:03:29.317",
+    "bookedSeats": 0,
+    "price": "$9"
+  },
+  {
+    "id": "396",
+    "trainNo": 5,
+    "trainName": "Pune",
+    "departureStationName": "pune",
+    "arrivalStationName": "SHIMOGA",
+    "arrivalTime": "51 pm",
+    "departureTime": "6 am",
+    "totalSeats": 430,
+    "departureDate": "2024-12-05T16:03:29.317",
+    "bookedSeats": 0,
+    "price": "$9"
+  },
+  {
+    "id": "395",
+    "trainNo": 4,
+    "trainName": "Stara",
+    "departureStationName": "pune",
+    "arrivalStationName": "SHIMOGA",
+    "arrivalTime": "51 pm",
+    "departureTime": "6 am",
+    "totalSeats": 430,
+    "departureDate": "2024-12-05T16:03:29.317",
+    "bookedSeats": 0,
+    "price": "$8"
+  },
+  {
+    "id": "394",
+    "trainNo": 3,
+    "trainName": "Rdhanagri",
+    "departureStationName": "pune",
+    "arrivalStationName": "SHIMOGA",
+    "arrivalTime": "51 pm",
+    "departureTime": "6 am",
+    "totalSeats": 430,
+    "departureDate": "2024-12-05T16:03:29.317",
+    "bookedSeats": 0,
+    "price": "$8"
+  },
+  {
+    "id": "392",
+    "trainNo": 0,
+    "trainName": "New Delhi - Shimoga",
+    "departureStationName": "pune",
+    "arrivalStationName": "SHIMOGA",
+    "arrivalTime": "11 pm",
+    "departureTime": "5 am",
+    "totalSeats": 430,
+    "departureDate": "2024-12-05T16:03:26.317",
+    "bookedSeats": 0,
+    "price": "$10"
+  },
+  {
+    "id": "391",
+    "trainNo": 0,
+    "trainName": "New Delhi - Solapur",
+    "departureStationName": "pune",
+    "arrivalStationName": "HUBLI",
+    "arrivalTime": "11 pm",
+    "departureTime": "5 am",
+    "totalSeats": 430,
+    "departureDate": "2024-12-05T16:03:26.317",
+    "bookedSeats": 0,
+    "price": "$10"
+  },
+     {
+    "id": "390",
+    "trainNo": 0,
+    "trainName": "New Delhi - Solapur",
+    "departureStationName": "pune",
+    "arrivalStationName": "banglore",
+    "arrivalTime": "11 pm",
+    "departureTime": "5 am",
+    "totalSeats": 430,
+    "departureDate": "2024-12-05T16:03:26.317",
+    "bookedSeats": 0,
+    "price": "$13"
+  },
+  {
+    "id": "389",
+    "trainNo": 17,
+    "trainName": "emo12 exoress",
+    "departureStationName": "SHIMOGA",
+    "arrivalStationName": "HUBLI",
+    "arrivalTime": "7pm",
+    "departureTime": "1am",
+    "totalSeats": 76,
+    "departureDate": "2024-12-01T02:23:31.057",
+    "bookedSeats": 0,
+    "price": "$8"
+  },
+  {
+    "id": "388",
+    "trainNo": 177,
+    "trainName": "emo1222 exoress",
+    "departureStationName": "SHIMOGA",
+    "arrivalStationName": "HUBLI",
+    "arrivalTime": "7pm",
+    "departureTime": "12am",
+    "totalSeats": 76,
+    "departureDate": "2024-12-01T02:23:31.057",
+    "bookedSeats": 0,
+    "price": "$7"
+  },
+  {
+    "id": "387",
+    "trainNo": 15777,
+    "trainName": "emo exoress",
+    "departureStationName": "SHIMOGA",
+    "arrivalStationName": "HUBLI",
+    "arrivalTime": "7pm",
+    "departureTime": "11am",
+    "totalSeats": 78,
+    "departureDate": "2024-12-01T02:23:31.057",
+    "bookedSeats": 0,
+    "price": "$9"
+  },
+  {
+    "id": "386",
+    "trainNo": 15354,
+    "trainName": "Dakshin express",
+    "departureStationName": "pune",
+    "arrivalStationName": "banglore",
+    "arrivalTime": "7pm",
+    "departureTime": "11am",
+    "totalSeats": 78,
+    "departureDate": "2024-12-01T02:23:31.057",
+    "bookedSeats": 15,
+    "price": "$14"
+  },
+  {
+    "id": "385",
+    "trainNo": 13222,
+    "trainName": "NewDelhi-Solapur",
+    "departureStationName": "pune",
+    "arrivalStationName": "banglore",
+    "arrivalTime": "11 am",
+    "departureTime": "5pm",
+    "totalSeats": 21,
+    "departureDate": "2024-12-01T02:23:31.057",
+    "bookedSeats": 3,
+    "price": "$11"
+  },
+  {
+    "id": "384",
+    "trainNo": 12154,
+    "trainName": "Dakshin-Exp",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "13 AM",
+    "departureTime": "5 PM",
+    "totalSeats": 200,
+    "departureDate": "2024-11-29T12:25:51.63",
+    "bookedSeats": 0,
+    "price": "$10"
+  },
     {
-      "trainId": 468,
-      "trainNo": 12356,
-      "trainName": "Delhi-Vande",
-      "departureStationName": "banglore",
-      "arrivalStationName": "Gwalior",
-      "arrivalTime": "03:05",
-      "departureTime": "04:05",
-      "totalSeats": 464,
-      "departureDate": "2025-03-20T00:00:00",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 467,
-      "trainNo": 12314,
-      "trainName": "SHIMOGA-string d asas",
-      "departureStationName": "pune",
-      "arrivalStationName": "banglore",
-      "arrivalTime": "7 PM",
-      "departureTime": "11 AM",
-      "totalSeats": 200,
-      "departureDate": "2025-01-02T15:36:33.52",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 466,
-      "trainNo": 12123,
-      "trainName": "Solapur-New-Delhi",
-      "departureStationName": "pune",
-      "arrivalStationName": "banglore",
-      "arrivalTime": "11 AM",
-      "departureTime": "5 PM",
-      "totalSeats": 300,
-      "departureDate": "2025-01-02T15:36:33.52",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 465,
-      "trainNo": 12332,
-      "trainName": "Dakshin Exp",
-      "departureStationName": "banglore",
-      "arrivalStationName": "Kolkata",
-      "arrivalTime": "7 pm",
-      "departureTime": "11 am",
-      "totalSeats": 200,
-      "departureDate": "2025-03-10T15:25:37.84",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 464,
-      "trainNo": 3123,
-      "trainName": "New Delhi-Kolkata",
-      "departureStationName": "banglore",
-      "arrivalStationName": "Kolkata",
-      "arrivalTime": "12 am",
-      "departureTime": "6 pm",
-      "totalSeats": 300,
-      "departureDate": "2025-03-10T15:25:37.84",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 463,
-      "trainNo": 123,
-      "trainName": "TEst",
-      "departureStationName": "pune",
-      "arrivalStationName": "banglore",
-      "arrivalTime": "11:21",
-      "departureTime": "04:20",
-      "totalSeats": 126,
-      "departureDate": "2025-03-27T00:00:00",
-      "bookedSeats": 4
-    },
-    {
-      "trainId": 454,
-      "trainNo": 12133233,
-      "trainName": "Dakshin Express",
-      "departureStationName": "banglore",
-      "arrivalStationName": "pune",
-      "arrivalTime": "7 pm",
-      "departureTime": "11 am",
-      "totalSeats": 200,
-      "departureDate": "2025-03-03T16:16:51",
-      "bookedSeats": 1
-    },
-    {
-      "trainId": 451,
-      "trainNo": 12154,
-      "trainName": "Dakshin Exp",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "7 pm",
-      "departureTime": "11 Am",
-      "totalSeats": 200,
-      "departureDate": "2025-03-02T11:56:13.563",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 446,
-      "trainNo": 21514,
-      "trainName": "dakshin-exp",
-      "departureStationName": "banglore",
-      "arrivalStationName": "pune",
-      "arrivalTime": "11 AM",
-      "departureTime": "11pm",
-      "totalSeats": 200,
-      "departureDate": "2024-07-05T06:09:48.65",
-      "bookedSeats": 5
-    },
-    {
-      "trainId": 445,
-      "trainNo": 21456,
-      "trainName": "new-delhi-exprees",
-      "departureStationName": "banglore",
-      "arrivalStationName": "pune",
-      "arrivalTime": "11 PM",
-      "departureTime": "7 pm",
-      "totalSeats": 300,
-      "departureDate": "2024-07-05T06:09:48.65",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 443,
-      "trainNo": 12314,
-      "trainName": "tejas-Express",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "7PM",
-      "departureTime": "11AM",
-      "totalSeats": 200,
-      "departureDate": "2025-02-05T07:36:13.477",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 438,
-      "trainNo": 12223,
-      "trainName": "Rajdhani-Express",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": " 10 am",
-      "departureTime": "9 pm",
-      "totalSeats": 500,
-      "departureDate": "2025-01-25T08:05:42.327",
-      "bookedSeats": 2
-    },
-    {
-      "trainId": 437,
-      "trainNo": 12213,
-      "trainName": "New-Delhi-Solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": " 11 am",
-      "departureTime": "5 pm",
-      "totalSeats": 500,
-      "departureDate": "2025-01-25T08:05:42.327",
-      "bookedSeats": 3
-    },
-    {
-      "trainId": 436,
-      "trainNo": 12678,
-      "trainName": "Dkshin Express",
-      "departureStationName": "banglore",
-      "arrivalStationName": "pune",
-      "arrivalTime": "7 AM",
-      "departureTime": "11 PM",
-      "totalSeats": 17,
-      "departureDate": "2025-01-22T19:44:26.727",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 435,
-      "trainNo": 12345,
-      "trainName": "NewDelhi-solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "pune",
-      "arrivalTime": "11 AM",
-      "departureTime": "5 PM",
-      "totalSeats": 100,
-      "departureDate": "2025-01-22T19:44:26.727",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 433,
-      "trainNo": 124568,
-      "trainName": "Dakshin express",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "5 pm",
-      "departureTime": "11 pm",
-      "totalSeats": 200,
-      "departureDate": "2025-01-17T06:08:18.21",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 432,
-      "trainNo": 124567,
-      "trainName": "New delhi-solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11 pm",
-      "departureTime": "5 pm",
-      "totalSeats": 300,
-      "departureDate": "2025-01-17T06:08:18.21",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 431,
-      "trainNo": 12154,
-      "trainName": "Dakshin Exp",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "7pm",
-      "departureTime": "11Am",
-      "totalSeats": 200,
-      "departureDate": "2025-07-05T11:33:01.453",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 424,
-      "trainNo": 11224,
-      "trainName": "Dakshin Exp",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "7 AM",
-      "departureTime": "11 pm",
-      "totalSeats": 300,
-      "departureDate": "2025-01-06T15:39:45.56",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 422,
-      "trainNo": 12265,
-      "trainName": "Dakshin-Express",
-      "departureStationName": "banglore",
-      "arrivalStationName": "pune",
-      "arrivalTime": "5am",
-      "departureTime": "10pm",
-      "totalSeats": 200,
-      "departureDate": "2025-01-03T15:23:24.737",
-      "bookedSeats": 1
-    },
-    {
-      "trainId": 421,
-      "trainNo": 12266,
-      "trainName": "New-Delhi-Solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "pune",
-      "arrivalTime": "11am",
-      "departureTime": "5pm",
-      "totalSeats": 200,
-      "departureDate": "2025-01-03T15:23:24.737",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 420,
-      "trainNo": 12298,
-      "trainName": "New-Delhi-Solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "pune",
-      "arrivalTime": "11am",
-      "departureTime": "7pm",
-      "totalSeats": 200,
-      "departureDate": "2025-01-02T06:05:12.57",
-      "bookedSeats": 1
-    },
-    {
-      "trainId": 419,
-      "trainNo": 12245,
-      "trainName": "Dakshin-Express",
-      "departureStationName": "banglore",
-      "arrivalStationName": "pune",
-      "arrivalTime": "7pm",
-      "departureTime": "11am",
-      "totalSeats": 200,
-      "departureDate": "2025-01-02T06:05:12.57",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 418,
-      "trainNo": 12245,
-      "trainName": "Dakshin-Express",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "7pm",
-      "departureTime": "11am",
-      "totalSeats": 200,
-      "departureDate": "2025-01-02T06:05:12.57",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 417,
-      "trainNo": 12285,
-      "trainName": "New-Delhi-Solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11am",
-      "departureTime": "5pm",
-      "totalSeats": 306,
-      "departureDate": "2025-01-02T06:05:12.57",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 415,
-      "trainNo": 12233,
-      "trainName": "New-Delhi-solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11am",
-      "departureTime": "5pm",
-      "totalSeats": 306,
-      "departureDate": "2024-07-05T06:24:30.58",
-      "bookedSeats": 7
-    },
-    {
-      "trainId": 414,
-      "trainNo": 12123,
-      "trainName": "New-Delhi-Solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "pune",
-      "arrivalTime": "11 am",
-      "departureTime": "5 pm",
-      "totalSeats": 306,
-      "departureDate": "2024-12-17T03:23:06.453",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 413,
-      "trainNo": 12123,
-      "trainName": "New-Delhi-Solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11 am",
-      "departureTime": "5 pm",
-      "totalSeats": 306,
-      "departureDate": "2024-12-17T03:23:06.453",
-      "bookedSeats": 1
-    },
-    {
-      "trainId": 411,
-      "trainNo": 777777,
-      "trainName": "Rajdhani Expess",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11am",
-      "departureTime": "5 pm",
-      "totalSeats": 300,
-      "departureDate": "2024-07-05T14:28:13.043",
-      "bookedSeats": 5
-    },
-    {
-      "trainId": 408,
-      "trainNo": 89079,
-      "trainName": "Hyd to Bng",
-      "departureStationName": "string d asas",
-      "arrivalStationName": "banglore",
-      "arrivalTime": "5 am",
-      "departureTime": "11 pm",
-      "totalSeats": 300,
-      "departureDate": "2024-12-08T01:44:45.397",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 407,
-      "trainNo": 89078,
-      "trainName": "Bng to Hyd",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11 am",
-      "departureTime": "5 pm",
-      "totalSeats": 450,
-      "departureDate": "2024-12-08T01:44:45.397",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 406,
-      "trainNo": 1543,
-      "trainName": "Dakshin Express",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "7 PM",
-      "departureTime": "11 AM",
-      "totalSeats": 250,
-      "departureDate": "2024-12-07T05:23:05.81",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 405,
-      "trainNo": 11123,
-      "trainName": "New Delhi-Solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11 AM",
-      "departureTime": "5 PM",
-      "totalSeats": 300,
-      "departureDate": "2024-12-07T05:23:05.81",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 403,
-      "trainNo": 5488,
-      "trainName": "coexpress",
-      "departureStationName": "HUBLI",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "9pm",
-      "departureTime": "7am",
-      "totalSeats": 34,
-      "departureDate": "2024-12-04T08:37:32.197",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 402,
-      "trainNo": 54,
-      "trainName": "coexpress",
-      "departureStationName": "HUBLI",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "9pm",
-      "departureTime": "1am",
-      "totalSeats": 34,
-      "departureDate": "2024-12-04T08:37:32.197",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 401,
-      "trainNo": 5454,
-      "trainName": "comeexpress",
-      "departureStationName": "SHIMOGA",
-      "arrivalStationName": "HUBLI",
-      "arrivalTime": "9pm",
-      "departureTime": "1am",
-      "totalSeats": 34,
-      "departureDate": "2024-12-03T08:37:32.197",
-      "bookedSeats": 2
-    },
-    {
-      "trainId": 400,
-      "trainNo": 43353,
-      "trainName": "comeexpress",
-      "departureStationName": "SHIMOGA",
-      "arrivalStationName": "HUBLI",
-      "arrivalTime": "9pm",
-      "departureTime": "11am",
-      "totalSeats": 34,
-      "departureDate": "2024-12-03T08:37:32.197",
-      "bookedSeats": 2
-    },
-    {
-      "trainId": 399,
-      "trainNo": 54751,
-      "trainName": "krishan Express",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "7 pm",
-      "departureTime": "11 am",
-      "totalSeats": 500,
-      "departureDate": "2024-12-05T04:53:33.803",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 398,
-      "trainNo": 43551,
-      "trainName": "Delta Express",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11 am",
-      "departureTime": "5 pm",
-      "totalSeats": 500,
-      "departureDate": "2024-12-05T04:53:33.803",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 397,
-      "trainNo": 6,
-      "trainName": "KoynaExpress",
-      "departureStationName": "pune",
-      "arrivalStationName": "SHIMOGA",
-      "arrivalTime": "51 pm",
-      "departureTime": "6 am",
-      "totalSeats": 430,
-      "departureDate": "2024-12-05T16:03:29.317",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 396,
-      "trainNo": 5,
-      "trainName": "Pune",
-      "departureStationName": "pune",
-      "arrivalStationName": "SHIMOGA",
-      "arrivalTime": "51 pm",
-      "departureTime": "6 am",
-      "totalSeats": 430,
-      "departureDate": "2024-12-05T16:03:29.317",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 395,
-      "trainNo": 4,
-      "trainName": "Stara",
-      "departureStationName": "pune",
-      "arrivalStationName": "SHIMOGA",
-      "arrivalTime": "51 pm",
-      "departureTime": "6 am",
-      "totalSeats": 430,
-      "departureDate": "2024-12-05T16:03:29.317",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 394,
-      "trainNo": 3,
-      "trainName": "Rdhanagri",
-      "departureStationName": "pune",
-      "arrivalStationName": "SHIMOGA",
-      "arrivalTime": "51 pm",
-      "departureTime": "6 am",
-      "totalSeats": 430,
-      "departureDate": "2024-12-05T16:03:29.317",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 392,
-      "trainNo": 0,
-      "trainName": "New Delhi - Shimoga",
-      "departureStationName": "pune",
-      "arrivalStationName": "SHIMOGA",
-      "arrivalTime": "11 pm",
-      "departureTime": "5 am",
-      "totalSeats": 430,
-      "departureDate": "2024-12-05T16:03:26.317",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 391,
-      "trainNo": 0,
-      "trainName": "New Delhi - Solapur",
-      "departureStationName": "pune",
-      "arrivalStationName": "HUBLI",
-      "arrivalTime": "11 pm",
-      "departureTime": "5 am",
-      "totalSeats": 430,
-      "departureDate": "2024-12-05T16:03:26.317",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 390,
-      "trainNo": 0,
-      "trainName": "New Delhi - Solapur",
-      "departureStationName": "pune",
-      "arrivalStationName": "banglore",
-      "arrivalTime": "11 pm",
-      "departureTime": "5 am",
-      "totalSeats": 430,
-      "departureDate": "2024-12-05T16:03:26.317",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 389,
-      "trainNo": 17,
-      "trainName": "emo12 exoress",
-      "departureStationName": "SHIMOGA",
-      "arrivalStationName": "HUBLI",
-      "arrivalTime": "7pm",
-      "departureTime": "1am",
-      "totalSeats": 76,
-      "departureDate": "2024-12-01T02:23:31.057",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 388,
-      "trainNo": 177,
-      "trainName": "emo1222 exoress",
-      "departureStationName": "SHIMOGA",
-      "arrivalStationName": "HUBLI",
-      "arrivalTime": "7pm",
-      "departureTime": "12am",
-      "totalSeats": 76,
-      "departureDate": "2024-12-01T02:23:31.057",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 387,
-      "trainNo": 15777,
-      "trainName": "emo exoress",
-      "departureStationName": "SHIMOGA",
-      "arrivalStationName": "HUBLI",
-      "arrivalTime": "7pm",
-      "departureTime": "11am",
-      "totalSeats": 78,
-      "departureDate": "2024-12-01T02:23:31.057",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 386,
-      "trainNo": 15354,
-      "trainName": "Dakshin express",
-      "departureStationName": "pune",
-      "arrivalStationName": "banglore",
-      "arrivalTime": "7pm",
-      "departureTime": "11am",
-      "totalSeats": 78,
-      "departureDate": "2024-12-01T02:23:31.057",
-      "bookedSeats": 15
-    },
-    {
-      "trainId": 385,
-      "trainNo": 13222,
-      "trainName": "NewDelhi-Solapur",
-      "departureStationName": "pune",
-      "arrivalStationName": "banglore",
-      "arrivalTime": "11 am",
-      "departureTime": "5pm",
-      "totalSeats": 21,
-      "departureDate": "2024-12-01T02:23:31.057",
-      "bookedSeats": 3
-    },
-    {
-      "trainId": 384,
-      "trainNo": 12154,
-      "trainName": "Dakshin-Exp",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "13 AM",
-      "departureTime": "5 PM",
-      "totalSeats": 200,
-      "departureDate": "2024-11-29T12:25:51.63",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 383,
+      "id": "383",
       "trainNo": 12123,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -1102,10 +1177,11 @@
       "departureTime": "5 PM",
       "totalSeats": 300,
       "departureDate": "2024-11-29T12:25:51.63",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price": "$11"
     },
     {
-      "trainId": 380,
+      "id": "380",
       "trainNo": 0,
       "trainName": "string",
       "departureStationName": "banglore",
@@ -1114,10 +1190,11 @@
       "departureTime": "11pm",
       "totalSeats": 0,
       "departureDate": "2024-11-20T10:19:59.623",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price": "$11"
     },
     {
-      "trainId": 379,
+      "id": "379",
       "trainNo": 0,
       "trainName": "New Delhi-Mumbai",
       "departureStationName": "banglore",
@@ -1126,10 +1203,11 @@
       "departureTime": "2pm",
       "totalSeats": 10,
       "departureDate": "2024-11-08T07:53:04.16",
-      "bookedSeats": 3
+      "bookedSeats": 3,
+      "price": "$11"
     },
     {
-      "trainId": 378,
+      "id": "378",
       "trainNo": 12184,
       "trainName": "new exp",
       "departureStationName": "banglore",
@@ -1138,10 +1216,11 @@
       "departureTime": "11 pm",
       "totalSeats": 200,
       "departureDate": "2024-11-09T00:00:00",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price": "$11"
     },
     {
-      "trainId": 377,
+      "id": "377",
       "trainNo": 12164,
       "trainName": "fast exp",
       "departureStationName": "banglore",
@@ -1150,10 +1229,11 @@
       "departureTime": "12 pm",
       "totalSeats": 400,
       "departureDate": "2024-11-09T00:00:00",
-      "bookedSeats": 1
+      "bookedSeats": 1,
+      "price": "$11"
     },
     {
-      "trainId": 375,
+      "id": "375",
       "trainNo": 12123,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -1162,10 +1242,11 @@
       "departureTime": "5 pm",
       "totalSeats": 300,
       "departureDate": "2024-11-09T10:55:22.693",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price": "$15"
     },
     {
-      "trainId": 373,
+      "id": "373",
       "trainNo": 0,
       "trainName": "string",
       "departureStationName": "pune",
@@ -1174,10 +1255,11 @@
       "departureTime": "string",
       "totalSeats": 0,
       "departureDate": "2024-01-01T13:30:13.19",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price": "$11"
     },
     {
-      "trainId": 372,
+      "id": "372",
       "trainNo": 12154,
       "trainName": "Dakshin Exp",
       "departureStationName": "banglore",
@@ -1186,10 +1268,11 @@
       "departureTime": "11 AM",
       "totalSeats": 200,
       "departureDate": "2024-11-08T06:31:15.4",
-      "bookedSeats": 2
+      "bookedSeats": 2,
+      "price": "$11"
     },
     {
-      "trainId": 371,
+      "id":" 371",
       "trainNo": 12123,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -1198,10 +1281,11 @@
       "departureTime": "5 pm",
       "totalSeats": 300,
       "departureDate": "2024-11-08T06:31:15.4",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price": "$11"
     },
     {
-      "trainId": 369,
+      "id": "369",
       "trainNo": 455455,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -1210,10 +1294,11 @@
       "departureTime": "5 pm",
       "totalSeats": 300,
       "departureDate": "2024-06-05T08:53:59.7",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price": "$11"
     },
     {
-      "trainId": 368,
+      "id": "368",
       "trainNo": 555555,
       "trainName": "Dakshir fast",
       "departureStationName": "banglore",
@@ -1222,10 +1307,11 @@
       "departureTime": "3 pm",
       "totalSeats": 200,
       "departureDate": "2024-06-05T08:53:59.7",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price": "$15"
     },
     {
-      "trainId": 367,
+      "id": "367",
       "trainNo": 555555,
       "trainName": "Dakshir fast",
       "departureStationName": "banglore",
@@ -1234,10 +1320,11 @@
       "departureTime": "3 pm",
       "totalSeats": 200,
       "departureDate": "2024-07-05T08:53:59.7",
-      "bookedSeats": 9
+      "bookedSeats": 9,
+      "price": "$18"
     },
     {
-      "trainId": 366,
+      "id": "366",
       "trainNo": 455455,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -1246,10 +1333,11 @@
       "departureTime": "5 pm",
       "totalSeats": 300,
       "departureDate": "2024-07-05T08:53:59.7",
-      "bookedSeats": 4
+      "bookedSeats": 4,
+      "price": "$11"
     },
     {
-      "trainId": 365,
+      "id": "365",
       "trainNo": 12167,
       "trainName": "test 2",
       "departureStationName": "banglore",
@@ -1258,10 +1346,11 @@
       "departureTime": "11 am",
       "totalSeats": 100,
       "departureDate": "2024-10-26T10:06:57.043",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price": "$19"
     },
     {
-      "trainId": 364,
+      "id": "364",
       "trainNo": 1212567,
       "trainName": "test",
       "departureStationName": "banglore",
@@ -1270,10 +1359,11 @@
       "departureTime": "10 am",
       "totalSeats": 100,
       "departureDate": "2024-10-26T10:06:57.043",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price": "$13"
     },
     {
-      "trainId": 363,
+      "id": "363",
       "trainNo": 123123,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -1282,10 +1372,11 @@
       "departureTime": "5 pm",
       "totalSeats": 300,
       "departureDate": "2024-07-05T07:57:51.603",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price": "$11"
     },
     {
-      "trainId": 361,
+      "id": "361",
       "trainNo": 242,
       "trainName": "dakshin express",
       "departureStationName": "HUBLI",
@@ -1294,622 +1385,644 @@
       "departureTime": "9pm",
       "totalSeats": 306,
       "departureDate": "2024-10-25T10:56:07.197",
-      "bookedSeats": 0
+      "bookedSeats": 0,
+      "price": "$11"
     },
     {
-      "trainId": 360,
-      "trainNo": 2343,
-      "trainName": "trainn",
-      "departureStationName": "HUBLI",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11Am",
-      "departureTime": "5pm",
-      "totalSeats": 306,
-      "departureDate": "2024-10-25T10:56:07.197",
-      "bookedSeats": 0
-    },
+    "id": "360",
+    "trainNo": 2343,
+    "trainName": "trainn",
+    "departureStationName": "HUBLI",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11Am",
+    "departureTime": "5pm",
+    "totalSeats": 306,
+    "departureDate": "2024-10-25T10:56:07.197",
+    "bookedSeats": 0,
+    "price": "$14"
+  },
+  {
+    "id": "359",
+    "trainNo": 111,
+    "trainName": "amir",
+    "departureStationName": "pune",
+    "arrivalStationName": "banglore",
+    "arrivalTime": "11:30 pm",
+    "departureTime": "11 am",
+    "totalSeats": 200,
+    "departureDate": "2024-05-05T22:19:54.863",
+    "bookedSeats": 0,
+    "price": "$12"
+  },
+  {
+    "id": "358",
+    "trainNo": 1234,
+    "trainName": "mumbai to delhi",
+    "departureStationName": "pune",
+    "arrivalStationName": "banglore",
+    "arrivalTime": "11am",
+    "departureTime": "3pm",
+    "totalSeats": 900,
+    "departureDate": "2024-10-24T03:37:20.443",
+    "bookedSeats": 6,
+    "price": "$20"
+  },
+  {
+    "id": "357",
+    "trainNo": 22345,
+    "trainName": "TVC Rajdhani Express",
+    "departureStationName": "banglore",
+    "arrivalStationName": "Thiruvananthapuram Central",
+    "arrivalTime": "19:40 AM",
+    "departureTime": "01:45 AM",
+    "totalSeats": 400,
+    "departureDate": "2024-10-30T11:46:10.023",
+    "bookedSeats": 3,
+    "price": "$25"
+  },
+  {
+    "id": "356",
+    "trainNo": 16345,
+    "trainName": "Netravati Express",
+    "departureStationName": "pune",
+    "arrivalStationName": "Thiruvananthapuram Central",
+    "arrivalTime": "09:40 AM",
+    "departureTime": "11:45 AM",
+    "totalSeats": 400,
+    "departureDate": "2024-10-30T11:46:10.023",
+    "bookedSeats": 11,
+    "price": "$18"
+  },
+  {
+    "id": "355",
+    "trainNo": 12953,
+    "trainName": "Tejas Rajdhani Express",
+    "departureStationName": "pune",
+    "arrivalStationName": "banglore",
+    "arrivalTime": "09:40 AM",
+    "departureTime": "17:15 PM",
+    "totalSeats": 300,
+    "departureDate": "2024-10-30T11:46:10.023",
+    "bookedSeats": 0,
+    "price": "$22"
+  },
+  {
+    "id": "354",
+    "trainNo": 12133,
+    "trainName": "Mumbai Express",
+    "departureStationName": "pune",
+    "arrivalStationName": "Mangalore Central",
+    "arrivalTime": "15:40 PM",
+    "departureTime": "10:15 AM",
+    "totalSeats": 350,
+    "departureDate": "2024-10-30T11:46:10.023",
+    "bookedSeats": 0,
+    "price": "$16"
+  },
+  {
+    "id": "353",
+    "trainNo": 12619,
+    "trainName": "Mastyagandha Express",
+    "departureStationName": "pune",
+    "arrivalStationName": "Mangalore Central",
+    "arrivalTime": "10:20 AM",
+    "departureTime": "16:45 PM",
+    "totalSeats": 350,
+    "departureDate": "2024-10-30T11:46:10.023",
+    "bookedSeats": 4,
+    "price": "$13"
+  },
+  {
+    "id": "352",
+    "trainNo": 11013,
+    "trainName": "coimbatore Express",
+    "departureStationName": "CSMT",
+    "arrivalStationName": "Coimbatore Junction",
+    "arrivalTime": "7:00 PM",
+    "departureTime": "23:00 AM",
+    "totalSeats": 350,
+    "departureDate": "2024-10-25T11:46:10.023",
+    "bookedSeats": 4,
+    "price": "$17"
+  },
+  {
+    "id": "351",
+    "trainNo": 11301,
+    "trainName": "Udyan Express",
+    "departureStationName": "CSMT",
+    "arrivalStationName": "banglore",
+    "arrivalTime": "6:00 AM",
+    "departureTime": "8:00 AM",
+    "totalSeats": 450,
+    "departureDate": "2024-10-25T11:46:10.023",
+    "bookedSeats": 0,
+    "price": "$15"
+  },
+  {
+    "id": "350",
+    "trainNo": 789,
+    "trainName": "shimoga-hubly",
+    "departureStationName": "SHIMOGA",
+    "arrivalStationName": "HUBLI",
+    "arrivalTime": "9pm",
+    "departureTime": "4am",
+    "totalSeats": 900,
+    "departureDate": "2024-10-22T03:25:50.677",
+    "bookedSeats": 0,
+    "price": "$10"
+  },
+      {
+    "id": "349",
+    "trainNo": 123456,
+    "trainName": "SHIMOGA -HUBLI",
+    "departureStationName": "SHIMOGA",
+    "arrivalStationName": "HUBLI",
+    "arrivalTime": "11pm",
+    "departureTime": "5am",
+    "totalSeats": 200,
+    "departureDate": "2024-10-25T02:39:41.61",
+    "bookedSeats": 2,
+    "price": "$13"
+  },
+  {
+    "id": "348",
+    "trainNo": 7878,
+    "trainName": "shimoga-hubli",
+    "departureStationName": "HUBLI",
+    "arrivalStationName": "SHIMOGA",
+    "arrivalTime": "11pm",
+    "departureTime": "5am",
+    "totalSeats": 200,
+    "departureDate": "2024-10-22T02:23:00.36",
+    "bookedSeats": 0,
+    "price": "$11"
+  },
+  {
+    "id": "347",
+    "trainNo": 2345,
+    "trainName": "ned-shi",
+    "departureStationName": "SHIMOGA",
+    "arrivalStationName": "banglore",
+    "arrivalTime": "11am",
+    "departureTime": "5pm",
+    "totalSeats": 900,
+    "departureDate": "2024-10-05T16:22:39.593",
+    "bookedSeats": 0,
+    "price": "$18"
+  },
+  {
+    "id": "346",
+    "trainNo": 1234,
+    "trainName": "mumbai-newdelhi",
+    "departureStationName": "banglore",
+    "arrivalStationName": "pune",
+    "arrivalTime": "11aam",
+    "departureTime": "5pm",
+    "totalSeats": 900,
+    "departureDate": "2024-10-20T15:58:28.64",
+    "bookedSeats": 0,
+    "price": "$20"
+  },
+  {
+    "id": "345",
+    "trainNo": 1234,
+    "trainName": "mumbai-newdelhi",
+    "departureStationName": "banglore",
+    "arrivalStationName": "pune",
+    "arrivalTime": "11aam",
+    "departureTime": "5pm",
+    "totalSeats": 900,
+    "departureDate": "2024-10-21T15:58:28.64",
+    "bookedSeats": 0,
+    "price": "$17"
+  },
+  {
+    "id": "344",
+    "trainNo": 0,
+    "trainName": "Mumbai-Tirupathi",
+    "departureStationName": "Tirupathi",
+    "arrivalStationName": "pune",
+    "arrivalTime": "11 am",
+    "departureTime": "5 pm",
+    "totalSeats": 900,
+    "departureDate": "2024-10-20T15:40:34.317",
+    "bookedSeats": 0,
+    "price": "$15"
+  },
+  {
+    "id": "343",
+    "trainNo": 1234,
+    "trainName": "ranchi Junction to Solapur",
+    "departureStationName": "string d asas",
+    "arrivalStationName": "ranchi Junction",
+    "arrivalTime": "2024-10-04",
+    "departureTime": "2024-10-07",
+    "totalSeats": 900,
+    "departureDate": "2024-10-02T00:00:00",
+    "bookedSeats": 0,
+    "price": "$10"
+  },
+  {
+    "id": "342",
+    "trainNo": 123546,
+    "trainName": "Southern to solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11.00 AM",
+    "departureTime": "1.00 PM",
+    "totalSeats": 450,
+    "departureDate": "2024-10-15T02:22:44.167",
+    "bookedSeats": 0,
+    "price": "$14"
+  },
+  {
+    "id": "341",
+    "trainNo": 123456,
+    "trainName": "Newdelhi to solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11.00 AM",
+    "departureTime": "5.00 PM",
+    "totalSeats": 3450,
+    "departureDate": "2024-10-15T02:22:44.167",
+    "bookedSeats": 0,
+    "price": "$19"
+  },
+  {
+    "id": "340",
+    "trainNo": 12154,
+    "trainName": "Dakshin Exp ",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "7 pm ",
+    "departureTime": "11 am ",
+    "totalSeats": 300,
+    "departureDate": "2024-10-15T06:03:07.51",
+    "bookedSeats": 1,
+    "price": "$12"
+  },
+  {
+    "id": "339",
+    "trainNo": 12123,
+    "trainName": "New-Delhi-Solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11 am",
+    "departureTime": "5 pm",
+    "totalSeats": 300,
+    "departureDate": "2024-10-15T06:03:07.51",
+    "bookedSeats": 0
+  },
+  {
+    "id": "338",
+    "trainNo": 123413,
+    "trainName": "New-Delhi-Solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11AM",
+    "departureTime": "5pm",
+    "totalSeats": 300,
+    "departureDate": "2024-10-09T06:59:39.443",
+    "bookedSeats": 0
+  },
+  {
+    "id": "337",
+    "trainNo": 23674,
+    "trainName": "Solapur Express",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "12:00pm",
+    "departureTime": "7:00pm",
+    "totalSeats": 212,
+    "departureDate": "2024-10-12T03:56:00.22",
+    "bookedSeats": 0
+  },
+  {
+    "id": "336",
+    "trainNo": 34878,
+    "trainName": "Delhi to Solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11:00pm",
+    "departureTime": "5:00pm",
+    "totalSeats": 239,
+    "departureDate": "2024-10-12T03:56:00.22",
+    "bookedSeats": 0
+  },
+  {
+    "id": "332",
+    "trainNo": 12154,
+    "trainName": "Dakshin Exp",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "7am",
+    "departureTime": "6pm",
+    "totalSeats": 200,
+    "departureDate": "2024-10-09T11:28:44.567",
+    "bookedSeats": 0
+  },
+  {
+    "id": "331",
+    "trainNo": 12156,
+    "trainName": "Dakshin Exp",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "7 pm",
+    "departureTime": "11 pm",
+    "totalSeats": 200,
+    "departureDate": "2024-10-09T08:49:58.683",
+    "bookedSeats": 0
+  },
+      {
+    "id": "330",
+    "trainNo": 12123,
+    "trainName": "New Delhi-Solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11 pm",
+    "departureTime": "5 pm",
+    "totalSeats": 300,
+    "departureDate": "2024-10-09T08:49:58.683",
+    "bookedSeats": 0
+  },
+  {
+    "id": "329",
+    "trainNo": 12114,
+    "trainName": "Dakshin-Express",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "1 AM",
+    "departureTime": "2 pm",
+    "totalSeats": 150,
+    "departureDate": "2024-10-02T19:14:05.8",
+    "bookedSeats": 5
+  },
+  {
+    "id": "328",
+    "trainNo": 12115,
+    "trainName": "New-Delhi-Solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11 AM",
+    "departureTime": "5 pm",
+    "totalSeats": 200,
+    "departureDate": "2024-10-02T19:14:05.8",
+    "bookedSeats": 9
+  },
+  {
+    "id": "327",
+    "trainNo": 241001,
+    "trainName": "Vande Bharat Express",
+    "departureStationName": "banglore",
+    "arrivalStationName": "Kanpur Central",
+    "arrivalTime": "10:20 AM",
+    "departureTime": "5:10 AM",
+    "totalSeats": 300,
+    "departureDate": "2024-10-01T06:53:19.68",
+    "bookedSeats": 0
+  },
+  {
+    "id": "326",
+    "trainNo": 24930,
+    "trainName": "Elite Express",
+    "departureStationName": "Pune Junction",
+    "arrivalStationName": "Nagpur",
+    "arrivalTime": "4:20 AM",
+    "departureTime": "5:10 PM",
+    "totalSeats": 300,
+    "departureDate": "2024-09-30T06:53:19.68",
+    "bookedSeats": 0
+  },
+  {
+    "id": "325",
+    "trainNo": 20240930,
+    "trainName": "Pune-Nagpur Express",
+    "departureStationName": "Pune Junction",
+    "arrivalStationName": "Nagpur",
+    "arrivalTime": "9:35 AM",
+    "departureTime": "10:15 PM",
+    "totalSeats": 1200,
+    "departureDate": "2024-09-30T06:53:19.68",
+    "bookedSeats": 0
+  },
+  {
+    "id": "324",
+    "trainNo": 12607,
+    "trainName": "Chennai - Bangalore Express",
+    "departureStationName": "Chennai Central",
+    "arrivalStationName": "Bangalore City",
+    "arrivalTime": "21:35",
+    "departureTime": "15:30",
+    "totalSeats": 9000,
+    "departureDate": "2024-10-20T13:48:57.01",
+    "bookedSeats": 2
+  },
+  {
+    "id": "323",
+    "trainNo": 12609,
+    "trainName": "Chennai - Bangalore Express",
+    "departureStationName": "Chennai Central",
+    "arrivalStationName": "Bangalore City",
+    "arrivalTime": "19:55",
+    "departureTime": "13:35",
+    "totalSeats": 9000,
+    "departureDate": "2024-10-20T13:48:57.01",
+    "bookedSeats": 0
+  },
+  {
+    "id": "322",
+    "trainNo": 20664,
+    "trainName": "Chennai Bangalore Vande Bharat Express",
+    "departureStationName": "Chennai Central",
+    "arrivalStationName": "Bangalore City",
+    "arrivalTime": "22:30",
+    "departureTime": "17:00",
+    "totalSeats": 9000,
+    "departureDate": "2024-10-20T13:48:57.01",
+    "bookedSeats": 0
+  },
+  {
+    "id": "321",
+    "trainNo": 143,
+    "trainName": "Solapuri(del-sol)",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "20:00",
+    "departureTime": "02:00",
+    "totalSeats": 300,
+    "departureDate": "2024-09-20T18:12:43.79",
+    "bookedSeats": 0
+  },
+  {
+    "id": "320",
+    "trainNo": 123,
+    "trainName": "Rajdhani(del-sol)",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "23:00",
+    "departureTime": "05:00",
+    "totalSeats": 300,
+    "departureDate": "2024-09-20T18:12:43.79",
+    "bookedSeats": 0
+  },
+  {
+    "id": "319",
+    "trainNo": 1009,
+    "trainName": "chennai express",
+    "departureStationName": "Chennai Central",
+    "arrivalStationName": "Pune Junction",
+    "arrivalTime": "6am",
+    "departureTime": "8am",
+    "totalSeats": 300,
+    "departureDate": "2024-09-16T00:00:00",
+    "bookedSeats": 2
+  },
+  {
+    "id": "318",
+    "trainNo": 1004,
+    "trainName": "ranchi express",
+    "departureStationName": "BELGUAM",
+    "arrivalStationName": "ranchi Junction",
+    "arrivalTime": "9 pm",
+    "departureTime": "5 am",
+    "totalSeats": 500,
+    "departureDate": "2024-09-15T00:00:00",
+    "bookedSeats": 4
+  },
+  {
+    "id": "317",
+    "trainNo": 12356,
+    "trainName": "Jp",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11 PM",
+    "departureTime": "5 AM",
+    "totalSeats": 200,
+    "departureDate": "2024-09-14T10:05:27.443",
+    "bookedSeats": 0
+  },
     {
-      "trainId": 359,
-      "trainNo": 111,
-      "trainName": "amir",
-      "departureStationName": "pune",
-      "arrivalStationName": "banglore",
-      "arrivalTime": "11:30 pm",
-      "departureTime": "11 am",
-      "totalSeats": 200,
-      "departureDate": "2024-05-05T22:19:54.863",
-      "bookedSeats": 0
-    },
+    "id": "316",
+    "trainNo": 1235,
+    "trainName": "New-Delhi-solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "11 PM",
+    "departureTime": "5 PM",
+    "totalSeats": 300,
+    "departureDate": "2024-09-14T10:05:27.443",
+    "bookedSeats": 0
+  },
+  {
+    "id": "315",
+    "trainNo": 123,
+    "trainName": "Dakshin Exp",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "2.10 pm",
+    "departureTime": "7.50 AM",
+    "totalSeats": 400,
+    "departureDate": "2024-09-14T05:07:02.537",
+    "bookedSeats": 0
+  },
+  {
+    "id": "314",
+    "trainNo": 1234,
+    "trainName": "New-Delhi-Solapur",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "2.10 am",
+    "departureTime": "12.50 AM",
+    "totalSeats": 400,
+    "departureDate": "2024-09-14T05:07:02.537",
+    "bookedSeats": 0
+  },
+  {
+    "id": "312",
+    "trainNo": 1001,
+    "trainName": "mangalaexpress",
+    "departureStationName": "banglore",
+    "arrivalStationName": "Chennai Central",
+    "arrivalTime": "11am",
+    "departureTime": "12pm",
+    "totalSeats": 122,
+    "departureDate": "2024-09-13T00:00:00",
+    "bookedSeats": 0
+  },
+  {
+    "id": "311",
+    "trainNo": 1000,
+    "trainName": "CSMT",
+    "departureStationName": "HUBLI",
+    "arrivalStationName": "BELGUAM",
+    "arrivalTime": "4PM",
+    "departureTime": "10AM",
+    "totalSeats": 400,
+    "departureDate": "2024-09-12T00:00:00",
+    "bookedSeats": 1
+  },
+  {
+    "id": "310",
+    "trainNo": 54321,
+    "trainName": "Hind Exp",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "4:00 AM",
+    "departureTime": "3:00 PM",
+    "totalSeats": 0,
+    "departureDate": "2024-09-15T10:18:13.707",
+    "bookedSeats": 0
+  },
+  {
+    "id": "309",
+    "trainNo": 54321,
+    "trainName": "Hind Exp",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "4:00 AM",
+    "departureTime": "3:00 PM",
+    "totalSeats": 0,
+    "departureDate": "2024-09-11T10:18:13.707",
+    "bookedSeats": 0
+  },
+  {
+    "id": "308",
+    "trainNo": 97,
+    "trainName": "Bharat Exp",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "5:00 AM",
+    "departureTime": "8:00 PM",
+    "totalSeats": 200,
+    "departureDate": "2024-09-15T09:39:53.067",
+    "bookedSeats": 1
+  },
+  {
+    "id": "307",
+    "trainNo": 12345,
+    "trainName": "Delhi Exp",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "10:00 AM",
+    "departureTime": "6:00 PM",
+    "totalSeats": 300,
+    "departureDate": "2024-09-15T09:39:53.067",
+    "bookedSeats": 4
+  },
+  {
+    "id": "306",
+    "trainNo": 7,
+    "trainName": "Vande Bharat Exp",
+    "departureStationName": "banglore",
+    "arrivalStationName": "string d asas",
+    "arrivalTime": "5:00 AM",
+    "departureTime": "10:00 PM",
+    "totalSeats": 100,
+    "departureDate": "2024-09-15T09:39:53.067",
+    "bookedSeats": 0
+  },
     {
-      "trainId": 358,
-      "trainNo": 1234,
-      "trainName": "mumbai to delhi",
-      "departureStationName": "pune",
-      "arrivalStationName": "banglore",
-      "arrivalTime": "11am",
-      "departureTime": "3pm",
-      "totalSeats": 900,
-      "departureDate": "2024-10-24T03:37:20.443",
-      "bookedSeats": 6
-    },
-    {
-      "trainId": 357,
-      "trainNo": 22345,
-      "trainName": "TVC Rajdhani Express",
-      "departureStationName": "banglore",
-      "arrivalStationName": "Thiruvananthapuram Central",
-      "arrivalTime": "19:40 AM",
-      "departureTime": "01:45 AM",
-      "totalSeats": 400,
-      "departureDate": "2024-10-30T11:46:10.023",
-      "bookedSeats": 3
-    },
-    {
-      "trainId": 356,
-      "trainNo": 16345,
-      "trainName": "Netravati Express",
-      "departureStationName": "pune",
-      "arrivalStationName": "Thiruvananthapuram Central",
-      "arrivalTime": "09:40 AM",
-      "departureTime": "11:45 AM",
-      "totalSeats": 400,
-      "departureDate": "2024-10-30T11:46:10.023",
-      "bookedSeats": 11
-    },
-    {
-      "trainId": 355,
-      "trainNo": 12953,
-      "trainName": "Tejas Rajdhani Express",
-      "departureStationName": "pune",
-      "arrivalStationName": "banglore",
-      "arrivalTime": "09:40 AM",
-      "departureTime": "17:15 PM",
-      "totalSeats": 300,
-      "departureDate": "2024-10-30T11:46:10.023",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 354,
-      "trainNo": 12133,
-      "trainName": "Mumbai Express",
-      "departureStationName": "pune",
-      "arrivalStationName": "Mangalore Central",
-      "arrivalTime": "15:40 PM",
-      "departureTime": "10:15 AM",
-      "totalSeats": 350,
-      "departureDate": "2024-10-30T11:46:10.023",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 353,
-      "trainNo": 12619,
-      "trainName": "Mastyagandha Express",
-      "departureStationName": "pune",
-      "arrivalStationName": "Mangalore Central",
-      "arrivalTime": "10:20 AM",
-      "departureTime": "16:45 PM",
-      "totalSeats": 350,
-      "departureDate": "2024-10-30T11:46:10.023",
-      "bookedSeats": 4
-    },
-    {
-      "trainId": 352,
-      "trainNo": 11013,
-      "trainName": "coimbatore Express",
-      "departureStationName": "CSMT",
-      "arrivalStationName": "Coimbatore Junction",
-      "arrivalTime": "7:00 PM",
-      "departureTime": "23:00 AM",
-      "totalSeats": 350,
-      "departureDate": "2024-10-25T11:46:10.023",
-      "bookedSeats": 4
-    },
-    {
-      "trainId": 351,
-      "trainNo": 11301,
-      "trainName": "Udyan Express",
-      "departureStationName": "CSMT",
-      "arrivalStationName": "banglore",
-      "arrivalTime": "6:00 AM",
-      "departureTime": "8:00 AM",
-      "totalSeats": 450,
-      "departureDate": "2024-10-25T11:46:10.023",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 350,
-      "trainNo": 789,
-      "trainName": "shimoga-hubly",
-      "departureStationName": "SHIMOGA",
-      "arrivalStationName": "HUBLI",
-      "arrivalTime": "9pm",
-      "departureTime": "4am",
-      "totalSeats": 900,
-      "departureDate": "2024-10-22T03:25:50.677",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 349,
-      "trainNo": 123456,
-      "trainName": "SHIMOGA -HUBLI",
-      "departureStationName": "SHIMOGA",
-      "arrivalStationName": "HUBLI",
-      "arrivalTime": "11pm",
-      "departureTime": "5am",
-      "totalSeats": 200,
-      "departureDate": "2024-10-25T02:39:41.61",
-      "bookedSeats": 2
-    },
-    {
-      "trainId": 348,
-      "trainNo": 7878,
-      "trainName": "shimoga-hubli",
-      "departureStationName": "HUBLI",
-      "arrivalStationName": "SHIMOGA",
-      "arrivalTime": "11pm",
-      "departureTime": "5am",
-      "totalSeats": 200,
-      "departureDate": "2024-10-22T02:23:00.36",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 347,
-      "trainNo": 2345,
-      "trainName": "ned-shi",
-      "departureStationName": "SHIMOGA",
-      "arrivalStationName": "banglore",
-      "arrivalTime": "11am",
-      "departureTime": "5pm",
-      "totalSeats": 900,
-      "departureDate": "2024-10-05T16:22:39.593",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 346,
-      "trainNo": 1234,
-      "trainName": "mumbai-newdelhi",
-      "departureStationName": "banglore",
-      "arrivalStationName": "pune",
-      "arrivalTime": "11aam",
-      "departureTime": "5pm",
-      "totalSeats": 900,
-      "departureDate": "2024-10-20T15:58:28.64",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 345,
-      "trainNo": 1234,
-      "trainName": "mumbai-newdelhi",
-      "departureStationName": "banglore",
-      "arrivalStationName": "pune",
-      "arrivalTime": "11aam",
-      "departureTime": "5pm",
-      "totalSeats": 900,
-      "departureDate": "2024-10-21T15:58:28.64",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 344,
-      "trainNo": 0,
-      "trainName": "Mumbai-Tirupathi",
-      "departureStationName": "Tirupathi",
-      "arrivalStationName": "pune",
-      "arrivalTime": "11 am",
-      "departureTime": "5 pm",
-      "totalSeats": 900,
-      "departureDate": "2024-10-20T15:40:34.317",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 343,
-      "trainNo": 1234,
-      "trainName": "ranchi Junction to Solapur",
-      "departureStationName": "string d asas",
-      "arrivalStationName": "ranchi Junction",
-      "arrivalTime": "2024-10-04",
-      "departureTime": "2024-10-07",
-      "totalSeats": 900,
-      "departureDate": "2024-10-02T00:00:00",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 342,
-      "trainNo": 123546,
-      "trainName": "Southern to solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11.00 AM",
-      "departureTime": "1.00 PM",
-      "totalSeats": 450,
-      "departureDate": "2024-10-15T02:22:44.167",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 341,
-      "trainNo": 123456,
-      "trainName": "Newdelhi to solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11.00 AM",
-      "departureTime": "5.00 PM",
-      "totalSeats": 3450,
-      "departureDate": "2024-10-15T02:22:44.167",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 340,
-      "trainNo": 12154,
-      "trainName": "Dakshin Exp ",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "7 pm ",
-      "departureTime": "11 am ",
-      "totalSeats": 300,
-      "departureDate": "2024-10-15T06:03:07.51",
-      "bookedSeats": 1
-    },
-    {
-      "trainId": 339,
-      "trainNo": 12123,
-      "trainName": "New-Delhi-Solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11 am",
-      "departureTime": "5 pm",
-      "totalSeats": 300,
-      "departureDate": "2024-10-15T06:03:07.51",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 338,
-      "trainNo": 123413,
-      "trainName": "New-Delhi-Solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11AM",
-      "departureTime": "5pm",
-      "totalSeats": 300,
-      "departureDate": "2024-10-09T06:59:39.443",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 337,
-      "trainNo": 23674,
-      "trainName": "Solapur Express",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "12:00pm",
-      "departureTime": "7:00pm",
-      "totalSeats": 212,
-      "departureDate": "2024-10-12T03:56:00.22",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 336,
-      "trainNo": 34878,
-      "trainName": "Delhi to Solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11:00pm",
-      "departureTime": "5:00pm",
-      "totalSeats": 239,
-      "departureDate": "2024-10-12T03:56:00.22",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 332,
-      "trainNo": 12154,
-      "trainName": "Dakshin Exp",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "7am",
-      "departureTime": "6pm",
-      "totalSeats": 200,
-      "departureDate": "2024-10-09T11:28:44.567",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 331,
-      "trainNo": 12156,
-      "trainName": "Dakshin Exp",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "7 pm",
-      "departureTime": "11 pm",
-      "totalSeats": 200,
-      "departureDate": "2024-10-09T08:49:58.683",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 330,
-      "trainNo": 12123,
-      "trainName": "New Delhi-Solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11 pm",
-      "departureTime": "5 pm",
-      "totalSeats": 300,
-      "departureDate": "2024-10-09T08:49:58.683",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 329,
-      "trainNo": 12114,
-      "trainName": "Dakshin-Express",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "1 AM",
-      "departureTime": "2 pm",
-      "totalSeats": 150,
-      "departureDate": "2024-10-02T19:14:05.8",
-      "bookedSeats": 5
-    },
-    {
-      "trainId": 328,
-      "trainNo": 12115,
-      "trainName": "New-Delhi-Solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11 AM",
-      "departureTime": "5 pm",
-      "totalSeats": 200,
-      "departureDate": "2024-10-02T19:14:05.8",
-      "bookedSeats": 9
-    },
-    {
-      "trainId": 327,
-      "trainNo": 241001,
-      "trainName": "Vande Bharat Express",
-      "departureStationName": "banglore",
-      "arrivalStationName": "Kanpur Central",
-      "arrivalTime": "10:20 AM",
-      "departureTime": "5:10 AM",
-      "totalSeats": 300,
-      "departureDate": "2024-10-01T06:53:19.68",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 326,
-      "trainNo": 24930,
-      "trainName": "Elite Express",
-      "departureStationName": "Pune Junction",
-      "arrivalStationName": "Nagpur",
-      "arrivalTime": "4:20 AM",
-      "departureTime": "5:10 PM",
-      "totalSeats": 300,
-      "departureDate": "2024-09-30T06:53:19.68",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 325,
-      "trainNo": 20240930,
-      "trainName": "Pune-Nagpur Express",
-      "departureStationName": "Pune Junction",
-      "arrivalStationName": "Nagpur",
-      "arrivalTime": "9:35 AM",
-      "departureTime": "10:15 PM",
-      "totalSeats": 1200,
-      "departureDate": "2024-09-30T06:53:19.68",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 324,
-      "trainNo": 12607,
-      "trainName": "Chennai - Bangalore Express",
-      "departureStationName": "Chennai Central",
-      "arrivalStationName": "Bangalore City",
-      "arrivalTime": "21:35",
-      "departureTime": "15:30",
-      "totalSeats": 9000,
-      "departureDate": "2024-10-20T13:48:57.01",
-      "bookedSeats": 2
-    },
-    {
-      "trainId": 323,
-      "trainNo": 12609,
-      "trainName": "Chennai - Bangalore Express",
-      "departureStationName": "Chennai Central",
-      "arrivalStationName": "Bangalore City",
-      "arrivalTime": "19:55",
-      "departureTime": "13:35",
-      "totalSeats": 9000,
-      "departureDate": "2024-10-20T13:48:57.01",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 322,
-      "trainNo": 20664,
-      "trainName": "Chennai Bangalore Vande Bharat Express",
-      "departureStationName": "Chennai Central",
-      "arrivalStationName": "Bangalore City",
-      "arrivalTime": "22:30",
-      "departureTime": "17:00",
-      "totalSeats": 9000,
-      "departureDate": "2024-10-20T13:48:57.01",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 321,
-      "trainNo": 143,
-      "trainName": "Solapuri(del-sol)",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "20:00",
-      "departureTime": "02:00",
-      "totalSeats": 300,
-      "departureDate": "2024-09-20T18:12:43.79",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 320,
-      "trainNo": 123,
-      "trainName": "Rajdhani(del-sol)",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "23:00",
-      "departureTime": "05:00",
-      "totalSeats": 300,
-      "departureDate": "2024-09-20T18:12:43.79",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 319,
-      "trainNo": 1009,
-      "trainName": "chennai express",
-      "departureStationName": "Chennai Central",
-      "arrivalStationName": "Pune Junction",
-      "arrivalTime": "6am",
-      "departureTime": "8am",
-      "totalSeats": 300,
-      "departureDate": "2024-09-16T00:00:00",
-      "bookedSeats": 2
-    },
-    {
-      "trainId": 318,
-      "trainNo": 1004,
-      "trainName": "ranchi express",
-      "departureStationName": "BELGUAM",
-      "arrivalStationName": "ranchi Junction",
-      "arrivalTime": "9 pm",
-      "departureTime": "5 am",
-      "totalSeats": 500,
-      "departureDate": "2024-09-15T00:00:00",
-      "bookedSeats": 4
-    },
-    {
-      "trainId": 317,
-      "trainNo": 12356,
-      "trainName": "Jp",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11 PM",
-      "departureTime": "5 AM",
-      "totalSeats": 200,
-      "departureDate": "2024-09-14T10:05:27.443",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 316,
-      "trainNo": 1235,
-      "trainName": "New-Delhi-solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "11 PM",
-      "departureTime": "5 PM",
-      "totalSeats": 300,
-      "departureDate": "2024-09-14T10:05:27.443",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 315,
-      "trainNo": 123,
-      "trainName": "Dakshin Exp",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "2.10 pm",
-      "departureTime": "7.50 AM",
-      "totalSeats": 400,
-      "departureDate": "2024-09-14T05:07:02.537",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 314,
-      "trainNo": 1234,
-      "trainName": "New-Delhi-Solapur",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "2.10 am",
-      "departureTime": "12.50 AM",
-      "totalSeats": 400,
-      "departureDate": "2024-09-14T05:07:02.537",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 312,
-      "trainNo": 1001,
-      "trainName": "mangalaexpress",
-      "departureStationName": "banglore",
-      "arrivalStationName": "Chennai Central",
-      "arrivalTime": "11am",
-      "departureTime": "12pm",
-      "totalSeats": 122,
-      "departureDate": "2024-09-13T00:00:00",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 311,
-      "trainNo": 1000,
-      "trainName": "CSMT",
-      "departureStationName": "HUBLI",
-      "arrivalStationName": "BELGUAM",
-      "arrivalTime": "4PM",
-      "departureTime": "10AM",
-      "totalSeats": 400,
-      "departureDate": "2024-09-12T00:00:00",
-      "bookedSeats": 1
-    },
-    {
-      "trainId": 310,
-      "trainNo": 54321,
-      "trainName": "Hind Exp",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "4:00 AM",
-      "departureTime": "3:00 PM",
-      "totalSeats": 0,
-      "departureDate": "2024-09-15T10:18:13.707",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 309,
-      "trainNo": 54321,
-      "trainName": "Hind Exp",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "4:00 AM",
-      "departureTime": "3:00 PM",
-      "totalSeats": 0,
-      "departureDate": "2024-09-11T10:18:13.707",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 308,
-      "trainNo": 97,
-      "trainName": "Bharat Exp",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "5:00 AM",
-      "departureTime": "8:00 PM",
-      "totalSeats": 200,
-      "departureDate": "2024-09-15T09:39:53.067",
-      "bookedSeats": 1
-    },
-    {
-      "trainId": 307,
-      "trainNo": 12345,
-      "trainName": "Delhi Exp",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "10:00 AM",
-      "departureTime": "6:00 PM",
-      "totalSeats": 300,
-      "departureDate": "2024-09-15T09:39:53.067",
-      "bookedSeats": 4
-    },
-    {
-      "trainId": 306,
-      "trainNo": 7,
-      "trainName": "Vande Bharat Exp",
-      "departureStationName": "banglore",
-      "arrivalStationName": "string d asas",
-      "arrivalTime": "5:00 AM",
-      "departureTime": "10:00 PM",
-      "totalSeats": 100,
-      "departureDate": "2024-09-15T09:39:53.067",
-      "bookedSeats": 0
-    },
-    {
-      "trainId": 305,
+      "id": "305",
       "trainNo": 12154,
       "trainName": "Dakshin Exp",
       "departureStationName": "banglore",
@@ -1921,7 +2034,7 @@
       "bookedSeats": 7
     },
     {
-      "trainId": 304,
+      "id": "304",
       "trainNo": 12123,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -1933,7 +2046,7 @@
       "bookedSeats": 1
     },
     {
-      "trainId": 303,
+      "id": "303",
       "trainNo": 125643,
       "trainName": "Godha gaadi",
       "departureStationName": "banglore",
@@ -1945,7 +2058,7 @@
       "bookedSeats": 1
     },
     {
-      "trainId": 302,
+      "id": "302",
       "trainNo": 122223,
       "trainName": "New Delhi - Solapur",
       "departureStationName": "banglore",
@@ -1957,7 +2070,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 301,
+      "id": "301",
       "trainNo": 12154,
       "trainName": "Dakshin Exp",
       "departureStationName": "banglore",
@@ -1969,7 +2082,7 @@
       "bookedSeats": 4
     },
     {
-      "trainId": 300,
+      "id": "300",
       "trainNo": 12123,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -1981,7 +2094,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 299,
+      "id": "299",
       "trainNo": 12345,
       "trainName": "Dakshni Express",
       "departureStationName": "banglore",
@@ -1993,7 +2106,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 298,
+      "id": "298",
       "trainNo": 12123,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -2005,7 +2118,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 297,
+      "id": "297",
       "trainNo": 223311,
       "trainName": "New-Dehli-Solapur",
       "departureStationName": "banglore",
@@ -2017,7 +2130,7 @@
       "bookedSeats": 2
     },
     {
-      "trainId": 296,
+      "id": "296",
       "trainNo": 3,
       "trainName": "New Delhi - Solapur - Express",
       "departureStationName": "banglore",
@@ -2029,7 +2142,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 295,
+      "id": "295",
       "trainNo": 2,
       "trainName": "New Delhi - Solapur",
       "departureStationName": "banglore",
@@ -2041,7 +2154,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 294,
+      "id": "294",
       "trainNo": 1,
       "trainName": "New Delhi - Banglaore City",
       "departureStationName": "banglore",
@@ -2053,7 +2166,7 @@
       "bookedSeats": 3
     },
     {
-      "trainId": 293,
+      "id": "293",
       "trainNo": 1123,
       "trainName": "to Forte dei Marmi",
       "departureStationName": "banglore",
@@ -2065,7 +2178,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 292,
+      "id": "292",
       "trainNo": 1122,
       "trainName": "Forte-Massa",
       "departureStationName": "banglore",
@@ -2077,7 +2190,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 291,
+      "id": "291",
       "trainNo": 7654,
       "trainName": "Duranta Express",
       "departureStationName": "Kolkata",
@@ -2089,7 +2202,7 @@
       "bookedSeats": 3
     },
     {
-      "trainId": 290,
+      "id": "290",
       "trainNo": 1234,
       "trainName": "Rajdhani Express",
       "departureStationName": "Kolkata",
@@ -2101,7 +2214,7 @@
       "bookedSeats": 1
     },
     {
-      "trainId": 289,
+      "id": "289",
       "trainNo": 852,
       "trainName": "Dakshin Express",
       "departureStationName": "banglore",
@@ -2113,7 +2226,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 288,
+      "id": "288",
       "trainNo": 852,
       "trainName": "Delhi Express",
       "departureStationName": "banglore",
@@ -2125,7 +2238,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 287,
+      "id": "287",
       "trainNo": 741,
       "trainName": "Coimbatore Express",
       "departureStationName": "banglore",
@@ -2137,7 +2250,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 286,
+      "id": "286",
       "trainNo": 123,
       "trainName": "Coimbatore-Chennai",
       "departureStationName": "Coimbatore Junction",
@@ -2149,7 +2262,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 285,
+      "id": "285",
       "trainNo": 111,
       "trainName": "Coimbatore-Chennai",
       "departureStationName": "Coimbatore Junction",
@@ -2161,7 +2274,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 284,
+      "id": "284",
       "trainNo": 17321,
       "trainName": "GaribRath Exp",
       "departureStationName": "banglore",
@@ -2173,7 +2286,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 283,
+      "id": "283",
       "trainNo": 12321,
       "trainName": "Delhi-Pune-Exp",
       "departureStationName": "banglore",
@@ -2185,7 +2298,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 282,
+      "id": "282",
       "trainNo": 2572,
       "trainName": "Dakshin Exp",
       "departureStationName": "banglore",
@@ -2197,7 +2310,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 281,
+      "id": "281",
       "trainNo": 2542,
       "trainName": "New Delhi - Solapur",
       "departureStationName": "banglore",
@@ -2209,7 +2322,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 280,
+      "id": "280",
       "trainNo": 12154,
       "trainName": "Dakshin Exp",
       "departureStationName": "banglore",
@@ -2221,7 +2334,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 279,
+      "id": "279",
       "trainNo": 12123,
       "trainName": "New Delhi-Solapur",
       "departureStationName": "banglore",
@@ -2233,7 +2346,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 278,
+      "id": "278",
       "trainNo": 142,
       "trainName": "vandebharath",
       "departureStationName": "banglore",
@@ -2245,7 +2358,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 277,
+      "id": "277",
       "trainNo": 12335,
       "trainName": "newDelhi-solapur",
       "departureStationName": "banglore",
@@ -2257,7 +2370,7 @@
       "bookedSeats": 46
     },
     {
-      "trainId": 276,
+      "id": "276",
       "trainNo": 121545,
       "trainName": "Dakshin Exp",
       "departureStationName": "banglore",
@@ -2269,7 +2382,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 275,
+      "id": "275",
       "trainNo": 12123,
       "trainName": "New-Dehli-Solapur",
       "departureStationName": "banglore",
@@ -2281,7 +2394,7 @@
       "bookedSeats": 2
     },
     {
-      "trainId": 273,
+      "id": "273",
       "trainNo": 15335,
       "trainName": "csmt Express",
       "departureStationName": "banglore",
@@ -2293,7 +2406,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 272,
+      "id": "272",
       "trainNo": 16535,
       "trainName": "GaribRath Express",
       "departureStationName": "banglore",
@@ -2305,7 +2418,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 271,
+      "id": "271",
       "trainNo": 12835,
       "trainName": "Rajdhani Express",
       "departureStationName": "banglore",
@@ -2317,7 +2430,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 270,
+      "id": "270",
       "trainNo": 1235,
       "trainName": "Rajdhani Express",
       "departureStationName": "banglore",
@@ -2329,7 +2442,7 @@
       "bookedSeats": 9
     },
     {
-      "trainId": 269,
+      "id": "269",
       "trainNo": 254,
       "trainName": "ranchi-express",
       "departureStationName": "ranchi Junction",
@@ -2341,7 +2454,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 268,
+      "id": "268",
       "trainNo": 234,
       "trainName": "ranchi-kanpur",
       "departureStationName": "ranchi Junction",
@@ -2353,7 +2466,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 267,
+      "id": "267",
       "trainNo": 12175,
       "trainName": "Solapur-New Delhi Exprs",
       "departureStationName": "banglore",
@@ -2365,7 +2478,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 266,
+      "id": "266",
       "trainNo": 12154,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -2377,7 +2490,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 265,
+      "id": "265",
       "trainNo": 12123,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -2389,7 +2502,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 264,
+      "id": "264",
       "trainNo": 0,
       "trainName": "Delhi-Ex",
       "departureStationName": "banglore",
@@ -2401,7 +2514,7 @@
       "bookedSeats": 4
     },
     {
-      "trainId": 263,
+      "id": "263",
       "trainNo": 12124,
       "trainName": "Dakshin Exp",
       "departureStationName": "banglore",
@@ -2413,7 +2526,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 262,
+      "id": "262",
       "trainNo": 12123,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -2425,7 +2538,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 261,
+      "id": "261",
       "trainNo": 19666,
       "trainName": "Dolphin Express",
       "departureStationName": "banglore",
@@ -2437,7 +2550,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 260,
+      "id": "260",
       "trainNo": 111,
       "trainName": "faaiz",
       "departureStationName": "banglore",
@@ -2449,7 +2562,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 256,
+      "id": "256",
       "trainNo": 19615,
       "trainName": "Howrah Bangalore Express",
       "departureStationName": "banglore",
@@ -2461,7 +2574,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 255,
+      "id": "255",
       "trainNo": 19615,
       "trainName": "Howrah Express",
       "departureStationName": "banglore",
@@ -2473,7 +2586,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 254,
+      "id": "254",
       "trainNo": 878,
       "trainName": "Ranchi express",
       "departureStationName": "ranchi Junction",
@@ -2485,7 +2598,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 253,
+      "id": "253",
       "trainNo": 898,
       "trainName": "Kanpur express",
       "departureStationName": "ranchi Junction",
@@ -2497,7 +2610,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 252,
+      "id": "252",
       "trainNo": 5678,
       "trainName": "Kolkata Express",
       "departureStationName": "banglore",
@@ -2509,7 +2622,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 251,
+      "id": "251",
       "trainNo": 1234,
       "trainName": "Banglore Express",
       "departureStationName": "banglore",
@@ -2521,7 +2634,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 250,
+      "id": "250",
       "trainNo": 1321,
       "trainName": "Dakshin exp",
       "departureStationName": "banglore",
@@ -2533,7 +2646,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 249,
+      "id": "249",
       "trainNo": 1212,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -2545,7 +2658,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 238,
+      "id": "238",
       "trainNo": 454478,
       "trainName": "DholakPur express",
       "departureStationName": "banglore",
@@ -2557,7 +2670,7 @@
       "bookedSeats": 11
     },
     {
-      "trainId": 237,
+      "id": "237",
       "trainNo": 45612,
       "trainName": "MahaDev Express",
       "departureStationName": "banglore",
@@ -2569,7 +2682,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 236,
+      "id": "236",
       "trainNo": 784568,
       "trainName": "Mahaganga Express",
       "departureStationName": "banglore",
@@ -2581,7 +2694,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 235,
+      "id": "235",
       "trainNo": 6523489,
       "trainName": "Rachi-Kalkata Express",
       "departureStationName": "ranchi Junction",
@@ -2593,7 +2706,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 234,
+      "id": "234",
       "trainNo": 12154,
       "trainName": "Dakshin Express",
       "departureStationName": "banglore",
@@ -2605,7 +2718,7 @@
       "bookedSeats": 3
     },
     {
-      "trainId": 233,
+      "id": "233",
       "trainNo": 12123,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -2617,7 +2730,7 @@
       "bookedSeats": 2
     },
     {
-      "trainId": 232,
+      "id": "232",
       "trainNo": 524561,
       "trainName": "rajaram express",
       "departureStationName": "Kolkata",
@@ -2629,7 +2742,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 231,
+      "id": "231",
       "trainNo": 12345,
       "trainName": "Solapur-Mumbai",
       "departureStationName": "banglore",
@@ -2641,7 +2754,7 @@
       "bookedSeats": 1
     },
     {
-      "trainId": 230,
+      "id": "230",
       "trainNo": 12123,
       "trainName": "new-delhi-solapur",
       "departureStationName": "banglore",
@@ -2653,7 +2766,7 @@
       "bookedSeats": 1
     },
     {
-      "trainId": 228,
+      "id": "228",
       "trainNo": 580245,
       "trainName": "kalkata super first",
       "departureStationName": "Kolkata",
@@ -2665,7 +2778,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 227,
+      "id": "227",
       "trainNo": 5024523,
       "trainName": "mahananda super first",
       "departureStationName": "banglore",
@@ -2677,7 +2790,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 226,
+      "id": "226",
       "trainNo": 123456,
       "trainName": "Shimoga Express",
       "departureStationName": "banglore",
@@ -2689,7 +2802,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 225,
+      "id": "225",
       "trainNo": 189765,
       "trainName": "Shimogo-New Delohi",
       "departureStationName": "SHIMOGA",
@@ -2701,7 +2814,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 224,
+      "id": "224",
       "trainNo": 14352,
       "trainName": "DAKSHIN-EXP",
       "departureStationName": "banglore",
@@ -2713,7 +2826,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 223,
+      "id": "223",
       "trainNo": 12113,
       "trainName": "NEW-DELHI-SOLAPUR",
       "departureStationName": "banglore",
@@ -2725,7 +2838,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 221,
+      "id": "221",
       "trainNo": 2358,
       "trainName": "Express Train",
       "departureStationName": "pune",
@@ -2737,7 +2850,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 220,
+      "id": "220",
       "trainNo": 1234,
       "trainName": "Express Train",
       "departureStationName": "pune",
@@ -2749,7 +2862,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 214,
+      "id": "214",
       "trainNo": 1234,
       "trainName": "Express Train",
       "departureStationName": "pune",
@@ -2761,7 +2874,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 202,
+      "id": "202",
       "trainNo": 12345,
       "trainName": "Dakshin Exp",
       "departureStationName": "banglore",
@@ -2773,7 +2886,7 @@
       "bookedSeats": 5
     },
     {
-      "trainId": 201,
+      "id": "201",
       "trainNo": 12123,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -2785,7 +2898,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 200,
+      "id": "200",
       "trainNo": 1,
       "trainName": "string",
       "departureStationName": "banglore",
@@ -2797,7 +2910,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 199,
+      "id": "199",
       "trainNo": 0,
       "trainName": "string",
       "departureStationName": "banglore",
@@ -2809,7 +2922,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 198,
+      "id": "198",
       "trainNo": 12345,
       "trainName": "Superfast Express",
       "departureStationName": "banglore",
@@ -2821,7 +2934,7 @@
       "bookedSeats": 1
     },
     {
-      "trainId": 197,
+      "id": "197",
       "trainNo": 12548,
       "trainName": "Dakshin Express",
       "departureStationName": "banglore",
@@ -2833,7 +2946,7 @@
       "bookedSeats": 1
     },
     {
-      "trainId": 193,
+      "id": "193",
       "trainNo": 12160,
       "trainName": "JBL-AMT",
       "departureStationName": "string d asas",
@@ -2845,7 +2958,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 192,
+      "id": "192",
       "trainNo": 12159,
       "trainName": "AMT-JBL",
       "departureStationName": "banglore",
@@ -2857,7 +2970,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 191,
+      "id": "191",
       "trainNo": 1234334434,
       "trainName": "Sayyed Express",
       "departureStationName": "banglore",
@@ -2869,7 +2982,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 190,
+      "id": "190",
       "trainNo": 12154,
       "trainName": "Dakshin Exp",
       "departureStationName": "banglore",
@@ -2881,7 +2994,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 189,
+      "id": "189",
       "trainNo": 12123,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -2893,7 +3006,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 188,
+      "id": "188",
       "trainNo": 0,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -2905,7 +3018,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 187,
+      "id": "187",
       "trainNo": 23421,
       "trainName": "Dakshin-Hubli",
       "departureStationName": "banglore",
@@ -2917,7 +3030,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 186,
+      "id": "186",
       "trainNo": 12321,
       "trainName": "NewDelhi-Solapur",
       "departureStationName": "banglore",
@@ -2929,7 +3042,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 185,
+      "id": "185",
       "trainNo": 2076,
       "trainName": "West Coast Express",
       "departureStationName": "banglore",
@@ -2941,7 +3054,7 @@
       "bookedSeats": 2
     },
     {
-      "trainId": 184,
+      "id": "184",
       "trainNo": 18934,
       "trainName": "Deccan Express",
       "departureStationName": "banglore",
@@ -2953,7 +3066,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 183,
+      "id": "183",
       "trainNo": 13479,
       "trainName": "Delhi-Banglore Express",
       "departureStationName": "banglore",
@@ -2965,7 +3078,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 182,
+      "id": "182",
       "trainNo": 12154,
       "trainName": "Dakshin Exp",
       "departureStationName": "banglore",
@@ -2977,7 +3090,7 @@
       "bookedSeats": 2
     },
     {
-      "trainId": 181,
+      "id": "181",
       "trainNo": 12123,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -2989,7 +3102,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 180,
+      "id": "180",
       "trainNo": 12764,
       "trainName": "Chennai Express",
       "departureStationName": "Chennai Central",
@@ -3001,7 +3114,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 179,
+      "id": "179",
       "trainNo": 12568,
       "trainName": "Bangalore Mail",
       "departureStationName": "Chennai Central",
@@ -3013,7 +3126,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 178,
+      "id": "178",
       "trainNo": 12567,
       "trainName": "Chennai Mail",
       "departureStationName": "banglore",
@@ -3025,7 +3138,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 177,
+      "id": "177",
       "trainNo": 12987,
       "trainName": "Simhadri EXP",
       "departureStationName": "SHIMOGA",
@@ -3037,7 +3150,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 176,
+      "id": "176",
       "trainNo": 12378,
       "trainName": "Yamuna EXP",
       "departureStationName": "SHIMOGA",
@@ -3049,7 +3162,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 168,
+      "id": "168",
       "trainNo": 121432,
       "trainName": "Super Express",
       "departureStationName": "banglore",
@@ -3061,7 +3174,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 167,
+      "id": "167",
       "trainNo": 1212,
       "trainName": "NewDelhi-Solapur",
       "departureStationName": "banglore",
@@ -3073,7 +3186,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 163,
+      "id": "163",
       "trainNo": 16159,
       "trainName": "Mangalore-Egmore Express",
       "departureStationName": "Mangalore Central",
@@ -3085,7 +3198,7 @@
       "bookedSeats": 2
     },
     {
-      "trainId": 162,
+      "id": "162",
       "trainNo": 123154,
       "trainName": "EXP Solan",
       "departureStationName": "banglore",
@@ -3097,7 +3210,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 161,
+      "id": "161",
       "trainNo": 123123,
       "trainName": "New-Delphi-Solan",
       "departureStationName": "banglore",
@@ -3109,7 +3222,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 160,
+      "id": "160",
       "trainNo": 98765,
       "trainName": "Chennai Express",
       "departureStationName": "Chennai Central",
@@ -3121,7 +3234,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 159,
+      "id": "159",
       "trainNo": 12345,
       "trainName": "Kovai Express",
       "departureStationName": "Chennai Central",
@@ -3133,7 +3246,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 158,
+      "id": "158",
       "trainNo": 127365,
       "trainName": "Dakshin Exp",
       "departureStationName": "banglore",
@@ -3145,7 +3258,7 @@
       "bookedSeats": 6
     },
     {
-      "trainId": 157,
+      "id": "157",
       "trainNo": 127364,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -3157,7 +3270,7 @@
       "bookedSeats": 5
     },
     {
-      "trainId": 156,
+      "id": "156",
       "trainNo": 12303,
       "trainName": "Poorva Exp",
       "departureStationName": "banglore",
@@ -3169,7 +3282,7 @@
       "bookedSeats": 7
     },
     {
-      "trainId": 155,
+      "id": "155",
       "trainNo": 12312,
       "trainName": "Kalka Howrah Exp",
       "departureStationName": "banglore",
@@ -3181,7 +3294,7 @@
       "bookedSeats": 3
     },
     {
-      "trainId": 154,
+      "id": "154",
       "trainNo": 8701,
       "trainName": "VrajExpress",
       "departureStationName": "Surat",
@@ -3193,7 +3306,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 153,
+      "id": "153",
       "trainNo": 87671,
       "trainName": "Raj Express",
       "departureStationName": "Dehradun",
@@ -3205,7 +3318,7 @@
       "bookedSeats": 3
     },
     {
-      "trainId": 152,
+      "id": "152",
       "trainNo": 87671,
       "trainName": "Raj Express",
       "departureStationName": "Dehradun",
@@ -3217,7 +3330,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 151,
+      "id": "151",
       "trainNo": 87671,
       "trainName": "Raj Express",
       "departureStationName": "Dehradun",
@@ -3229,7 +3342,7 @@
       "bookedSeats": 1
     },
     {
-      "trainId": 150,
+      "id": "150",
       "trainNo": 19950,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -3241,7 +3354,7 @@
       "bookedSeats": 25
     },
     {
-      "trainId": 149,
+      "id": "149",
       "trainNo": 12150,
       "trainName": "Dakshin Exp",
       "departureStationName": "banglore",
@@ -3253,7 +3366,7 @@
       "bookedSeats": 2
     },
     {
-      "trainId": 148,
+      "id": "148",
       "trainNo": 87671,
       "trainName": "Raj Express",
       "departureStationName": "Dehradun",
@@ -3265,7 +3378,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 146,
+      "id": "146",
       "trainNo": 87672,
       "trainName": "Rajdhani Express",
       "departureStationName": "Surat",
@@ -3277,7 +3390,7 @@
       "bookedSeats": 3
     },
     {
-      "trainId": 145,
+      "id": "145",
       "trainNo": 87672,
       "trainName": "Rajdhani Express",
       "departureStationName": "Surat",
@@ -3289,7 +3402,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 144,
+      "id": "144",
       "trainNo": 87672,
       "trainName": "Rajdhani Express",
       "departureStationName": "Pune Junction",
@@ -3301,7 +3414,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 143,
+      "id": "143",
       "trainNo": 87672,
       "trainName": "Rajdhani Express",
       "departureStationName": "Pune Junction",
@@ -3313,7 +3426,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 142,
+      "id": "142",
       "trainNo": 87672,
       "trainName": "Rajdhani Express",
       "departureStationName": "Pune Junction",
@@ -3325,7 +3438,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 139,
+      "id": "139",
       "trainNo": 998866,
       "trainName": "Royal Bengal express",
       "departureStationName": "banglore",
@@ -3337,7 +3450,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 138,
+      "id": "138",
       "trainNo": 118866,
       "trainName": "Dakshin Bharat express",
       "departureStationName": "banglore",
@@ -3349,7 +3462,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 137,
+      "id": "137",
       "trainNo": 11223,
       "trainName": "New Delhi Solapur Express",
       "departureStationName": "banglore",
@@ -3361,7 +3474,7 @@
       "bookedSeats": 1
     },
     {
-      "trainId": 136,
+      "id": "136",
       "trainNo": 123456,
       "trainName": "Gadhinagar Exp",
       "departureStationName": "banglore",
@@ -3373,7 +3486,7 @@
       "bookedSeats": 3
     },
     {
-      "trainId": 135,
+      "id": "135",
       "trainNo": 12515,
       "trainName": "Dakshin Exp",
       "departureStationName": "banglore",
@@ -3385,7 +3498,7 @@
       "bookedSeats": 2
     },
     {
-      "trainId": 134,
+      "id": "134",
       "trainNo": 12112,
       "trainName": "Bangalore Express",
       "departureStationName": "banglore",
@@ -3397,7 +3510,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 133,
+      "id": "133",
       "trainNo": 2323,
       "trainName": "visakha",
       "departureStationName": "Visakhapatnam",
@@ -3409,7 +3522,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 132,
+      "id": "132",
       "trainNo": 12110,
       "trainName": "Rajadhani",
       "departureStationName": "banglore",
@@ -3421,7 +3534,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 131,
+      "id": "131",
       "trainNo": 0,
       "trainName": "CNB-To-AVT",
       "departureStationName": "Kanpur Central",
@@ -3433,7 +3546,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 129,
+      "id": "129",
       "trainNo": 806615,
       "trainName": "SharamShakti",
       "departureStationName": "banglore",
@@ -3445,7 +3558,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 128,
+      "id": "128",
       "trainNo": 344091,
       "trainName": "Vande Bharat",
       "departureStationName": "banglore",
@@ -3457,7 +3570,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 127,
+      "id": "127",
       "trainNo": 1035,
       "trainName": "NewDelhi - solapur",
       "departureStationName": "banglore",
@@ -3469,7 +3582,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 126,
+      "id": "126",
       "trainNo": 12567,
       "trainName": "Krishna Express",
       "departureStationName": "banglore",
@@ -3481,7 +3594,7 @@
       "bookedSeats": 11
     },
     {
-      "trainId": 125,
+      "id": "125",
       "trainNo": 12123,
       "trainName": "Venkatdri Express",
       "departureStationName": "banglore",
@@ -3493,7 +3606,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 124,
+      "id": "124",
       "trainNo": 12123,
       "trainName": "NewDelhi-Solapur",
       "departureStationName": "banglore",
@@ -3505,7 +3618,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 123,
+      "id": "123",
       "trainNo": 45458,
       "trainName": "Delhi Gujarat Exp",
       "departureStationName": "banglore",
@@ -3517,7 +3630,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 122,
+      "id": "122",
       "trainNo": 45458,
       "trainName": "Delhi Gujarat Exp",
       "departureStationName": "banglore",
@@ -3529,7 +3642,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 121,
+      "id": "121",
       "trainNo": 123456,
       "trainName": "Delhi Pune Exp",
       "departureStationName": "banglore",
@@ -3541,7 +3654,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 118,
+      "id": "118",
       "trainNo": 45675,
       "trainName": "Delhi SuperFast exp",
       "departureStationName": "banglore",
@@ -3553,7 +3666,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 117,
+      "id": "117",
       "trainNo": 12345,
       "trainName": "Delhi Janta exp",
       "departureStationName": "banglore",
@@ -3565,7 +3678,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 116,
+      "id": "116",
       "trainNo": 85369,
       "trainName": "Mumbai express",
       "departureStationName": "banglore",
@@ -3577,7 +3690,7 @@
       "bookedSeats": 8
     },
     {
-      "trainId": 115,
+      "id": "115",
       "trainNo": 1235,
       "trainName": "NewDelhi-solapur",
       "departureStationName": "banglore",
@@ -3589,7 +3702,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 114,
+      "id": "114",
       "trainNo": 12,
       "trainName": "sdd",
       "departureStationName": "pune",
@@ -3601,7 +3714,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 111,
+      "id": "111",
       "trainNo": 12154,
       "trainName": "Mumbai Express",
       "departureStationName": "SHIMOGA",
@@ -3613,7 +3726,7 @@
       "bookedSeats": 24
     },
     {
-      "trainId": 110,
+      "id": "110",
       "trainNo": 12123,
       "trainName": "New-Delhi-Solapur",
       "departureStationName": "banglore",
@@ -3625,7 +3738,7 @@
       "bookedSeats": 1
     },
     {
-      "trainId": 107,
+      "id": "107",
       "trainNo": 777,
       "trainName": "Shatabdi Express",
       "departureStationName": "CSMT",
@@ -3637,7 +3750,7 @@
       "bookedSeats": 5
     },
     {
-      "trainId": 106,
+      "id": "106",
       "trainNo": 0,
       "trainName": "PUNE NAGPUR EXPRESS",
       "departureStationName": "Pune Junction",
@@ -3649,7 +3762,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 105,
+      "id": "105",
       "trainNo": 0,
       "trainName": "DECCAN QUEEN",
       "departureStationName": "Pune Junction",
@@ -3661,7 +3774,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 104,
+      "id": "104",
       "trainNo": 555,
       "trainName": "Sinhgad Expreess",
       "departureStationName": "Pune Junction",
@@ -3673,7 +3786,7 @@
       "bookedSeats": 0
     },
     {
-      "trainId": 103,
+      "id": "103",
       "trainNo": 1103,
       "trainName": "ChanammaExpDellhiToShimoga",
       "departureStationName": "banglore",
@@ -3685,7 +3798,7 @@
       "bookedSeats": 7
     },
     {
-      "trainId": 102,
+      "id": "102",
       "trainNo": 1102,
       "trainName": "ChanammaExpDellhiToShimoga",
       "departureStationName": "banglore",
@@ -3697,7 +3810,7 @@
       "bookedSeats": 24
     },
     {
-      "trainId": 101,
+      "id": "101",
       "trainNo": 1101,
       "trainName": "DellhiToShimoga",
       "departureStationName": "banglore",
@@ -3709,7 +3822,7 @@
       "bookedSeats": 2
     },
     {
-      "trainId": 99,
+      "id": "99",
       "trainNo": 12345,
       "trainName": "bangalore express",
       "departureStationName": "pune",
@@ -3721,7 +3834,7 @@
       "bookedSeats": 23
     },
     {
-      "trainId": 98,
+      "id": "98",
       "trainNo": 1234,
       "trainName": "delhi express",
       "departureStationName": "pune",
@@ -3733,7 +3846,7 @@
       "bookedSeats": 20
     },
     {
-      "trainId": 97,
+      "id": "97",
       "trainNo": 1234,
       "trainName": "shivmugga",
       "departureStationName": "pune",
@@ -3745,7 +3858,7 @@
       "bookedSeats": 42
     },
     {
-      "trainId": 83,
+      "id": "83",
       "trainNo": 12345,
       "trainName": "Mysore Express",
       "departureStationName": "pune",
@@ -3757,7 +3870,7 @@
       "bookedSeats": 4
     },
     {
-      "trainId": 31,
+      "id": "31",
       "trainNo": 54321,
       "trainName": "Shimoga Special",
       "departureStationName": "SHIMOGA",
@@ -3769,7 +3882,7 @@
       "bookedSeats": 23
     },
     {
-      "trainId": 30,
+      "id": "30",
       "trainNo": 98765,
       "trainName": "Hubli Express",
       "departureStationName": "HUBLI",
@@ -3781,7 +3894,7 @@
       "bookedSeats": 37
     },
     {
-      "trainId": 26,
+      "id": "26",
       "trainNo": 67890,
       "trainName": "Belgaum Special",
       "departureStationName": "BELGUAM",
@@ -3793,7 +3906,7 @@
       "bookedSeats": 14
     },
     {
-      "trainId": 25,
+      "id": "25",
       "trainNo": 24680,
       "trainName": "Bengaluru Express",
       "departureStationName": "banglore",
@@ -3805,7 +3918,7 @@
       "bookedSeats": 24
     },
     {
-      "trainId": 24,
+      "id": "24",
       "trainNo": 13579,
       "trainName": "Hassan Special",
       "departureStationName": "string d asas",
@@ -3817,7 +3930,7 @@
       "bookedSeats": 8
     },
     {
-      "trainId": 22,
+      "id": "22",
       "trainNo": 11223,
       "trainName": "Mysore Express",
       "departureStationName": "pune",
@@ -3829,7 +3942,7 @@
       "bookedSeats": 7
     },
     {
-      "trainId": 21,
+      "id": "21",
       "trainNo": 44556,
       "trainName": "Shimoga Special",
       "departureStationName": "SHIMOGA",
@@ -3841,7 +3954,7 @@
       "bookedSeats": 9
     },
     {
-      "trainId": 20,
+      "id": "20",
       "trainNo": 77889,
       "trainName": "Hubli Express",
       "departureStationName": "HUBLI",
@@ -3853,7 +3966,7 @@
       "bookedSeats": 5
     },
     {
-      "trainId": 19,
+      "id": "19",
       "trainNo": 99000,
       "trainName": "Belgaum Special",
       "departureStationName": "BELGUAM",
@@ -3865,7 +3978,7 @@
       "bookedSeats": 5
     },
     {
-      "trainId": 18,
+      "id": "18",
       "trainNo": 101,
       "trainName": "HUBLI-Kolkata",
       "departureStationName": "HUBLI",
@@ -3877,7 +3990,7 @@
       "bookedSeats": 15
     },
     {
-      "trainId": 17,
+      "id": "17",
       "trainNo": 102,
       "trainName": "Shimoga Fast Passenger",
       "departureStationName": "SHIMOGA",
@@ -3889,7 +4002,7 @@
       "bookedSeats": 17
     },
     {
-      "trainId": 16,
+      "id": "16",
       "trainNo": 104,
       "trainName": "Belgaum-Hubli Fast Passenger",
       "departureStationName": "BELGUAM",
@@ -3901,7 +4014,7 @@
       "bookedSeats": 21
     },
     {
-      "trainId": 15,
+      "id": "15",
       "trainNo": 103,
       "trainName": "Hubli-Belgaum Express",
       "departureStationName": "HUBLI",
@@ -3913,7 +4026,7 @@
       "bookedSeats": 3
     },
     {
-      "trainId": 14,
+      "id": "14",
       "trainNo": 105,
       "trainName": "Bengaluru-Hassan Express",
       "departureStationName": "banglore",
@@ -3925,7 +4038,7 @@
       "bookedSeats": 4
     },
     {
-      "trainId": 13,
+      "id": "13",
       "trainNo": 106,
       "trainName": "Hassan-Bengaluru Fast Passenger",
       "departureStationName": "string d asas",
@@ -3937,7 +4050,7 @@
       "bookedSeats": 4
     },
     {
-      "trainId": 12,
+      "id": "12",
       "trainNo": 107,
       "trainName": "Mysore-Hubli Superfast Express",
       "departureStationName": "pune",
@@ -3949,7 +4062,7 @@
       "bookedSeats": 37
     },
     {
-      "trainId": 11,
+      "id": "11",
       "trainNo": 804,
       "trainName": "NewSoul Train",
       "departureStationName": "banglore",
@@ -3961,7 +4074,7 @@
       "bookedSeats": 14
     },
     {
-      "trainId": 8,
+      "id": "8",
       "trainNo": 109,
       "trainName": "Shimoga-Bengaluru Express",
       "departureStationName": "SHIMOGA",
@@ -3973,7 +4086,7 @@
       "bookedSeats": 6
     },
     {
-      "trainId": 7,
+      "id": "7",
       "trainNo": 102034,
       "trainName": "Mumbai to Delhi Special",
       "departureStationName": "pune",
@@ -3985,7 +4098,7 @@
       "bookedSeats": 9
     },
     {
-      "trainId": 6,
+      "id": "6",
       "trainNo": 101,
       "trainName": "Mysore Express",
       "departureStationName": "pune",
@@ -3997,7 +4110,7 @@
       "bookedSeats": 10
     },
     {
-      "trainId": 5,
+      "id": "5",
       "trainNo": 12154,
       "trainName": "Konark Express",
       "departureStationName": "banglore",
@@ -4009,7 +4122,7 @@
       "bookedSeats": 13
     },
     {
-      "trainId": 3,
+      "id": "3",
       "trainNo": 103,
       "trainName": "Hubli Express",
       "departureStationName": "HUBLI",
@@ -4018,10 +4131,11 @@
       "departureTime": "10:30",
       "totalSeats": 180,
       "departureDate": "2024-03-09T00:00:00",
-      "bookedSeats": 7
+      "bookedSeats": 7,
+      "price":"20$"
     },
     {
-      "trainId": 1,
+      "id": "1",
       "trainNo": 20021,
       "trainName": "NEW DEHL HUMSAFAR EXP.",
       "departureStationName": "banglore",
@@ -4030,7 +4144,8 @@
       "departureTime": "11:54 AM",
       "totalSeats": 110,
       "departureDate": "2025-04-05T15:28:04.943",
-      "bookedSeats": 42
+      "bookedSeats": 42,
+      "price":"20$"
     }
   ],
   "cities": [
@@ -7357,7 +7472,7 @@
       "id": 352
     }
   ],
-  "bookings": [
+  "flightBookings": [
     {
       "fullName": "Alaa Saleh",
       "passportNumber": "a123456",
@@ -7787,5 +7902,8 @@
       "email": "rahul",
       "bookingId": 26
     } 
+  ],
+  "trainBookings":[
+
   ]
 }
