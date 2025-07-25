@@ -41,7 +41,7 @@ flightDetails: flights |undefined;
 }
 
 finalizeBooking(data: any){
-  let user= localStorage.getItem('user');
+  let user= localStorage.getItem('users');
   let userId= user && JSON.parse(user).id;
  
  
@@ -54,7 +54,7 @@ let booking: flightBookings = {
   passportNumber: this.passenger.passportNumber,
   dob: this.passenger.dob,
   address: this.passenger.count,
-  role: 'user',
+  role: 'users',
   password: '',
   userId: userId,
   flightNumber: this.flightDetails?.flightNumber || '',

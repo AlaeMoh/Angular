@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MainService } from '../service/main.service';
-import { flightBookings } from '../data.type';
+import { flightBookings, trainBookings } from '../data.type';
 
 @Component({
   selector: 'app-tickets',
@@ -9,15 +9,24 @@ import { flightBookings } from '../data.type';
 })
 export class TicketsComponent implements OnInit{
   bookings: flightBookings [] | undefined
+  trainBooking: trainBookings[] | undefined
   constructor(private service:MainService){}
 
   ngOnInit(): void {
    this.getMyBookings()
+   this.getMyTrainBooking()
+   
   }
 
   getMyBookings(){
     this.service.bookingList().subscribe(result=>{
       this.bookings=result
+    })
+  }
+
+  getMyTrainBooking(){
+    this.service.getTrainBooking().subscribe(result=>{
+      this.trainBooking= result
     })
   }
 }

@@ -36,6 +36,12 @@ export class MainService {
     return this.http.get<Trains>(`http://localhost:3000/trains/${id}`)
   }
 
+  getTrainBooking(){
+     let userStore= localStorage.getItem('users')
+    let userData= userStore && JSON.parse(userStore)
+   return this.http.get<trainBookings[]>('http://localhost:3000/trainBookings?email='+ userData.email);
+  }
+
   // <<--flights related-->>
 
   getAirports(){

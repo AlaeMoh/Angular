@@ -10,7 +10,7 @@ export interface stationName{
 
 export interface Trains{
        trainId: number,
-       trainNo: number, 
+       trainNo: string, 
       trainName: string,
       departureStationName: string,
       arrivalStationName: string,
@@ -19,7 +19,7 @@ export interface Trains{
       totalSeats: number,
       departureDate: string,
       bookedSeats: number, 
-      price: string,
+      price: number,
 
 }
 
@@ -106,12 +106,11 @@ export interface trainBookings {
       address: string,
       role: string,
       vendorId: number,
-      password: string,
       userId:string,
       trainNo: string,
       arrivalTime: string,
       departureTime: string,
-      price: string,
+      price: number,
       totalSeats: number,
       arrivalStationName: string,
       ddepartureStationName: string,

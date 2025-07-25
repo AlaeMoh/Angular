@@ -1,6 +1,7 @@
 <div class="container mt-4">
   <h2 class="text-center mb-4">All Bookings</h2>
 
+  <h3 class="text-danger">Flight Bookings:</h3>
   <div *ngIf="bookings?.length === 0" class="alert alert-info">
     No bookings available.
   </div>
@@ -19,5 +20,27 @@
       <p class="text-muted">📧 {{ booking.email }} | 📞 {{ booking.mobileNo }} | 📍 {{ booking.city }}</p>
     </div>
   </div>
+
+   <!-- <<--train tickets-->
+    <h3 class="text-danger">Train Bookings:</h3>
+    <div *ngFor="let booking of trainBooking" class="card mb-3 shadow-sm">
+  <div class="card-body">
+    <h5 class="card-title">{{ booking.id }}</h5>
+    <p class="card-text">
+      🚆 Train: <strong>{{ booking.trainNo }} ({{ booking.trainNo }})</strong><br>
+      🏁 From: {{ booking.ddepartureStationName }}<br>
+      🎯 To: {{ booking.arrivalStationName }}<br>
+      📅 Date: {{ booking.departureDate | date:'mediumDate' }}<br>
+      👤 Seats: {{ booking.totalSeats }}<br>
+      💵 Total: {{ booking.price | currency:'USD' }}
+    </p>
+    <p class="text-muted">
+      📧 {{ booking.email }} |
+      📞 {{ booking.mobileNo }} |
+      📍 {{ booking.city }}
+    </p>
+  </div>
+</div>
+
 </div>
 
