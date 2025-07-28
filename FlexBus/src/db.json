@@ -8138,5 +8138,77 @@
       "ddepartureStationName": "SHIMOGA",
       "vendorId": 0
     }
+  ],
+  "cars":[
+     {
+      "id": 5012,
+      "brand": "BMW",
+      "model": "320i",
+      "year": 2020,
+      "color": "white",
+      "dailyRate": 2500,
+      "carImage": "BMW320i.jpeg",
+      "regNo": "CL 05 MP"
+    },
+    {
+      "id": 5017,
+      "brand": "Tata",
+      "model": "suv",
+      "year": 2024,
+      "color": "red",
+      "dailyRate": 1500,
+      "carImage": "tata.jpg",
+      "regNo": "kl 49 mp"
+    },
+    {
+      "id": 5029,
+      "brand": "Benz",
+      "model": "Suv",
+      "year": 2025,
+      "color": "white",
+      "dailyRate": 7000,
+      "carImage": "benz.avif",
+      "regNo": "km 69 gp"
+    },
+    {
+      "id": 5048,
+      "brand": "Ford",
+      "model": "Raptor",
+      "year": 2024,
+      "color": "oranger",
+      "dailyRate": 9000,
+      "carImage": "fordranger.jpeg",
+      "regNo": "KM 98 GP"
+    },
+    {
+      "id": 5051,
+      "brand": "BMW",
+      "model": "320i",
+      "year": 2025,
+      "color": "white",
+      "dailyRate": 9000,
+      "carImage": "BMW320i.jpeg",
+      "regNo": "KM 02 78 GP"
+    },
+    {
+      "id": 5052,
+      "brand": "Ford",
+      "model": "Eco Sport",
+      "year": 2016,
+      "color": "BLUE",
+      "dailyRate": 9000,
+      "carImage": "fordEco.jpeg",
+      "regNo": "KB 25 HD GP"
+    },
+    {
+      "id": 5053,
+      "brand": "safari",
+      "model": "suv",
+      "year": 2025,
+      "color": "black",
+      "dailyRate": 15000,
+      "carImage": "safari.avif",
+      "regNo": "CL 02 NM MP"
+    }
   ]
 }

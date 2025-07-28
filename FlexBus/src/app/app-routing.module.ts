@@ -8,6 +8,7 @@ import { RegistrationComponent } from './registration/registration.component';
 import { FinaliseFlightComponent } from './finalise-flight/finalise-flight.component';
 import { TicketsComponent } from './tickets/tickets.component';
 import { TrainBookingComponent } from './train-booking/train-booking.component';
+import { CarsComponent } from './cars/cars.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -19,6 +20,7 @@ const routes: Routes = [
   {path:'finalBooking/:Id',component:FinaliseFlightComponent},
   {path:'tickets',component:TicketsComponent},
   {path:'trainBooking/:id',component:TrainBookingComponent},
+  {path:'cars',component:CarsComponent},
 
   
 

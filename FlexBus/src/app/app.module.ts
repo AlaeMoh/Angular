@@ -14,6 +14,7 @@ import { RegistrationComponent } from './registration/registration.component';
 import { FinaliseFlightComponent } from './finalise-flight/finalise-flight.component';
 import { TicketsComponent } from './tickets/tickets.component';
 import { TrainBookingComponent } from './train-booking/train-booking.component';
+import { CarsComponent } from './cars/cars.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { TrainBookingComponent } from './train-booking/train-booking.component';
     FinaliseFlightComponent,
     TicketsComponent,
     TrainBookingComponent,
+    CarsComponent,
     
   ],
   imports: [
