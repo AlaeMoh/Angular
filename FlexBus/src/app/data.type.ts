@@ -116,3 +116,33 @@ export interface trainBookings {
       ddepartureStationName: string,
       departureDate: string,
 }
+
+export interface cars{
+      id: string,
+      brand: string,
+      model: string,
+      year: number,
+      color: string,
+      dailyRate: number,
+      carImage: string,
+      regNo: string,
+      price :number
+}
+
+export interface carBooking{
+       id: number,
+      brand: string,
+      model: string,
+      year: number,
+      color: string,
+      dailyRate: number,
+      carImage: string,
+      regNo: string,
+      price :number,
+      pickupDate: string,
+      dropoffDate:string,
+      paymentMethod:string,
+      Card:string,
+      userID:string
+
+}

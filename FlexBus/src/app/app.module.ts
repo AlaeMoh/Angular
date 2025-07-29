@@ -15,6 +15,7 @@ import { FinaliseFlightComponent } from './finalise-flight/finalise-flight.compo
 import { TicketsComponent } from './tickets/tickets.component';
 import { TrainBookingComponent } from './train-booking/train-booking.component';
 import { CarsComponent } from './cars/cars.component';
+import { CarsBookingComponent } from './cars-booking/cars-booking.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { CarsComponent } from './cars/cars.component';
     TicketsComponent,
     TrainBookingComponent,
     CarsComponent,
+    CarsBookingComponent,
     
   ],
   imports: [

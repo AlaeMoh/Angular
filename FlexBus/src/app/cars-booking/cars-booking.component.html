@@ -1,0 +1,67 @@
+<div class="container py-5">
+  <!-- Page Title -->
+  <h2 class="mb-4 text-center">Finalize Your Car Rental</h2>
+
+  <div class="row">
+    <!-- Left Column: Car Details -->
+    <div class="col-md-6">
+      <div class="card shadow-sm">
+        <img [src]="selectedCar?.carImage" class="card-img-top" alt="{{ selectedCar?.brand }} {{ selectedCar?.model }}">
+        <div class="card-body">
+          <h4 class="card-title">{{ selectedCar?.brand }} {{ selectedCar?.model }}</h4>
+          <p class="card-text">
+            <strong>Year:</strong> {{ selectedCar?.year }}<br>
+            <strong>Color:</strong> {{ selectedCar?.color }}<br>
+            <strong>Daily Rate:</strong> {{ selectedCar?.dailyRate | currency:'USD' }}<br>
+            <strong>Registration:</strong> {{ selectedCar?.regNo }}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column: Booking & Payment -->
+    <div class="col-md-6">
+      <div class="card shadow-sm p-3">
+        <!-- Date Selection -->
+        <h5 class="mb-3">Rental Dates</h5>
+        <div class="mb-3">
+          <label class="form-label">Pick-up Date</label>
+          <input type="date" class="form-control" [(ngModel)]="bookingData.pickupDate">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Drop-off Date</label>
+          <input type="date" class="form-control" [(ngModel)]="bookingData.dropoffDate">
+        </div>
+
+        <!-- Payment Section -->
+        <h5 class="mt-4 mb-3">Payment</h5>
+        <div class="mb-3">
+          <label class="form-label">Payment Method</label>
+          <select class="form-select" [(ngModel)]="bookingData.paymentMethod">
+            <option value="credit">Credit Card</option>
+            <option value="debit">Debit Card</option>
+            <option value="paypal">PayPal</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Card Number</label>
+          <input type="text" class="form-control" placeholder="XXXX XXXX XXXX XXXX">
+        </div>
+
+        <!-- Cancellation Policy -->
+        <h5 class="mt-4">Cancellation Policy</h5>
+        <p class="small text-muted">
+          You may cancel your booking up to <strong>24 hours</strong> before the pick-up time for a full refund.
+          Cancellations made after this period may be subject to a <strong>25% fee</strong>.
+        </p>
+
+        <!-- Confirm / Cancel Buttons -->
+        <div class="d-flex justify-content-between mt-4">
+          <button class="btn btn-secondary" routerLink="home">Cancel</button>
+          <button class="btn btn-primary" (click)="finalizeBooking()">Confirm & Pay</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+.

@@ -8139,76 +8139,94 @@
       "vendorId": 0
     }
   ],
-  "cars":[
-     {
-      "id": 5012,
+  "cars": [
+    {
+      "id": "5012",
       "brand": "BMW",
       "model": "320i",
       "year": 2020,
       "color": "white",
       "dailyRate": 2500,
-      "carImage": "BMW320i.jpeg",
+      "carImage": "https://ymimg1.b8cdn.com/resized/car_model/11783/pictures/13388678/webp_mobile_listing_main_14556_st1280_046.webp",
       "regNo": "CL 05 MP"
     },
     {
-      "id": 5017,
+      "id": "5017",
       "brand": "Tata",
       "model": "suv",
       "year": 2024,
       "color": "red",
       "dailyRate": 1500,
-      "carImage": "tata.jpg",
+      "carImage": "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/39015/punch-exterior-right-front-three-quarter-57.jpeg?isig=0&q=80&q=80",
       "regNo": "kl 49 mp"
     },
     {
-      "id": 5029,
+      "id": "5029",
       "brand": "Benz",
       "model": "Suv",
       "year": 2025,
       "color": "white",
       "dailyRate": 7000,
-      "carImage": "benz.avif",
+      "carImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVQVqX5AZ2gvAVc8mR0UDC7nF1ybsy5zc23Q&s",
       "regNo": "km 69 gp"
     },
     {
-      "id": 5048,
+      "id": "5048",
       "brand": "Ford",
       "model": "Raptor",
       "year": 2024,
       "color": "oranger",
       "dailyRate": 9000,
-      "carImage": "fordranger.jpeg",
+      "carImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHbxoHbqqn0yW8DPoDCBA_FIswIB1Cem4eHQ&s",
       "regNo": "KM 98 GP"
     },
     {
-      "id": 5051,
+      "id": "5051",
       "brand": "BMW",
       "model": "320i",
       "year": 2025,
       "color": "white",
       "dailyRate": 9000,
-      "carImage": "BMW320i.jpeg",
+      "carImage": "https://ymimg1.b8cdn.com/resized/car_model/11783/pictures/13388678/webp_listing_main_14556_st1280_046.webp",
       "regNo": "KM 02 78 GP"
     },
     {
-      "id": 5052,
+      "id": "5052",
       "brand": "Ford",
       "model": "Eco Sport",
       "year": 2016,
       "color": "BLUE",
       "dailyRate": 9000,
-      "carImage": "fordEco.jpeg",
+      "carImage": "https://product-detail-www-opennext.snc-prod.aws.cinch.co.uk/_next/image?url=https%3A%2F%2Feu.cdn.autosonshow.tv%2F6820%2F18343%2FEA16YEC%2F06_md.jpg&w=3840&q=75",
       "regNo": "KB 25 HD GP"
     },
     {
-      "id": 5053,
+      "id": "5053",
       "brand": "safari",
       "model": "suv",
       "year": 2025,
       "color": "black",
       "dailyRate": 15000,
-      "carImage": "safari.avif",
+      "carImage": "https://imgd.aeplcdn.com/664x374/n/1thnqbb_1693419.jpg?q=80",
       "regNo": "CL 02 NM MP"
+    }
+  ],
+  "carBooking": [
+    {
+      "userID": 323,
+      "pickupDate": "2025-08-08",
+      "dropoffDate": "2025-08-16",
+      "paymentMethod": "credit",
+      "Card": "",
+      "brand": "BMW",
+      "model": "320i",
+      "year": 2020,
+      "price": 2500,
+      "id": 1,
+      "color": "",
+      "dailyRate": 0,
+      "carImage": "",
+      "regNo": ""
     }
   ]
 }

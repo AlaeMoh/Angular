@@ -9,6 +9,7 @@ import { FinaliseFlightComponent } from './finalise-flight/finalise-flight.compo
 import { TicketsComponent } from './tickets/tickets.component';
 import { TrainBookingComponent } from './train-booking/train-booking.component';
 import { CarsComponent } from './cars/cars.component';
+import { CarsBookingComponent } from './cars-booking/cars-booking.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -21,6 +22,7 @@ const routes: Routes = [
   {path:'tickets',component:TicketsComponent},
   {path:'trainBooking/:id',component:TrainBookingComponent},
   {path:'cars',component:CarsComponent},
+  {path:'carsBooking/:id',component:CarsBookingComponent}
 
   
 
