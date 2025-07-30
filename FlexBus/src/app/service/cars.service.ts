@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { EventEmitter, Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { carBooking, cars } from '../data.type';
 
@@ -7,7 +7,7 @@ import { carBooking, cars } from '../data.type';
   providedIn: 'root'
 })
 export class CarsService {
-
+ carBooking= new EventEmitter <carBooking[]>
   constructor(private http:HttpClient, private router:Router) { }
 
  getCars(){
@@ -22,4 +22,9 @@ export class CarsService {
    return this.http.post<carBooking[]>('http://localhost:3000/carBooking', data)
  }
 
+ getBooking(){
+  let user= localStorage.getItem('users')
+  let userData= user && JSON.parse(user)
+  return this.http.get<carBooking[]>('http://localhost:3000/carBooking/?email=' + userData.email )
+ }
 }

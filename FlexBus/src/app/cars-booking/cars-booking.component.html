@@ -32,9 +32,31 @@
           <label class="form-label">Drop-off Date</label>
           <input type="date" class="form-control" [(ngModel)]="bookingData.dropoffDate">
         </div>
+         
+
 
         <!-- Payment Section -->
-        <h5 class="mt-4 mb-3">Payment</h5>
+        <h5 class="mt-4 mb-3">Info and Payment</h5>
+           <div class="mb-3">
+              <label>Name</label>
+              <input class="form-control" [(ngModel)]="bookingData.name" name="name" required>
+            </div>
+            <div class="mb-3">
+              <label>Email</label>
+              <input class="form-control" [(ngModel)]="bookingData.email" name="email" type="email" required>
+            </div>
+            <div class="mb-3">
+              <label>Mobile Number</label>
+              <input class="form-control" [(ngModel)]="bookingData.mobileNo" name="mobileNo" required>
+            </div>
+            <div class="mb-3">
+              <label>City</label>
+              <input class="form-control" [(ngModel)]="bookingData.city" name="city">
+            </div>
+            <div class="mb-3">
+              <label>Address</label>
+              <textarea class="form-control" [(ngModel)]="bookingData.address" name="address"></textarea>
+            </div>
         <div class="mb-3">
           <label class="form-label">Payment Method</label>
           <select class="form-select" [(ngModel)]="bookingData.paymentMethod">
@@ -45,7 +67,7 @@
         </div>
         <div class="mb-3">
           <label class="form-label">Card Number</label>
-          <input type="text" class="form-control" placeholder="XXXX XXXX XXXX XXXX">
+          <input type="text" class="form-control" placeholder="XXXX XXXX XXXX XXXX" [(ngModel)]="bookingData.Card">
         </div>
 
         <!-- Cancellation Policy -->
@@ -64,4 +86,3 @@
     </div>
   </div>
 </div>
-.

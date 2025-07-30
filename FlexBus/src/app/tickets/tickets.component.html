@@ -1,46 +1,98 @@
 <div class="container mt-4">
   <h2 class="text-center mb-4">All Bookings</h2>
 
-  <h3 class="text-danger">Flight Bookings:</h3>
-  <div *ngIf="bookings?.length === 0" class="alert alert-info">
-    No bookings available.
-  </div>
+  <div class="accordion" id="bookingsAccordion">
 
-  <div *ngFor="let booking of bookings" class="card mb-3 shadow-sm">
-    <div class="card-body">
-      <h5 class="card-title">{{ booking.name }}</h5>
-      <p class="card-text">
-        ✈️ Flight: <strong>{{ booking.flightNumber }}</strong><br>
-        🛫 From: {{ booking.departureAirportName }} <br>
-        🛬 To: {{ booking.arrivalAirportName }} <br>
-        📅 Date: {{ booking.travelDate | date:'mediumDate' }}<br>
-        👤 Seats: {{ booking.totalSeats }} <br>
-        💵 Total: {{ booking.price | currency:'USD' }}
-      </p>
-      <p class="text-muted">📧 {{ booking.email }} | 📞 {{ booking.mobileNo }} | 📍 {{ booking.city }}</p>
+    <!-- ✈️ Flight Bookings -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFlights">
+        <button class="accordion-button text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFlights" aria-expanded="true" aria-controls="collapseFlights">
+          ✈️ Flight Bookings
+        </button>
+      </h2>
+      <div id="collapseFlights" class="accordion-collapse collapse show" aria-labelledby="headingFlights" data-bs-parent="#bookingsAccordion">
+        <div class="accordion-body">
+          <div *ngIf="bookings?.length === 0" class="alert alert-info">
+            No bookings available.
+          </div>
+          <div *ngFor="let booking of bookings" class="card mb-3 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">{{ booking.name }}</h5>
+              <p class="card-text">
+                ✈️ Flight: <strong>{{ booking.flightNumber }}</strong><br>
+                🛫 From: {{ booking.departureAirportName }} <br>
+                🛬 To: {{ booking.arrivalAirportName }} <br>
+                📅 Date: {{ booking.travelDate | date:'mediumDate' }}<br>
+                👤 Seats: {{ booking.totalSeats }} <br>
+                💵 Total: {{ booking.price | currency:'USD' }}
+              </p>
+              <p class="text-muted">📧 {{ booking.email }} | 📞 {{ booking.mobileNo }} | 📍 {{ booking.city }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 
-   <!-- <<--train tickets-->
-    <h3 class="text-danger">Train Bookings:</h3>
-    <div *ngFor="let booking of trainBooking" class="card mb-3 shadow-sm">
-  <div class="card-body">
-    <h5 class="card-title">{{ booking.id }}</h5>
-    <p class="card-text">
-      🚆 Train: <strong>{{ booking.trainNo }} ({{ booking.trainNo }})</strong><br>
-      🏁 From: {{ booking.ddepartureStationName }}<br>
-      🎯 To: {{ booking.arrivalStationName }}<br>
-      📅 Date: {{ booking.departureDate | date:'mediumDate' }}<br>
-      👤 Seats: {{ booking.totalSeats }}<br>
-      💵 Total: {{ booking.price | currency:'USD' }}
-    </p>
-    <p class="text-muted">
-      📧 {{ booking.email }} |
-      📞 {{ booking.mobileNo }} |
-      📍 {{ booking.city }}
-    </p>
-  </div>
-</div>
+    <!-- 🚆 Train Ticket Bookings -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTrains">
+        <button class="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTrains" aria-expanded="false" aria-controls="collapseTrains">
+          🚆 Train Ticket Bookings
+        </button>
+      </h2>
+      <div id="collapseTrains" class="accordion-collapse collapse" aria-labelledby="headingTrains" data-bs-parent="#bookingsAccordion">
+        <div class="accordion-body">
+          <div *ngFor="let booking of trainBooking" class="card mb-3 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">{{ booking.id }}</h5>
+              <p class="card-text">
+                🚆 Train: <strong>{{ booking.trainNo }}</strong><br>
+                🏁 From: {{ booking.departureTime }}<br>
+                🎯 To: {{ booking.arrivalStationName }}<br>
+                📅 Date: {{ booking.departureDate | date:'mediumDate' }}<br>
+                👤 Seats: {{ booking.totalSeats }}<br>
+                💵 Total: {{ booking.price | currency:'USD' }}
+              </p>
+              <p class="text-muted">
+                📧 {{ booking.email }} |
+                📞 {{ booking.mobileNo }} |
+                📍 {{ booking.city }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- 🚗 Car Rental Bookings -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingCars">
+        <button class="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCars" aria-expanded="false" aria-controls="collapseCars">
+          🚗 Car Rental Bookings
+        </button>
+      </h2>
+      <div id="collapseCars" class="accordion-collapse collapse" aria-labelledby="headingCars" data-bs-parent="#bookingsAccordion">
+        <div class="accordion-body">
+          <div *ngFor="let car of carBooking" class="card mb-3 shadow-sm">
+            <div class="card-body d-flex align-items-center">
+              <img [src]="car.carImage" alt="Car" width="100" class="me-3 rounded">
+              <div>
+                <h5 class="card-title">{{ car.brand }} {{ car.model }}</h5>
+                <p class="card-text mb-1">
+                  📅 Year: {{ car.year }} <br>
+                  🎨 Color: {{ car.color }} <br>
+                  🔢 Reg No: {{ car.regNo }}
+                </p>
+                <p class="mb-0">
+                  💵 Daily Rate: {{ car.dailyRate | currency:'USD' }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- End Accordion -->
 </div>
 

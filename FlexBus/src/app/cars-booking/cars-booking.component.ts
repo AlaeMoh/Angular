@@ -14,7 +14,15 @@ export class CarsBookingComponent implements OnInit{
  pickupDate: '',
  dropoffDate:'',
  paymentMethod:'',
- Card:''
+ Card:'',
+ name:'',
+ email:'',
+ address:'',
+ city:'',
+ mobileNo:'',
+ color:'',
+
+
   }
   bookingMsg: string |undefined
  constructor(private service:CarsService, private  router:ActivatedRoute, private route:Router){}
@@ -39,10 +47,15 @@ export class CarsBookingComponent implements OnInit{
         year: this.selectedCar?.year || 0,
         price: this.selectedCar?.dailyRate || 0,
         id: 0,
-        color: '',
-        dailyRate: 0,
-        carImage: '',
-        regNo: ''
+        color:this.selectedCar?.color || '',
+        dailyRate: this.selectedCar?.dailyRate || 0,
+        carImage: this.selectedCar?.carImage || '',
+        regNo: this.selectedCar?.regNo || '',
+        name:this.bookingData.name,
+        email:this.bookingData.email,
+        address:this.bookingData.address,
+        city:this.bookingData.city,
+        mobileNo:this.bookingData.mobileNo,
       }
       console.log(bookingDetails);
       this.service.bookedCar(bookingDetails).subscribe(result=>{

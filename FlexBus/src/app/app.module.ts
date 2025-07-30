@@ -16,6 +16,7 @@ import { TicketsComponent } from './tickets/tickets.component';
 import { TrainBookingComponent } from './train-booking/train-booking.component';
 import { CarsComponent } from './cars/cars.component';
 import { CarsBookingComponent } from './cars-booking/cars-booking.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { CarsBookingComponent } from './cars-booking/cars-booking.component';
     TrainBookingComponent,
     CarsComponent,
     CarsBookingComponent,
+    ContactUsComponent,
     
   ],
   imports: [

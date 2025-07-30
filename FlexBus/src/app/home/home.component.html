@@ -6,21 +6,20 @@
     <h1 class="display-4 fw-bold text-white">Plan Your Journey Easily</h1>
     <p class="lead">Book buses, trains, flights, and hotels – all in one place</p>
     <div class="container mt-4">
-      <form class="row g-2 justify-content-center">
+      <form class="row g-2 justify-content-center" #travelsearch="ngForm" (ngSubmit)="serach()">
         <div class="col-md-3">
-          <select class="form-select">
-            <option selected disabled>Choose Travel Type</option>
-            <option>Bus</option>
-            <option>Train</option>
+          <select class="form-select" name="transportation" [(ngModel)]="searchParam.transportation" >
+            <option selected disabled >Choose Travel Type</option>
+            <option >Train</option>
             <option>Flight</option>
             <option>Cars</option>
           </select>
         </div>
         <div class="col-md-3">
-          <input type="text" class="form-control" placeholder="From / Location">
+          <input type="text" class="form-control" placeholder="From / Location" name="from" [(ngModel)]="searchParam.from">
         </div>
         <div class="col-md-3">
-          <input type="text" class="form-control" placeholder="To / Destination">
+          <input type="text" class="form-control" placeholder="To / Destination" name="to" [(ngModel)]="searchParam.to">
         </div>
         <div class="col-md-2">
           <button type="submit" class="btn btn-danger w-100">Search</button>
@@ -82,7 +81,7 @@
   <div class="bg-light py-5 text-center">
     <h3 class="mb-3">Need help with your booking?</h3>
     <p class="mb-4">Our 24/7 customer support is here for you.</p>
-    <a href="/contact" class="btn btn-primary px-4">Contact Us</a>
+    <a routerLink="/contactus" class="btn btn-primary px-4">Contact Us</a>
   </div>
 
   <!-- Footer -->

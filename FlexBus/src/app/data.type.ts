@@ -143,6 +143,11 @@ export interface carBooking{
       dropoffDate:string,
       paymentMethod:string,
       Card:string,
-      userID:string
+      userID:string,
+      name:string,
+      email:string,
+      address:string,
+      city:string,
+      mobileNo:string,
 
 }
