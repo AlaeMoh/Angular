@@ -15,10 +15,11 @@ flightDetails: flights |undefined;
  passengerCount: number = 1;
  passenger={
   fullName:'',
+  email:'',
   passportNumber:'',
   dob:'',
   nationality:'',
-  count:'',
+  count:0,
   
  }
 
@@ -42,47 +43,38 @@ flightDetails: flights |undefined;
 
 finalizeBooking(data: any){
   let user= localStorage.getItem('users');
-  let userId= user && JSON.parse(user).id;
+  let userId= user && JSON.parse(user);
  
- 
-  if(this.passengerCount){
-    
 let booking: flightBookings = {
   id: 0,
   name: this.passenger.fullName,
   nationality: this.passenger.nationality,
   passportNumber: this.passenger.passportNumber,
   dob: this.passenger.dob,
-  address: this.passenger.count,
   role: 'users',
-  password: '',
   userId: userId,
   flightNumber: this.flightDetails?.flightNumber || '',
   travelDate: this.flightDetails?.travelDate || '',
   price: this.flightDetails?.price || 0,
-  totalSeats: this.passengerCount,
-  count: '',
-  mobileNo: '',
-  email: '',
-  city: '',
+  totalSeats: this.passengerCount || 0,
+  count: this.passengerCount,
+  email: this.passenger.email || '',
   vendorId: 0,
-  arrivalTime: '',
-  departureTime: '',
-  arrivalAirportName: '',
-  arrivalAirportCode: '',
-  departureAirportName: '',
-  departureAirportCode: '',
-  vendorName: '',
-  vendorLogoUrl: ''
-};
+  arrivalTime: this.flightDetails?.arrivalTime || '',
+  departureTime: this.flightDetails?.departureTime || '',
+  arrivalAirportName: this.flightDetails?.arrivalAirportName || '',
+  arrivalAirportCode: this.flightDetails?.arrivalAirportCode || '',
+  departureAirportName: this.flightDetails?.departureAirportName || '',
+  departureAirportCode: this.flightDetails?.departureAirportCode || '',
+  vendorName: this.flightDetails?.vendorName || '',
+  vendorLogoUrl: this.flightDetails?.vendorLogoUrl || ''
+}
  
 
 
-    this.mainS.bookNow(data).subscribe((result)=>{
+    this.mainS.bookNow(booking).subscribe((result)=>{
     if(result){
       this.bookingMsg="Booking Successfull"
-        console.log("Order Data:", data);
-        console.log("Order Details:", data);
           setTimeout(() => {
             this.bookingMsg = undefined;
             this.route.navigate(['/home'])
@@ -94,5 +86,5 @@ let booking: flightBookings = {
  
     }
 } 
-}
+
 

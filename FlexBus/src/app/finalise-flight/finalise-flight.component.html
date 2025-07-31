@@ -4,6 +4,8 @@
     <!-- Title -->
     <h2 class="text-center mb-4 text-danger">Finalize Your Booking</h2>
 
+        <p class="text-center text-success w-100">{{bookingMsg}}</p>
+
     <!-- Flight Info Summary -->
     <div class="card bg-light mb-4 p-3 border-0">
       <h5 class="fw-bold">Flight Details</h5>
@@ -17,13 +19,19 @@
     </div>
 
     <!-- Passenger Form -->
-    <form (ngSubmit)="finalizeBooking(bookingForm.value)" #bookingForm="ngForm" >
+    <form #bookingForm (ngSubmit)="finalizeBooking(bookingForm)"  >
       <div class="row g-3">
 
         <!-- Full Name -->
         <div class="col-md-6">
           <label class="form-label">Full Name</label>
           <input type="text" class="form-control" name="fullName" [(ngModel)]="passenger.fullName" required>
+        </div>
+
+           <!-- Email -->
+        <div class="mb-3">
+              <label>Email</label>
+              <input class="form-control" [(ngModel)]="passenger.email" name="email" type="email" required>
         </div>
 
         <!-- Passport Number -->
@@ -80,9 +88,8 @@
 
         <!-- Submit -->
         <div class="col-12 text-center">
-          <button type="submit" class="btn btn-success btn-lg px-5" routerLink="/home">Confirm & Pay</button>
+          <button type="submit" class="btn btn-success btn-lg px-5">Confirm & Pay</button>
         </div>
-        <p class="text-center text-success">{{bookingMsg}}</p>
       </div>
     </form>
   </div>
