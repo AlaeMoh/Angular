@@ -9,6 +9,7 @@ export interface stationName{
 }
 
 export interface Trains{
+      id:string,
        trainId: number,
        trainNo: string, 
       trainName: string,

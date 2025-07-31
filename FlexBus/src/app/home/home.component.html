@@ -9,7 +9,7 @@
       <form class="row g-2 justify-content-center" #travelsearch="ngForm" (ngSubmit)="serach()">
         <div class="col-md-3">
           <select class="form-select" name="transportation" [(ngModel)]="searchParam.transportation" >
-            <option selected disabled >Choose Travel Type</option>
+            <option value=""  disabled >Choose Travel Type</option>
             <option >Train</option>
             <option>Flight</option>
             <option>Cars</option>

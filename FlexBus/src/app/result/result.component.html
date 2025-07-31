@@ -1,0 +1,93 @@
+<div class="container mt-4">
+  <h2 class="text-danger text-center mb-4">Search Results</h2>
+
+  <!-- Filters -->
+  <div class="d-flex justify-content-end mb-3" >
+    <select class="form-select w-auto" [(ngModel)]="sortOption" (change)="sortResults()">
+      <option value="" selected disabled>Sort by</option>
+      <option value="priceAsc">💵 Price: Low to High</option>
+      <option value="priceDesc">💵 Price: High to Low</option>
+      <option value="dateAsc">📅 Date: Earliest</option>
+      <option value="dateDesc">📅 Date: Latest</option>
+    </select>
+  </div>
+
+  <!-- Flights -->
+  <div class="accordion mb-3" id="resultsAccordion" >
+    <div class="accordion-item" *ngIf="transportation === 'Flight'">
+      <h2 class="accordion-header" id="headingFlights">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFlights">
+          ✈️ Flights ({{ flightList.length }})
+        </button>
+      </h2>
+      <div id="collapseFlights" class="accordion-collapse collapse show">
+        <div class="accordion-body">
+          <div *ngIf="flightList.length === 0" class="alert alert-info">No flights found.</div>
+          <div *ngFor="let flight of flightList" class="card mb-3 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">{{ flight.flightNumber }} - {{ flight.totalSeats }}</h5>
+              <p>
+                🛫 From: {{ flight.departureAirportName }}<br>
+                🛬 To: {{ flight.arrivalAirportName }}<br>
+                📅 {{ flight.travelDate | date:'mediumDate' }}<br>
+                💵 {{ flight.price | currency:'USD' }}
+              </p>
+              <button class="btn btn-primary w-100" routerLink="/finalBooking/{{flight.id}}">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trains -->
+    <div class="accordion-item" *ngIf="transportation === 'Train'">
+      <h2 class="accordion-header" id="headingTrains">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTrains">
+          🚆 Trains ({{ trainList.length }})
+        </button>
+      </h2>
+      <div id="collapseTrains" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div *ngFor="let train of trainList" class="card mb-3 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">{{ train.trainName }} ({{ train.trainNo }})</h5>
+              <p>
+                🏁 From: {{ train.departureStationName }}<br>
+                🎯 To: {{ train.arrivalStationName }}<br>
+                📅 {{ train.departureDate | date:'mediumDate' }}<br>
+                💵 {{ train.price | currency:'USD' }}
+              </p>
+              <button class="btn btn-success w-100" routerLink="/trainBooking/{{train.id}}">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cars -->
+    <div class="accordion-item" *ngIf="transportation === 'Cars'">
+      <h2 class="accordion-header" id="headingCars">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCars">
+          🚗 Cars ({{ carList.length }})
+        </button>
+      </h2>
+      <div id="collapseCars" class="accordion-collapse collapse" >
+        <div class="accordion-body">
+          <div *ngIf="carList.length === 0" class="alert alert-info">No cars found.</div>
+          <div *ngFor="let car of carList" class="card mb-3 shadow-sm d-flex align-items-center">
+            <img [src]="car.carImage" alt="Car" width="120" class="me-3 rounded">
+            <div class="card-body">
+              <h5 class="card-title">{{ car.brand }} {{ car.model }} ({{ car.year }})</h5>
+              <p>
+                🎨 {{ car.color }}<br>
+                🔢 {{ car.regNo }}<br>
+                💵 {{ car.dailyRate | currency:'USD' }}
+              </p>
+              <button class="btn btn-warning w-100" routerLink="/carsBooking/{{car.id}}">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
