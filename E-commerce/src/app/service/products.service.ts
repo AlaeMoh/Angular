@@ -1,4 +1,3 @@
-import { query } from '@angular/animations';
 import { cart, order, products } from './../../export-files/data.type';
 import { HttpClient } from '@angular/common/http';
 import { EventEmitter, Injectable } from '@angular/core';

@@ -40,7 +40,7 @@ import { MyOrdersComponent } from './my-orders/my-orders.component';
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
